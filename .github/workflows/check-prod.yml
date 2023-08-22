@@ -1,0 +1,56 @@
+name: Check production
+on:
+  push:
+    branches:
+      - stable
+      - master
+    tags:
+      - v**
+
+env:
+  NODE_ENV: CI
+  FORCE_COLOR: 1
+
+jobs:
+
+  checks:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Preparing
+        uses: ./.github/actions/check-install
+
+      - name: ESLint
+        id: eslint
+        if: always()
+        uses: ./.github/actions/check-run
+        with:
+          script: yarn eslint
+
+      - name: Prettier
+        id: prettier
+        if: always()
+        uses: ./.github/actions/check-run
+        with:
+          script: yarn prettify
+
+  tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Preparing
+        uses: ./.github/actions/check-install
+
+      - name: Unit
+        id: unit
+        if: always()
+        uses: ./.github/actions/check-run
+        with:
+          script: yarn unit
+

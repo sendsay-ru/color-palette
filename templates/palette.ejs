@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>Palette</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="w-full flex flex-col items-center">
+    <% Object.entries(palette).forEach(([group, colors])=> { %>
+      <div class="mt-5 p-2 flex items-center">
+        <div class="w-20 flex flex-col mr-8 items-center">
+          <span><%- group %></span>
+        </div>
+
+        <% colors.forEach(({ code, hex})=> { %>
+          <div class="flex flex-col mr-2 items-center">
+            <div class="w-20 h-20 rounded-full" style="background-color:<%- hex %>"></div>
+            <span class="text-xs"><%- hex %></span>
+            <span><%- code %></span>
+          </div>
+          <% }) %>
+      </div>
+    <% }) %>
+  </div>
+</body>
+
+</html>

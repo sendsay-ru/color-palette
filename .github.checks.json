@@ -1,0 +1,33 @@
+{
+  "jobs": [
+    {
+      "key": "checks",
+      "steps": [
+        {
+          "key": "eslint",
+          "name": "ESLint",
+          "command": "yarn eslint"
+        },
+        {
+          "key": "prettier",
+          "name": "Prettier",
+          "command": "yarn prettify"
+        }
+      ]
+    },
+    {
+      "key": "tests",
+      "steps": [
+        {
+          "key": "unit",
+          "name": "Unit",
+          "command": "yarn unit"
+        }
+      ]
+    }
+  ],
+  "showComments": false,
+  "node": 16,
+  "installCommand": "yarn install",
+  "buildCommand": ""
+}

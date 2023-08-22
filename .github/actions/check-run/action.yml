@@ -1,0 +1,30 @@
+name: Run check
+description: run check script
+
+inputs:
+  script:
+    required: true
+    description: script command
+
+outputs:
+  result:
+    description: "Script result"
+    value: ${{ steps.result.outputs.status }}
+
+runs:
+  using: composite
+  steps:
+    - name: Run script
+      id: script
+      shell: bash
+      run: ${{ inputs.script }}
+
+    - name: Results
+      id: result
+      if: always()
+      env:
+        SUCCESS_ICON: "☘️"
+        FAILURE_ICON: "🐙"
+      shell: bash
+      run: |
+        if [[ ${{ steps.script.outcome }} == 'success' ]]; then echo "status=$SUCCESS_ICON" >> $GITHUB_OUTPUT; else echo "status=$FAILURE_ICON" >> $GITHUB_OUTPUT; fi

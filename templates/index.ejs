@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <title>Match colors</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="p-5  w-full flex items-center justify-center">
+    <a class="text-blue-500 mr-10 text-lg" target="_blank" href="./palette.html">Palette</a>
+    <a class="text-blue-500 text-lg" target="_blank" href="./data.json">Log</a>
+  </div>
+  <div class="w-full flex flex-col items-center">
+    <% if (data.length ) { %>
+      <% data.forEach(({ hex, matches, result, siblings }, index)=> { %>
+        <div class="mt-5 p-2 flex">
+          <div class="w-10 pt-16 items-center text-xs text-gray-400"><%- index + 1 %></div>
+          <div class="flex flex-col mr-2 items-center">
+            <div class="w-40 h-40 rounded-full" style="background-color:<%- hex %>"></div>
+            <span class="text-xs"><%- hex %></span>
+            <span class="p-1 m-1">matches: <%- matches %></span>
+          </div>
+
+          <% siblings.forEach((sibling)=> { %>
+            <div class="flex flex-col mr-2 items-center">
+              <div class="w-40 h-40 rounded-full" style="background-color:<%- sibling.hex %>"></div>
+              <span class="text-xs"><%- sibling.hex %></span>
+              <span class="p-1 m-1 <% if (sibling.hex === result.hex ) { %>bg-lime-500 rounded-md<% } %>"><%- sibling.group %>-<%- sibling.code %></span>
+              <span class="text-sm"><%- sibling.delta %></span>
+            </div>
+            <% }) %>
+        </div>
+      <% }) %>
+    <% } else { %>
+      <h2>Colors not found</h2>
+    <% } %>
+  </div>
+</body>
+
+</html>

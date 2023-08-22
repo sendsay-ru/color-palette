@@ -1,0 +1,63 @@
+name: Check PR
+on: [pull_request]
+
+env:
+  NODE_ENV: CI
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+
+  checks:
+
+    runs-on: ubuntu-latest
+
+    outputs:
+      eslint: ${{ steps.eslint.outputs.result }}
+      prettier: ${{ steps.prettier.outputs.result }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Preparing
+        uses: ./.github/actions/check-install
+
+      - name: ESLint
+        id: eslint
+        if: always()
+        uses: ./.github/actions/check-run
+        with:
+          script: yarn eslint
+
+      - name: Prettier
+        id: prettier
+        if: always()
+        uses: ./.github/actions/check-run
+        with:
+          script: yarn prettify
+
+  tests:
+
+    runs-on: ubuntu-latest
+
+    outputs:
+      unit: ${{ steps.unit.outputs.result }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Preparing
+        uses: ./.github/actions/check-install
+
+      - name: Unit
+        id: unit
+        if: always()
+        uses: ./.github/actions/check-run
+        with:
+          script: yarn unit
+
+
