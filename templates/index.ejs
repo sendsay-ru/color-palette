@@ -15,7 +15,7 @@
   </div>
   <div class="w-full flex flex-col items-center">
     <% if (data.length ) { %>
-      <% data.forEach(({ hex, matches, result, siblings }, index)=> { %>
+      <% data.forEach(({ hex, matches, result, siblings }, index) => { %>
         <div class="mt-5 p-2 flex">
           <div class="w-10 pt-16 items-center text-xs text-gray-400"><%- index + 1 %></div>
           <div class="flex flex-col mr-2 items-center">
@@ -24,7 +24,7 @@
             <span class="p-1 m-1">matches: <%- matches %></span>
           </div>
 
-          <% siblings.forEach((sibling)=> { %>
+          <% siblings.forEach((sibling) => { %>
             <div class="flex flex-col mr-2 items-center">
               <div class="w-40 h-40 rounded-full" style="background-color:<%- sibling.hex %>"></div>
               <span class="text-xs"><%- sibling.hex %></span>

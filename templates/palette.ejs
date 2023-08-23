@@ -10,13 +10,13 @@
 
 <body>
   <div class="w-full flex flex-col items-center">
-    <% Object.entries(palette).forEach(([group, colors])=> { %>
+    <% Object.entries(palette).forEach(([group, colors]) => { %>
       <div class="mt-5 p-2 flex items-center">
         <div class="w-20 flex flex-col mr-8 items-center">
           <span><%- group %></span>
         </div>
 
-        <% colors.forEach(({ code, hex})=> { %>
+        <% colors.forEach(({ code, hex }) => { %>
           <div class="flex flex-col mr-2 items-center">
             <div class="w-20 h-20 rounded-full" style="background-color:<%- hex %>"></div>
             <span class="text-xs"><%- hex %></span>

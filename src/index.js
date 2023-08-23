@@ -1,10 +1,11 @@
 #!/usr/bin/env node
 
 const path = require('path');
-const packageJSON = require(path.resolve(__dirname, '../package.json'));
 const { program } = require('commander');
-const { DEFAULT_CONFIG } = require('./constants');
-const { parse } = require('./utils');
+const { DEFAULT_CONFIG, PROJECT_DIR } = require('./constants');
+const packageJSON = require(path.resolve(PROJECT_DIR, 'package.json'));
+const { parse, render } = require('./utils');
+const { serve } = require('./serve');
 
 program
   .name(packageJSON.name)
@@ -16,16 +17,22 @@ program
     '-d --delta <number>',
     `max delta when comparing files, min:0, max:1, default: ${DEFAULT_CONFIG.delta}`,
   )
-  .option(
-    '-r --replace',
-    `make replaces in files, default: ${DEFAULT_CONFIG.replace}`,
-  )
+  .option('-r --replace', `make replaces in files`)
+  .option('-s --silent', 'do not start the server')
   .version(packageJSON.version);
 
 program.parse();
 
 const options = { ...DEFAULT_CONFIG, ...program.opts() };
 
-console.log(options);
+const App = async () => {
+  const result = await parse(options);
 
-parse(options);
+  render(result);
+
+  if (!options.silent) {
+    serve();
+  }
+};
+
+App(options);
