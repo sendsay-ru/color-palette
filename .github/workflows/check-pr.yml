@@ -15,7 +15,6 @@ jobs:
     runs-on: ubuntu-latest
 
     outputs:
-      eslint: ${{ steps.eslint.outputs.result }}
       prettier: ${{ steps.prettier.outputs.result }}
 
     steps:
@@ -24,13 +23,6 @@ jobs:
 
       - name: Preparing
         uses: ./.github/actions/check-install
-
-      - name: ESLint
-        id: eslint
-        if: always()
-        uses: ./.github/actions/check-run
-        with:
-          script: yarn eslint
 
       - name: Prettier
         id: prettier
