@@ -1,9 +1,10 @@
 {
   "name": "zimablue",
   "version": "1.0.7",
-  "description": "a CLI utility for combining colors with a palette",
+  "description": "a CLI utility for matching colors to a palette",
   "keywords": [
-    "colors",
+    "color",
+    "match",
     "difference",
     "palette",
     "tailwind",

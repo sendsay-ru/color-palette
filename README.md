@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center">a CLI utility for matching colors with a palette
+<p align="center">a CLI utility for matching colors to a palette
     <br> 
 </p>
 
@@ -36,17 +36,17 @@
 
 ## 🧐 About <a name = "about"></a>
 
-This service helps to bring all the colors used in the project to the palette. The script finds all the colors in the selected files, converts them to HEX format, and then finds the most similar colors in the palette and shows them in the table.
+This web-service helps to compare all the colors used in the project to the palette. The script finds all the colors in the selected files, converts them to HEX format, and then finds the most similar colors in the palette and shows them in the table.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-Runn it in the root directory of your project
+Run it in the root directory of your project
 
 ```
 npx zimablue --files ./**/*.css -i node_modules --delta 0.041 -n 4
 ```
 
-The server with the web interface will start on localhost:4040<br>
+The server with the web interface will start on `localhost:4040`<br>
 <img width=700px src="./public/images/web.png" alt="Web interface">
 
 ## 🎈 Usage <a name="usage"></a>
@@ -105,7 +105,7 @@ npx zimablue -i legacy /build/ reset.css
 
 ## 🔆 Delta <a name="delta"></a>
 
-[Delta](https://en.wikipedia.org/wiki/Color_difference#CIEDE2000) is the max color difference between two colors that can be replaced. Min: 0 (same colors), max: 1 (like black-white):
+[Delta](https://en.wikipedia.org/wiki/Color_difference#CIEDE2000) is the max color difference between two colors that can be replaced. Min: 0 (same colors), max: 1 (like a black and white):
 
 ```
 npx zimablue -f './**/*.css' -d 0.018
