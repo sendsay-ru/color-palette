@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px src="./public/images/logo.jpg" alt="Project logo"></a>
+ <img width=400px src="./public/images/logo.jpg" alt="Project logo"></a>
 </p>
 
 <h3 align="center">ZIMABLUE</h3>
@@ -47,7 +47,7 @@ npx zimablue --files ./**/*.css -i node_modules --delta 0.041 -n 4
 ```
 
 The server with the web interface will start on localhost:4040<br>
-<img height=300px src="./public/images/web.png" alt="Web interface">
+<img width=700px src="./public/images/web.png" alt="Web interface">
 
 ## 🎈 Usage <a name="usage"></a>
 
@@ -110,7 +110,7 @@ npx zimablue -i legacy /build/ reset.css
 ```
 npx zimablue -f './**/*.css' -d 0.018
 ```
-<img height=300px src="./public/images/delta.png" alt="Delta">
+<img width=700px src="./public/images/delta.png" alt="Delta">
 
 ## 🎨 Custom palette <a name="palette"></a>
 
@@ -157,7 +157,7 @@ Then you can use it
 ```
 npx zimablue -p ./my-palette.json
 ```
-<img height=300px src="./public/images/palette.png" alt="Palette">
+<img width=700px src="./public/images/palette.png" alt="Palette">
 
 ## 👭 Siblings <a name="siblings"></a>
 
@@ -165,7 +165,7 @@ Number of relevant colors, 1 by default.
 ```
 npx zimablue -f ./**/*.css -n 2
 ```
-<img height=200px src="./public/images/n2.png" alt="N 2">
+<img src="./public/images/n2.png" alt="N 2">
 
 <br>
 <br>
@@ -173,7 +173,7 @@ npx zimablue -f ./**/*.css -n 2
 ```
 npx zimablue -f ./**/*.css -n 3
 ```
-<img height=200px src="./public/images/n3.png" alt="N 3">
+<img src="./public/images/n3.png" alt="N 3">
 
 ## 🪛 Make replaces <a name="replace"></a>
 
