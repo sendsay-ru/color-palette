@@ -1,0 +1,5 @@
+{
+  "testPathIgnorePatterns": [
+    "__mocks__"
+  ]
+}

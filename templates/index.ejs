@@ -9,12 +9,24 @@
 </head>
 
 <body>
-  <div class="p-5  w-full flex items-center justify-center">
+  <div class="p-5  w-full flex items-center justify-start sticky top-0 bg-slate-100 opacity-80">
     <a class="text-blue-500 mr-10 text-lg" target="_blank" href="./palette.html">Palette</a>
+    <a class="text-blue-500 mr-10 text-lg" target="_blank" href="./replaces.json">Replaces</a>
     <a class="text-blue-500 text-lg" target="_blank" href="./data.json">Log</a>
   </div>
-  <div class="w-full flex flex-col items-center">
+  <div class="w-full mt-5 flex flex-col items-center">
     <% if (data.length ) { %>
+      <div class="p-2 flex">
+        <div class="flex flex-col ml-10 mr-2 w-40 items-center justify-center">
+          <span class="text-xs">current</span>
+        </div>
+        <% for (let i=0; i<config.number; i++) { %>
+          <div class="flex flex-col mr-2 w-40 items-center justify-center">
+            <span class="text-xs">top #<%- i+1 %></span>
+          </div>
+        <% } %>
+      </div>
+
       <% data.forEach(({ hex, matches, result, siblings }, index) => { %>
         <div class="mt-5 p-2 flex">
           <div class="w-10 pt-16 items-center text-xs text-gray-400"><%- index + 1 %></div>

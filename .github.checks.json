@@ -4,6 +4,11 @@
       "key": "checks",
       "steps": [
         {
+          "key": "eslint",
+          "name": "ESLint",
+          "command": "yarn eslint"
+        },
+        {
           "key": "prettier",
           "name": "Prettier",
           "command": "yarn prettify"

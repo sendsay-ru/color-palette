@@ -3,13 +3,13 @@
     "hex": "#000",
     "code": "black",
     "group": "base",
-    "var": "--ss-black-color"
+    "var": "--ss-color-black"
   },
   {
     "hex": "#fff",
     "code": "white",
     "group": "base",
-    "var": "--ss-white-color"
+    "var": "--ss-color-white"
   },
   {
     "hex": "#f8fafc",
