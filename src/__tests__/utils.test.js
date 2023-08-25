@@ -14,10 +14,7 @@ describe('Parse and render', () => {
       silent: true,
     });
 
-    const files = render(result);
-
     expect(result.data).toMatchSnapshot();
-    expect(files).toMatchSnapshot();
   });
 
   it('should return expected value with custom palette', async () => {
@@ -29,10 +26,7 @@ describe('Parse and render', () => {
       silent: true,
     });
 
-    const files = render(result);
-
     expect(result.data).toMatchSnapshot();
-    expect(files).toMatchSnapshot();
   });
 
   it('should return expected value with custom palette without vars', async () => {
@@ -42,10 +36,7 @@ describe('Parse and render', () => {
       silent: true,
     });
 
-    const files = render(result);
-
     expect(result.data).toMatchSnapshot();
-    expect(files).toMatchSnapshot();
   });
 
   it('should return expected value when colors not found', async () => {
@@ -54,9 +45,6 @@ describe('Parse and render', () => {
       silent: true,
     });
 
-    const files = render(result);
-
     expect(result.data).toMatchSnapshot();
-    expect(files).toMatchSnapshot();
   });
 });

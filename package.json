@@ -1,6 +1,6 @@
 {
   "name": "zimablue",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a CLI utility for combining colors with a palette",
   "keywords": [
     "colors",
