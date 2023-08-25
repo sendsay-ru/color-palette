@@ -2,4 +2,5 @@
 .github
 node_modules
 build
+public
 __tests__

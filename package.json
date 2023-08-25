@@ -4,18 +4,19 @@
   "description": "a CLI utility for combining colors with a palette",
   "keywords": [
     "colors",
+    "difference",
     "palette",
     "tailwind",
     "hex",
     "rgb"
   ],
-  "homepage": "https://github.com/sendsay-ru/zimablue#readme",
+  "homepage": "https://github.com/sendsay-ru/color-palette#readme",
   "bugs": {
-    "url": "https://github.com/sendsay-ru/zimablue/issues"
+    "url": "https://github.com/sendsay-ru/color-palette/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sendsay-ru/zimablue.git"
+    "url": "git+https://github.com/sendsay-ru/color-palette.git"
   },
   "license": "MIT",
   "author": "Aleksey Nikolaev <aleksnick01+npm@gmail.com>",
