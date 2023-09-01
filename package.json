@@ -1,6 +1,6 @@
 {
   "name": "zimablue",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "a CLI utility for matching colors to a palette",
   "keywords": [
     "color",
