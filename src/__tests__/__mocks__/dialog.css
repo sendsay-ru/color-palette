@@ -17,6 +17,7 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 }
 
 .cke_dialog strong {
+  color: white;
   font-weight: 600;
 }
 
@@ -53,6 +54,7 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 .cke_browser_ie8 .cke_dialog_spinner,
 .cke_browser_ie9 .cke_dialog_spinner {
   background: url(images/spinner.gif) center top no-repeat;
+  color: tomato;
   width: 16px;
   height: 16px;
   border: 0;

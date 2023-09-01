@@ -16,11 +16,11 @@
           <span><%- group %></span>
         </div>
 
-        <% colors.forEach(({ code, hex }) => { %>
+        <% colors.forEach(({ name, hex }) => { %>
           <div class="flex flex-col mr-2 items-center">
-            <div class="w-20 h-20 rounded-full" style="background-color:<%- hex %>"></div>
+            <div class="w-20 h-20 rounded-full shadow" style="background-color:<%- hex %>"></div>
             <span class="text-xs"><%- hex %></span>
-            <span><%- code %></span>
+            <% if (name) { %><span><%- name %></span><% } %>
           </div>
           <% }) %>
       </div>

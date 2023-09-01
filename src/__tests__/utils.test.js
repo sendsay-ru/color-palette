@@ -11,7 +11,7 @@ describe('Parse and render', () => {
     const result = await parse({
       files: ['./**/__mocks__/dialog.css'],
       delta: 0.04,
-      silent: true,
+      server: false,
     });
 
     expect(result.data).toMatchSnapshot();
@@ -23,7 +23,7 @@ describe('Parse and render', () => {
       ignore: ['dialog'],
       palette: path.resolve(__dirname, './__mocks__/palette_gray.json'),
       number: 2,
-      silent: true,
+      server: false,
     });
 
     expect(result.data).toMatchSnapshot();
@@ -33,8 +33,16 @@ describe('Parse and render', () => {
     const result = await parse({
       files: ['./**/__mocks__/*.js'],
       palette: path.resolve(__dirname, './__mocks__/palette_no_vars.json'),
-      silent: true,
+      server: false,
     });
+
+    const resultWithFlag = await parse({
+      files: ['./**/__mocks__/*.js'],
+      server: false,
+      vars: false,
+    });
+
+    expect(result.data).toEqual(resultWithFlag.data);
 
     expect(result.data).toMatchSnapshot();
   });
@@ -42,7 +50,7 @@ describe('Parse and render', () => {
   it('should return expected value when colors not found', async () => {
     const result = await parse({
       files: ['./**/__mocks__/empty.css'],
-      silent: true,
+      server: false,
     });
 
     expect(result.data).toMatchSnapshot();

@@ -18,7 +18,8 @@ program
   )
   .option('-n --number <number>', 'number of relevant colors')
   .option('-r --replace', `make replaces in files`)
-  .option('-s --silent', 'do not start the server')
+  .option('--no-vars', 'do not use vars')
+  .option('--no-server', 'do not start the server')
   .version(packageJSON.version);
 
 program.parse();
@@ -32,7 +33,7 @@ const App = async () => {
 
   save(files);
 
-  if (!options.silent) {
+  if (options.server) {
     serve();
   }
 };

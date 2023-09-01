@@ -1,23 +1,26 @@
 const fs = require('fs');
 const path = require('path');
 const ejs = require('ejs');
+const c = require('ansi-colors');
 const { glob } = require('glob');
 const { colord, extend } = require('colord');
 const minifyPlugin = require('colord/plugins/minify');
 const labPlugin = require('colord/plugins/lab');
 const { BUILD_DIR, TEMPLATES_DIR, DEFAULT_CONFIG } = require('./constants');
+const baseColors = require('../config/base.json');
 const schema = require('./schema');
 
 extend([minifyPlugin, labPlugin]);
 
-const COLOR_REGEXP = [/#[0-9a-z]+/gi, /rgba?\([0-9,.\s/%]+\)/gi];
+const COLOR_REGEXP = [/(#[0-9a-z]+)/gi, /(rgba?\([0-9,.\s/%]+\))/gi];
+const BASE_COLOR_REGEXP = (name) => new RegExp(`: (${name});?$`, 'igm');
 
 const groupPalette = (palette) =>
-  palette.reduce((res, { group, ...data }) => {
+  palette.reduce((res, { group = '', ...color }) => {
     if (!res[group]) {
-      res[group] = [{ ...data }];
+      res[group] = [{ ...color }];
     } else {
-      res[group].push({ ...data });
+      res[group].push({ ...color });
     }
 
     return res;
@@ -30,6 +33,11 @@ const getPalette = (palettePath) => {
 
   if (validation.error) {
     throw validation.error;
+  }
+
+  if (validation.warning) {
+    console.warn(c.yellow(validation.warning.message));
+    console.log();
   }
 
   return paletteContent;
@@ -57,7 +65,15 @@ const parse = async (options) => {
   const getExistsColor = (color) =>
     cache.find(({ hex }) => colord(color).isEqual(hex));
 
-  const getColor = ({ color, file }) => {
+  const getResult = (item) => (item.var && config.vars ? item.var : item.hex);
+
+  const getColor = ({ color: draftColor, file }) => {
+    let color = draftColor;
+
+    if (baseColors[color]) {
+      color = baseColors[color];
+    }
+
     if (!colord(color).isValid()) {
       return color;
     }
@@ -83,16 +99,25 @@ const parse = async (options) => {
 
       existsColor.matches++;
 
-      return existsColor.result.var || existsColor.result.hex;
+      return getResult(existsColor.result);
     }
 
-    const siblings = palette.map((color) => {
-      const delta = colord(hex).delta(color.hex);
+    const siblings = palette.map(({ code, group, name, ...sibling }) => {
+      const delta = colord(hex).delta(sibling.hex);
 
-      return {
-        ...color,
+      const res = {
+        name: name || code || '',
+        group: group || 'base',
+        hex: sibling.hex,
+        var: config.vars ? sibling.var : undefined,
         delta,
       };
+
+      if (config.vars && sibling.var) {
+        res.var = sibling.var;
+      }
+
+      return res;
     });
 
     const result = {
@@ -120,16 +145,20 @@ const parse = async (options) => {
       files: [file],
     });
 
-    return result.var || result.hex;
+    return getResult(result);
   };
 
   const replaceColor =
     ({ file }) =>
-    (color) => {
+    (match, color) => {
       const newColor = getColor({ color, file });
 
       if (color !== newColor && !replaces[color]) {
         replaces[color] = newColor;
+      }
+
+      if (match !== color) {
+        return match.replace(color, newColor);
       }
 
       return newColor;
@@ -152,6 +181,13 @@ const parse = async (options) => {
       newFileContent = newFileContent.replace(regExp, replaceColor({ file }));
     });
 
+    Object.entries(baseColors).forEach(([name]) => {
+      newFileContent = newFileContent.replace(
+        BASE_COLOR_REGEXP(name),
+        replaceColor({ file }),
+      );
+    });
+
     if (config.replace && newFileContent !== fileContent) {
       fs.writeFileSync(file, newFileContent);
     }
@@ -159,11 +195,8 @@ const parse = async (options) => {
 
   cache.sort((a, b) => b.siblings[0].delta - a.siblings[0].delta);
 
-  if (!config.silent) {
-    console.log();
-    console.log('stat:', JSON.stringify(getStat(), null, 2));
-    console.log();
-  }
+  console.log(c.blue('stat:'), c.cyan(JSON.stringify(getStat(), null, 2)));
+  console.log();
 
   return {
     data: cache,

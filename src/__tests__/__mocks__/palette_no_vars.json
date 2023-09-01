@@ -1,5 +1,15 @@
 [
   {
+    "hex": "#000",
+    "code": "black",
+    "group": "base"
+  },
+  {
+    "hex": "#fff",
+    "code": "white",
+    "group": "base"
+  },
+  {
     "hex": "#f8fafc",
     "code": "50",
     "group": "slate"

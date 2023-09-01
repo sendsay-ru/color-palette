@@ -16,10 +16,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "600",
         "delta": 0.098,
         "group": "lime",
         "hex": "#65a30d",
+        "name": "600",
         "var": "--color-lime-600",
       },
     ],
@@ -38,10 +38,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "700",
         "delta": 0.096,
         "group": "lime",
         "hex": "#4d7c0f",
+        "name": "700",
         "var": "--color-lime-700",
       },
     ],
@@ -60,10 +60,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "300",
         "delta": 0.083,
         "group": "lime",
         "hex": "#bef264",
+        "name": "300",
         "var": "--color-lime-300",
       },
     ],
@@ -82,11 +82,33 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "500",
         "delta": 0.081,
         "group": "neutral",
         "hex": "#737373",
+        "name": "500",
         "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#ff6347",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#ff6347",
+    "matches": 1,
+    "result": {
+      "hex": "#ff6347",
+    },
+    "siblings": [
+      {
+        "delta": 0.081,
+        "group": "red",
+        "hex": "#ef4444",
+        "name": "500",
+        "var": "--color-red-500",
       },
     ],
   },
@@ -104,10 +126,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "600",
         "delta": 0.077,
         "group": "lime",
         "hex": "#65a30d",
+        "name": "600",
         "var": "--color-lime-600",
       },
     ],
@@ -126,10 +148,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "300",
         "delta": 0.065,
         "group": "neutral",
         "hex": "#d4d4d4",
+        "name": "300",
         "var": "--color-neutral-300",
       },
     ],
@@ -148,10 +170,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "600",
         "delta": 0.063,
         "group": "lime",
         "hex": "#65a30d",
+        "name": "600",
         "var": "--color-lime-600",
       },
     ],
@@ -170,10 +192,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "600",
         "delta": 0.062,
         "group": "sky",
         "hex": "#0284c7",
+        "name": "600",
         "var": "--color-sky-600",
       },
     ],
@@ -192,10 +214,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "700",
         "delta": 0.06,
         "group": "lime",
         "hex": "#4d7c0f",
+        "name": "700",
         "var": "--color-lime-700",
       },
     ],
@@ -214,10 +236,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "400",
         "delta": 0.054,
         "group": "gray",
         "hex": "#9ca3af",
+        "name": "400",
         "var": "--color-gray-400",
       },
     ],
@@ -236,10 +258,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "400",
         "delta": 0.054,
         "group": "neutral",
         "hex": "#a3a3a3",
+        "name": "400",
         "var": "--color-neutral-400",
       },
     ],
@@ -259,10 +281,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "300",
         "delta": 0.052,
         "group": "neutral",
         "hex": "#d4d4d4",
+        "name": "300",
         "var": "--color-neutral-300",
       },
     ],
@@ -281,10 +303,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "500",
         "delta": 0.05,
         "group": "neutral",
         "hex": "#737373",
+        "name": "500",
         "var": "--color-neutral-500",
       },
     ],
@@ -303,10 +325,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "50",
         "delta": 0.047,
         "group": "lime",
         "hex": "#f7fee7",
+        "name": "50",
         "var": "--color-lime-50",
       },
     ],
@@ -325,10 +347,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "500",
         "delta": 0.044,
         "group": "sky",
         "hex": "#0ea5e9",
+        "name": "500",
         "var": "--color-sky-500",
       },
     ],
@@ -347,10 +369,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "400",
         "delta": 0.043,
         "group": "neutral",
         "hex": "#a3a3a3",
+        "name": "400",
         "var": "--color-neutral-400",
       },
     ],
@@ -369,10 +391,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "800",
         "delta": 0.041,
         "group": "neutral",
         "hex": "#262626",
+        "name": "800",
         "var": "--color-neutral-800",
       },
     ],
@@ -391,10 +413,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "400",
         "delta": 0.041,
         "group": "neutral",
         "hex": "#a3a3a3",
+        "name": "400",
         "var": "--color-neutral-400",
       },
     ],
@@ -413,10 +435,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "600",
         "delta": 0.041,
         "group": "lime",
         "hex": "#65a30d",
+        "name": "600",
         "var": "--color-lime-600",
       },
     ],
@@ -436,10 +458,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "500",
         "delta": 0.039,
         "group": "lime",
         "hex": "#84cc16",
+        "name": "500",
         "var": "--color-lime-500",
       },
     ],
@@ -459,10 +481,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "500",
         "delta": 0.039,
         "group": "neutral",
         "hex": "#737373",
+        "name": "500",
         "var": "--color-neutral-500",
       },
     ],
@@ -482,10 +504,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "400",
         "delta": 0.036,
         "group": "lime",
         "hex": "#a3e635",
+        "name": "400",
         "var": "--color-lime-400",
       },
     ],
@@ -505,10 +527,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "700",
         "delta": 0.035,
         "group": "lime",
         "hex": "#4d7c0f",
+        "name": "700",
         "var": "--color-lime-700",
       },
     ],
@@ -528,10 +550,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "600",
         "delta": 0.034,
         "group": "lime",
         "hex": "#65a30d",
+        "name": "600",
         "var": "--color-lime-600",
       },
     ],
@@ -552,10 +574,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "400",
         "delta": 0.031,
         "group": "neutral",
         "hex": "#a3a3a3",
+        "name": "400",
         "var": "--color-neutral-400",
       },
     ],
@@ -575,10 +597,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "700",
         "delta": 0.029,
         "group": "lime",
         "hex": "#4d7c0f",
+        "name": "700",
         "var": "--color-lime-700",
       },
     ],
@@ -598,10 +620,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "700",
         "delta": 0.026,
         "group": "neutral",
         "hex": "#404040",
+        "name": "700",
         "var": "--color-neutral-700",
       },
     ],
@@ -621,10 +643,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "300",
         "delta": 0.026,
         "group": "gray",
         "hex": "#d1d5db",
+        "name": "300",
         "var": "--color-gray-300",
       },
     ],
@@ -644,10 +666,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "600",
         "delta": 0.025,
         "group": "neutral",
         "hex": "#525252",
+        "name": "600",
         "var": "--color-neutral-600",
       },
     ],
@@ -667,10 +689,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "400",
         "delta": 0.024,
         "group": "gray",
         "hex": "#9ca3af",
+        "name": "400",
         "var": "--color-gray-400",
       },
     ],
@@ -690,10 +712,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "600",
         "delta": 0.024,
         "group": "lime",
         "hex": "#65a30d",
+        "name": "600",
         "var": "--color-lime-600",
       },
     ],
@@ -713,10 +735,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "700",
         "delta": 0.023,
         "group": "neutral",
         "hex": "#404040",
+        "name": "700",
         "var": "--color-neutral-700",
       },
     ],
@@ -737,10 +759,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "300",
         "delta": 0.019,
         "group": "neutral",
         "hex": "#d4d4d4",
+        "name": "300",
         "var": "--color-neutral-300",
       },
     ],
@@ -760,10 +782,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "300",
         "delta": 0.018,
         "group": "neutral",
         "hex": "#d4d4d4",
+        "name": "300",
         "var": "--color-neutral-300",
       },
     ],
@@ -783,10 +805,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "200",
         "delta": 0.018,
         "group": "neutral",
         "hex": "#e5e5e5",
+        "name": "200",
         "var": "--color-neutral-200",
       },
     ],
@@ -806,10 +828,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "100",
         "delta": 0.016,
         "group": "zinc",
         "hex": "#f4f4f5",
+        "name": "100",
         "var": "--color-zinc-100",
       },
     ],
@@ -829,10 +851,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "200",
         "delta": 0.016,
         "group": "neutral",
         "hex": "#e5e5e5",
+        "name": "200",
         "var": "--color-neutral-200",
       },
     ],
@@ -852,10 +874,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "400",
         "delta": 0.015,
         "group": "neutral",
         "hex": "#a3a3a3",
+        "name": "400",
         "var": "--color-neutral-400",
       },
     ],
@@ -876,10 +898,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "200",
         "delta": 0.013,
         "group": "neutral",
         "hex": "#e5e5e5",
+        "name": "200",
         "var": "--color-neutral-200",
       },
     ],
@@ -899,10 +921,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "200",
         "delta": 0.013,
         "group": "neutral",
         "hex": "#e5e5e5",
+        "name": "200",
         "var": "--color-neutral-200",
       },
     ],
@@ -922,10 +944,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "200",
         "delta": 0.011,
         "group": "neutral",
         "hex": "#e5e5e5",
+        "name": "200",
         "var": "--color-neutral-200",
       },
     ],
@@ -945,10 +967,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "600",
         "delta": 0.011,
         "group": "lime",
         "hex": "#65a30d",
+        "name": "600",
         "var": "--color-lime-600",
       },
     ],
@@ -968,10 +990,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "400",
         "delta": 0.009,
         "group": "neutral",
         "hex": "#a3a3a3",
+        "name": "400",
         "var": "--color-neutral-400",
       },
     ],
@@ -991,10 +1013,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "100",
         "delta": 0.006,
         "group": "neutral",
         "hex": "#f5f5f5",
+        "name": "100",
         "var": "--color-neutral-100",
       },
     ],
@@ -1014,10 +1036,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "200",
         "delta": 0.002,
         "group": "neutral",
         "hex": "#e5e5e5",
+        "name": "200",
         "var": "--color-neutral-200",
       },
     ],
@@ -1033,17 +1055,17 @@ exports[`Parse and render should return expected value 1`] = `
       "src/__tests__/__mocks__/dialog.css",
     ],
     "hex": "#fff",
-    "matches": 15,
+    "matches": 19,
     "result": {
       "hex": "#fff",
       "var": "var(--ss-color-white)",
     },
     "siblings": [
       {
-        "code": "white",
         "delta": 0,
         "group": "base",
         "hex": "#fff",
+        "name": "white",
         "var": "--ss-color-white",
       },
     ],
@@ -1063,10 +1085,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "100",
         "delta": 0,
         "group": "neutral",
         "hex": "#f5f5f5",
+        "name": "100",
         "var": "--color-neutral-100",
       },
     ],
@@ -1086,10 +1108,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "300",
         "delta": 0,
         "group": "neutral",
         "hex": "#d4d4d4",
+        "name": "300",
         "var": "--color-neutral-300",
       },
     ],
@@ -1109,10 +1131,10 @@ exports[`Parse and render should return expected value 1`] = `
     },
     "siblings": [
       {
-        "code": "50",
         "delta": 0,
         "group": "zinc",
         "hex": "#fafafa",
+        "name": "50",
         "var": "--color-zinc-50",
       },
     ],
@@ -1138,18 +1160,47 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "500",
         "delta": 0.329,
         "group": "gray",
         "hex": "#6b7280",
+        "name": "500",
         "var": "--color-gray-500",
       },
       {
-        "code": "600",
         "delta": 0.359,
         "group": "gray",
         "hex": "#4b5563",
+        "name": "600",
         "var": "--color-gray-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#ff7f50",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ff7f50",
+    "matches": 1,
+    "result": {
+      "hex": "#ff7f50",
+    },
+    "siblings": [
+      {
+        "delta": 0.325,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.327,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
       },
     ],
   },
@@ -1167,17 +1218,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "600",
         "delta": 0.316,
         "group": "gray",
         "hex": "#4b5563",
+        "name": "600",
         "var": "--color-gray-600",
       },
       {
-        "code": "700",
         "delta": 0.323,
         "group": "gray",
         "hex": "#374151",
+        "name": "700",
         "var": "--color-gray-700",
       },
     ],
@@ -1196,17 +1247,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "400",
         "delta": 0.285,
         "group": "gray",
         "hex": "#9ca3af",
+        "name": "400",
         "var": "--color-gray-400",
       },
       {
-        "code": "300",
         "delta": 0.308,
         "group": "gray",
         "hex": "#d1d5db",
+        "name": "300",
         "var": "--color-gray-300",
       },
     ],
@@ -1225,17 +1276,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "400",
         "delta": 0.282,
         "group": "gray",
         "hex": "#9ca3af",
+        "name": "400",
         "var": "--color-gray-400",
       },
       {
-        "code": "300",
         "delta": 0.285,
         "group": "gray",
         "hex": "#d1d5db",
+        "name": "300",
         "var": "--color-gray-300",
       },
     ],
@@ -1254,17 +1305,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "300",
         "delta": 0.248,
         "group": "gray",
         "hex": "#d1d5db",
+        "name": "300",
         "var": "--color-gray-300",
       },
       {
-        "code": "200",
         "delta": 0.25,
         "group": "gray",
         "hex": "#e5e7eb",
+        "name": "200",
         "var": "--color-gray-200",
       },
     ],
@@ -1283,17 +1334,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "400",
         "delta": 0.192,
         "group": "gray",
         "hex": "#9ca3af",
+        "name": "400",
         "var": "--color-gray-400",
       },
       {
-        "code": "500",
         "delta": 0.215,
         "group": "gray",
         "hex": "#6b7280",
+        "name": "500",
         "var": "--color-gray-500",
       },
     ],
@@ -1312,17 +1363,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "500",
         "delta": 0.168,
         "group": "gray",
         "hex": "#6b7280",
+        "name": "500",
         "var": "--color-gray-500",
       },
       {
-        "code": "600",
         "delta": 0.174,
         "group": "gray",
         "hex": "#4b5563",
+        "name": "600",
         "var": "--color-gray-600",
       },
     ],
@@ -1341,17 +1392,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "800",
         "delta": 0.117,
         "group": "gray",
         "hex": "#1f2937",
+        "name": "800",
         "var": "--color-gray-800",
       },
       {
-        "code": "700",
         "delta": 0.118,
         "group": "gray",
         "hex": "#374151",
+        "name": "700",
         "var": "--color-gray-700",
       },
     ],
@@ -1370,17 +1421,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "500",
         "delta": 0.093,
         "group": "gray",
         "hex": "#6b7280",
+        "name": "500",
         "var": "--color-gray-500",
       },
       {
-        "code": "400",
         "delta": 0.131,
         "group": "gray",
         "hex": "#9ca3af",
+        "name": "400",
         "var": "--color-gray-400",
       },
     ],
@@ -1399,17 +1450,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "800",
         "delta": 0.093,
         "group": "gray",
         "hex": "#1f2937",
+        "name": "800",
         "var": "--color-gray-800",
       },
       {
-        "code": "700",
         "delta": 0.099,
         "group": "gray",
         "hex": "#374151",
+        "name": "700",
         "var": "--color-gray-700",
       },
     ],
@@ -1428,17 +1479,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "600",
         "delta": 0.092,
         "group": "gray",
         "hex": "#4b5563",
+        "name": "600",
         "var": "--color-gray-600",
       },
       {
-        "code": "700",
         "delta": 0.093,
         "group": "gray",
         "hex": "#374151",
+        "name": "700",
         "var": "--color-gray-700",
       },
     ],
@@ -1457,17 +1508,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "500",
         "delta": 0.085,
         "group": "gray",
         "hex": "#6b7280",
+        "name": "500",
         "var": "--color-gray-500",
       },
       {
-        "code": "600",
         "delta": 0.104,
         "group": "gray",
         "hex": "#4b5563",
+        "name": "600",
         "var": "--color-gray-600",
       },
     ],
@@ -1486,17 +1537,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "600",
         "delta": 0.085,
         "group": "gray",
         "hex": "#4b5563",
+        "name": "600",
         "var": "--color-gray-600",
       },
       {
-        "code": "700",
         "delta": 0.098,
         "group": "gray",
         "hex": "#374151",
+        "name": "700",
         "var": "--color-gray-700",
       },
     ],
@@ -1515,17 +1566,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "300",
         "delta": 0.084,
         "group": "gray",
         "hex": "#d1d5db",
+        "name": "300",
         "var": "--color-gray-300",
       },
       {
-        "code": "400",
         "delta": 0.084,
         "group": "gray",
         "hex": "#9ca3af",
+        "name": "400",
         "var": "--color-gray-400",
       },
     ],
@@ -1544,17 +1595,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "400",
         "delta": 0.082,
         "group": "gray",
         "hex": "#9ca3af",
+        "name": "400",
         "var": "--color-gray-400",
       },
       {
-        "code": "300",
         "delta": 0.086,
         "group": "gray",
         "hex": "#d1d5db",
+        "name": "300",
         "var": "--color-gray-300",
       },
     ],
@@ -1573,17 +1624,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "500",
         "delta": 0.076,
         "group": "gray",
         "hex": "#6b7280",
+        "name": "500",
         "var": "--color-gray-500",
       },
       {
-        "code": "600",
         "delta": 0.154,
         "group": "gray",
         "hex": "#4b5563",
+        "name": "600",
         "var": "--color-gray-600",
       },
     ],
@@ -1602,17 +1653,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "400",
         "delta": 0.071,
         "group": "gray",
         "hex": "#9ca3af",
+        "name": "400",
         "var": "--color-gray-400",
       },
       {
-        "code": "500",
         "delta": 0.156,
         "group": "gray",
         "hex": "#6b7280",
+        "name": "500",
         "var": "--color-gray-500",
       },
     ],
@@ -1632,17 +1683,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "400",
         "delta": 0.068,
         "group": "gray",
         "hex": "#9ca3af",
+        "name": "400",
         "var": "--color-gray-400",
       },
       {
-        "code": "500",
         "delta": 0.162,
         "group": "gray",
         "hex": "#6b7280",
+        "name": "500",
         "var": "--color-gray-500",
       },
     ],
@@ -1662,17 +1713,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "400",
         "delta": 0.066,
         "group": "gray",
         "hex": "#9ca3af",
+        "name": "400",
         "var": "--color-gray-400",
       },
       {
-        "code": "300",
         "delta": 0.115,
         "group": "gray",
         "hex": "#d1d5db",
+        "name": "300",
         "var": "--color-gray-300",
       },
     ],
@@ -1691,17 +1742,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "400",
         "delta": 0.063,
         "group": "gray",
         "hex": "#9ca3af",
+        "name": "400",
         "var": "--color-gray-400",
       },
       {
-        "code": "300",
         "delta": 0.129,
         "group": "gray",
         "hex": "#d1d5db",
+        "name": "300",
         "var": "--color-gray-300",
       },
     ],
@@ -1720,17 +1771,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "400",
         "delta": 0.063,
         "group": "gray",
         "hex": "#9ca3af",
+        "name": "400",
         "var": "--color-gray-400",
       },
       {
-        "code": "300",
         "delta": 0.126,
         "group": "gray",
         "hex": "#d1d5db",
+        "name": "300",
         "var": "--color-gray-300",
       },
     ],
@@ -1749,17 +1800,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "300",
         "delta": 0.062,
         "group": "gray",
         "hex": "#d1d5db",
+        "name": "300",
         "var": "--color-gray-300",
       },
       {
-        "code": "200",
         "delta": 0.096,
         "group": "gray",
         "hex": "#e5e7eb",
+        "name": "200",
         "var": "--color-gray-200",
       },
     ],
@@ -1778,17 +1829,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "300",
         "delta": 0.06,
         "group": "gray",
         "hex": "#d1d5db",
+        "name": "300",
         "var": "--color-gray-300",
       },
       {
-        "code": "200",
         "delta": 0.094,
         "group": "gray",
         "hex": "#e5e7eb",
+        "name": "200",
         "var": "--color-gray-200",
       },
     ],
@@ -1807,17 +1858,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "950",
         "delta": 0.049,
         "group": "gray",
         "hex": "#030712",
+        "name": "950",
         "var": "--color-gray-950",
       },
       {
-        "code": "900",
         "delta": 0.103,
         "group": "gray",
         "hex": "#111827",
+        "name": "900",
         "var": "--color-gray-900",
       },
     ],
@@ -1836,17 +1887,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "300",
         "delta": 0.042,
         "group": "gray",
         "hex": "#d1d5db",
+        "name": "300",
         "var": "--color-gray-300",
       },
       {
-        "code": "200",
         "delta": 0.07,
         "group": "gray",
         "hex": "#e5e7eb",
+        "name": "200",
         "var": "--color-gray-200",
       },
     ],
@@ -1865,17 +1916,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "300",
         "delta": 0.041,
         "group": "gray",
         "hex": "#d1d5db",
+        "name": "300",
         "var": "--color-gray-300",
       },
       {
-        "code": "200",
         "delta": 0.059,
         "group": "gray",
         "hex": "#e5e7eb",
+        "name": "200",
         "var": "--color-gray-200",
       },
     ],
@@ -1894,17 +1945,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "300",
         "delta": 0.041,
         "group": "gray",
         "hex": "#d1d5db",
+        "name": "300",
         "var": "--color-gray-300",
       },
       {
-        "code": "200",
         "delta": 0.057,
         "group": "gray",
         "hex": "#e5e7eb",
+        "name": "200",
         "var": "--color-gray-200",
       },
     ],
@@ -1924,17 +1975,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "300",
         "delta": 0.039,
         "group": "gray",
         "hex": "#d1d5db",
+        "name": "300",
         "var": "--color-gray-300",
       },
       {
-        "code": "200",
         "delta": 0.065,
         "group": "gray",
         "hex": "#e5e7eb",
+        "name": "200",
         "var": "--color-gray-200",
       },
     ],
@@ -1953,17 +2004,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "300",
         "delta": 0.037,
         "group": "gray",
         "hex": "#d1d5db",
+        "name": "300",
         "var": "--color-gray-300",
       },
       {
-        "code": "200",
         "delta": 0.042,
         "group": "gray",
         "hex": "#e5e7eb",
+        "name": "200",
         "var": "--color-gray-200",
       },
     ],
@@ -1983,17 +2034,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "300",
         "delta": 0.033,
         "group": "gray",
         "hex": "#d1d5db",
+        "name": "300",
         "var": "--color-gray-300",
       },
       {
-        "code": "200",
         "delta": 0.05,
         "group": "gray",
         "hex": "#e5e7eb",
+        "name": "200",
         "var": "--color-gray-200",
       },
     ],
@@ -2013,17 +2064,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "200",
         "delta": 0.029,
         "group": "gray",
         "hex": "#e5e7eb",
+        "name": "200",
         "var": "--color-gray-200",
       },
       {
-        "code": "300",
         "delta": 0.04,
         "group": "gray",
         "hex": "#d1d5db",
+        "name": "300",
         "var": "--color-gray-300",
       },
     ],
@@ -2043,17 +2094,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "200",
         "delta": 0.023,
         "group": "gray",
         "hex": "#e5e7eb",
+        "name": "200",
         "var": "--color-gray-200",
       },
       {
-        "code": "300",
         "delta": 0.036,
         "group": "gray",
         "hex": "#d1d5db",
+        "name": "300",
         "var": "--color-gray-300",
       },
     ],
@@ -2073,17 +2124,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "200",
         "delta": 0.022,
         "group": "gray",
         "hex": "#e5e7eb",
+        "name": "200",
         "var": "--color-gray-200",
       },
       {
-        "code": "100",
         "delta": 0.035,
         "group": "gray",
         "hex": "#f3f4f6",
+        "name": "100",
         "var": "--color-gray-100",
       },
     ],
@@ -2103,17 +2154,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "100",
         "delta": 0.021,
         "group": "gray",
         "hex": "#f3f4f6",
+        "name": "100",
         "var": "--color-gray-100",
       },
       {
-        "code": "200",
         "delta": 0.023,
         "group": "gray",
         "hex": "#e5e7eb",
+        "name": "200",
         "var": "--color-gray-200",
       },
     ],
@@ -2133,17 +2184,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "200",
         "delta": 0.021,
         "group": "gray",
         "hex": "#e5e7eb",
+        "name": "200",
         "var": "--color-gray-200",
       },
       {
-        "code": "100",
         "delta": 0.033,
         "group": "gray",
         "hex": "#f3f4f6",
+        "name": "100",
         "var": "--color-gray-100",
       },
     ],
@@ -2163,17 +2214,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "100",
         "delta": 0.018,
         "group": "gray",
         "hex": "#f3f4f6",
+        "name": "100",
         "var": "--color-gray-100",
       },
       {
-        "code": "50",
         "delta": 0.023,
         "group": "gray",
         "hex": "#f9fafb",
+        "name": "50",
         "var": "--color-gray-50",
       },
     ],
@@ -2188,24 +2239,24 @@ exports[`Parse and render should return expected value with custom palette 1`] =
       "src/__tests__/__mocks__/editor_ie.css",
     ],
     "hex": "#fff",
-    "matches": 17,
+    "matches": 18,
     "result": {
       "hex": "#f9fafb",
       "var": "var(--color-gray-50)",
     },
     "siblings": [
       {
-        "code": "50",
         "delta": 0.012,
         "group": "gray",
         "hex": "#f9fafb",
+        "name": "50",
         "var": "--color-gray-50",
       },
       {
-        "code": "100",
         "delta": 0.025,
         "group": "gray",
         "hex": "#f3f4f6",
+        "name": "100",
         "var": "--color-gray-100",
       },
     ],
@@ -2225,17 +2276,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "100",
         "delta": 0.011,
         "group": "gray",
         "hex": "#f3f4f6",
+        "name": "100",
         "var": "--color-gray-100",
       },
       {
-        "code": "50",
         "delta": 0.012,
         "group": "gray",
         "hex": "#f9fafb",
+        "name": "50",
         "var": "--color-gray-50",
       },
     ],
@@ -2255,17 +2306,17 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     },
     "siblings": [
       {
-        "code": "100",
         "delta": 0.011,
         "group": "gray",
         "hex": "#f3f4f6",
+        "name": "100",
         "var": "--color-gray-100",
       },
       {
-        "code": "50",
         "delta": 0.017,
         "group": "gray",
         "hex": "#f9fafb",
+        "name": "50",
         "var": "--color-gray-50",
       },
     ],
@@ -2289,10 +2340,11 @@ exports[`Parse and render should return expected value with custom palette witho
     },
     "siblings": [
       {
-        "code": "500",
         "delta": 0.088,
         "group": "red",
         "hex": "#ef4444",
+        "name": "500",
+        "var": undefined,
       },
     ],
   },
@@ -2310,31 +2362,11 @@ exports[`Parse and render should return expected value with custom palette witho
     },
     "siblings": [
       {
-        "code": "400",
         "delta": 0.029,
         "group": "sky",
         "hex": "#38bdf8",
-      },
-    ],
-  },
-  {
-    "colors": [
-      "#000",
-    ],
-    "files": [
-      "src/__tests__/__mocks__/StatsByDevicesSectionContainer.js",
-    ],
-    "hex": "#000",
-    "matches": 2,
-    "result": {
-      "hex": "#0a0a0a",
-    },
-    "siblings": [
-      {
-        "code": "950",
-        "delta": 0.016,
-        "group": "neutral",
-        "hex": "#0a0a0a",
+        "name": "400",
+        "var": undefined,
       },
     ],
   },
@@ -2352,10 +2384,33 @@ exports[`Parse and render should return expected value with custom palette witho
     },
     "siblings": [
       {
-        "code": "200",
         "delta": 0.013,
         "group": "neutral",
         "hex": "#e5e5e5",
+        "name": "200",
+        "var": undefined,
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#000",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/StatsByDevicesSectionContainer.js",
+    ],
+    "hex": "#000",
+    "matches": 2,
+    "result": {
+      "hex": "#000",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#000",
+        "name": "black",
+        "var": undefined,
       },
     ],
   },
@@ -2369,14 +2424,15 @@ exports[`Parse and render should return expected value with custom palette witho
     "hex": "#fff",
     "matches": 1,
     "result": {
-      "hex": "#fafafa",
+      "hex": "#fff",
     },
     "siblings": [
       {
-        "code": "50",
-        "delta": 0.01,
-        "group": "zinc",
-        "hex": "#fafafa",
+        "delta": 0,
+        "group": "base",
+        "hex": "#fff",
+        "name": "white",
+        "var": undefined,
       },
     ],
   },

@@ -732,6 +732,7 @@ a.cke_toolbox_collapser {
 
 .cke_panel_frame .cke_menubutton_label {
   display: none;
+  background-color: coral;
 }
 
 .cke_menuseparator {

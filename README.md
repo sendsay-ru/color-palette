@@ -16,7 +16,7 @@
 
 ---
 
-<p align="center">a CLI utility for matching colors to a palette
+<p align="center">a CLI utility for matching colors with a given palette
     <br> 
 </p>
 
@@ -31,22 +31,22 @@
 - [🔆 Delta ](#-delta-)
 - [🎨 Custom palette ](#-custom-palette-)
 - [👭 Siblings ](#-siblings-)
-- [🪛 Make replaces ](#-make-replaces-)
+- [✏️ Make replaces ](#️-make-replaces-)
 - [✍️ Authors ](#️-authors-)
 
 ## 🧐 About <a name = "about"></a>
 
-This web-service helps to compare all the colors used in the project to the palette. The script finds all the colors in the selected files, converts them to HEX format, and then finds the most similar colors in the palette and shows them in the table.
+This package helps to compare all the colors used in a project with a pre-configured palette. The script finds colors in the specified files, converts them to a HEX format and then prints them together with the most similar colors from the palette as a table.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-Run it in the root directory of your project
+Run this command in the root directory of your project:
 
 ```
 npx zimablue --files ./**/*.css -i node_modules --delta 0.041 -n 4
 ```
 
-The server with the web interface will start on `localhost:4040`<br>
+The web interface will start on `localhost:4040`<br>
 <img width=700px src="./public/images/web.png" alt="Web interface">
 
 ## 🎈 Usage <a name="usage"></a>
@@ -65,56 +65,63 @@ Options:
   -d --delta <number>     max delta when comparing files, min:0, max:1, default: 0.034
   -n --number <number>    number of relevant colors
   -r --replace            make replaces in files
-  -s --silent             do not start the server
+  --no-vars               do not use vars
+  --no-server             do not start the server
   -V, --version           output the version number
   -h, --help              display help for command
 ```
 
 ## 👀 Find colors <a name="find-colors"></a>
 
-Use the find option to properly configure color parsing.<br> Examples:
+Use the "files" option to properly configure color parsing.<br> Examples:
 
 Find colors in all css files:
+
 ```
 npx zimablue -f './**/*.css'
 ```
 
-Only files with name `colors.css`:
+Only files with the name `colors.css`:
+
 ```
 npx zimablue --files ./**/colors.css
 ```
 
-Find colors in two packages
+Find colors in two different packages:
+
 ```
 npx zimablue -f './package_one/*.css' './package_two/*.css'
 ```
 
-<b>warning:</b> please use single quotes if there are too many files
+<b>warning:</b> please use single quotes if there are two or more entries
 
 ## 🌂 Ignore files <a name="ignore-files"></a>
 
-To exclude files, use the ignore flag:
+Use the "ignore" flag to exclude files from parsing:
 
 ```
 npx zimablue --ignore node_modules
 ```
+
 or
+
 ```
 npx zimablue -i legacy /build/ reset.css
 ```
 
 ## 🔆 Delta <a name="delta"></a>
 
-[Delta](https://en.wikipedia.org/wiki/Color_difference#CIEDE2000) is the max color difference between two colors that can be replaced. Min: 0 (same colors), max: 1 (like a black and white):
+[Delta](https://en.wikipedia.org/wiki/Color_difference#CIEDE2000) is a color difference threshold below which two colors are considered as equal. Min: 0 (same colors), max: 1 (e.g. black and white):
 
 ```
 npx zimablue -f './**/*.css' -d 0.018
 ```
+
 <img width=700px src="./public/images/delta.png" alt="Delta">
 
 ## 🎨 Custom palette <a name="palette"></a>
 
-By default, [tailwind colors](https://tailwindcss.com/docs/customizing-colors) are used, but you can create your own palette and compare colors with it. To do this, create a config file "my-pallete.json"
+By default, [tailwind colors](https://tailwindcss.com/docs/customizing-colors) are used as a reference, but you can create your own palette and compare colors with it. To do this, create a custom config file "my-palette.json":
 
 ```
 [
@@ -146,25 +153,30 @@ By default, [tailwind colors](https://tailwindcss.com/docs/customizing-colors) a
 ```
 
 in this config:
-- `hex` - color in hex format, required
-- `code` - color name, required
-- `group` - color group, required
-- `var` - use this field, if you want replace colors to variables
+
+- `hex` - color in hex format, [required]
+- `name` - color name
+- `group` - color group
+- `var` - use this field if you want to replace colors with variables
 
 <br>
 
-Then you can use it
+Then you can use it like this:
+
 ```
 npx zimablue -p ./my-palette.json
 ```
+
 <img width=700px src="./public/images/palette.png" alt="Palette">
 
 ## 👭 Siblings <a name="siblings"></a>
 
-Number of relevant colors, 1 by default.
+Number of similar colors, 1 by default.
+
 ```
 npx zimablue -f ./**/*.css -n 2
 ```
+
 <img src="./public/images/n2.png" alt="N 2">
 
 <br>
@@ -173,15 +185,17 @@ npx zimablue -f ./**/*.css -n 2
 ```
 npx zimablue -f ./**/*.css -n 3
 ```
+
 <img src="./public/images/n3.png" alt="N 3">
 
-## 🪛 Make replaces <a name="replace"></a>
+## ✏️ Make replaces <a name="replace"></a>
 
-To make changes in files, use --replace
+Use the "--replace" flag to make changes in files:
+
 ```
 npx zimablue -f ./**/*.css -p ./my-palette.json --replace
 ```
 
-## ✍️ Authors <a name = "authors"></a> 
+## ✍️ Authors <a name = "authors"></a>
 
 - [@aleksnick](https://github.com/aleksnick) - Idea & Initial work, [contact in telegram](https://t.me/aleksnick)

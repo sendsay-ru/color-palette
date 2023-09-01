@@ -1,11 +1,9 @@
 const { server } = require('superstatic');
+const c = require('ansi-colors');
 const { BUILD_DIR } = require('./constants');
 
 module.exports.serve = () => {
   const DEFAULT_PORT = process.env.PORT || 4040;
-
-  console.log(BUILD_DIR);
-  console.log();
 
   const app = server({
     port: DEFAULT_PORT,
@@ -13,6 +11,9 @@ module.exports.serve = () => {
   });
 
   app.listen(() => {
-    console.log(`Listening on http://localhost:${DEFAULT_PORT}`);
+    console.log(
+      c.green('Listening on'),
+      c.blue(`http://localhost:${DEFAULT_PORT}`),
+    );
   });
 };

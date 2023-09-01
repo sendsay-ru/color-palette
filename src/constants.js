@@ -11,7 +11,8 @@ const DEFAULT_CONFIG = {
   palette: path.resolve(__dirname, '../config/palette.json'),
   number: 1,
   replace: false,
-  silent: false,
+  server: true,
+  vars: true,
 };
 
 module.exports = {

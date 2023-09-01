@@ -1,67 +1,67 @@
 [
   {
     "hex": "#f9fafb",
-    "code": "50",
+    "name": "50",
     "group": "gray",
     "var": "--color-gray-50"
   },
   {
     "hex": "#f3f4f6",
-    "code": "100",
+    "name": "100",
     "group": "gray",
     "var": "--color-gray-100"
   },
   {
     "hex": "#e5e7eb",
-    "code": "200",
+    "name": "200",
     "group": "gray",
     "var": "--color-gray-200"
   },
   {
     "hex": "#d1d5db",
-    "code": "300",
+    "name": "300",
     "group": "gray",
     "var": "--color-gray-300"
   },
   {
     "hex": "#9ca3af",
-    "code": "400",
+    "name": "400",
     "group": "gray",
     "var": "--color-gray-400"
   },
   {
     "hex": "#6b7280",
-    "code": "500",
+    "name": "500",
     "group": "gray",
     "var": "--color-gray-500"
   },
   {
     "hex": "#4b5563",
-    "code": "600",
+    "name": "600",
     "group": "gray",
     "var": "--color-gray-600"
   },
   {
     "hex": "#374151",
-    "code": "700",
+    "name": "700",
     "group": "gray",
     "var": "--color-gray-700"
   },
   {
     "hex": "#1f2937",
-    "code": "800",
+    "name": "800",
     "group": "gray",
     "var": "--color-gray-800"
   },
   {
     "hex": "#111827",
-    "code": "900",
+    "name": "900",
     "group": "gray",
     "var": "--color-gray-900"
   },
   {
     "hex": "#030712",
-    "code": "950",
+    "name": "950",
     "group": "gray",
     "var": "--color-gray-950"
   }
