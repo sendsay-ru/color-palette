@@ -290,6 +290,32 @@ exports[`Parse and render should return expected value 1`] = `
     ],
   },
   {
+    "alpha": {
+      "opacity": 0.2,
+      "withoutAlpha": "#666666",
+    },
+    "colors": [
+      "rgba(102, 102, 102, 0.2)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#6663",
+    "matches": 3,
+    "result": {
+      "hex": "#6663",
+    },
+    "siblings": [
+      {
+        "delta": 0.05,
+        "group": "neutral",
+        "hex": "#737373",
+        "name": "500",
+        "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
     "colors": [
       "rgba(102, 102, 102, 1)",
     ],
@@ -454,7 +480,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 3,
     "result": {
       "hex": "#84cc16",
-      "var": "var(--color-lime-500)",
+      "var": "--color-lime-500",
     },
     "siblings": [
       {
@@ -477,7 +503,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 1,
     "result": {
       "hex": "#737373",
-      "var": "var(--color-neutral-500)",
+      "var": "--color-neutral-500",
     },
     "siblings": [
       {
@@ -500,7 +526,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 2,
     "result": {
       "hex": "#a3e635",
-      "var": "var(--color-lime-400)",
+      "var": "--color-lime-400",
     },
     "siblings": [
       {
@@ -523,7 +549,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 1,
     "result": {
       "hex": "#4d7c0f",
-      "var": "var(--color-lime-700)",
+      "var": "--color-lime-700",
     },
     "siblings": [
       {
@@ -546,7 +572,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 2,
     "result": {
       "hex": "#65a30d",
-      "var": "var(--color-lime-600)",
+      "var": "--color-lime-600",
     },
     "siblings": [
       {
@@ -570,7 +596,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 3,
     "result": {
       "hex": "#a3a3a3",
-      "var": "var(--color-neutral-400)",
+      "var": "--color-neutral-400",
     },
     "siblings": [
       {
@@ -593,7 +619,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 2,
     "result": {
       "hex": "#4d7c0f",
-      "var": "var(--color-lime-700)",
+      "var": "--color-lime-700",
     },
     "siblings": [
       {
@@ -616,7 +642,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 1,
     "result": {
       "hex": "#404040",
-      "var": "var(--color-neutral-700)",
+      "var": "--color-neutral-700",
     },
     "siblings": [
       {
@@ -639,7 +665,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 2,
     "result": {
       "hex": "#d1d5db",
-      "var": "var(--color-gray-300)",
+      "var": "--color-gray-300",
     },
     "siblings": [
       {
@@ -662,7 +688,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 1,
     "result": {
       "hex": "#525252",
-      "var": "var(--color-neutral-600)",
+      "var": "--color-neutral-600",
     },
     "siblings": [
       {
@@ -685,7 +711,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 1,
     "result": {
       "hex": "#9ca3af",
-      "var": "var(--color-gray-400)",
+      "var": "--color-gray-400",
     },
     "siblings": [
       {
@@ -708,7 +734,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 2,
     "result": {
       "hex": "#65a30d",
-      "var": "var(--color-lime-600)",
+      "var": "--color-lime-600",
     },
     "siblings": [
       {
@@ -731,7 +757,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 1,
     "result": {
       "hex": "#404040",
-      "var": "var(--color-neutral-700)",
+      "var": "--color-neutral-700",
     },
     "siblings": [
       {
@@ -755,7 +781,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 3,
     "result": {
       "hex": "#d4d4d4",
-      "var": "var(--color-neutral-300)",
+      "var": "--color-neutral-300",
     },
     "siblings": [
       {
@@ -778,7 +804,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 6,
     "result": {
       "hex": "#d4d4d4",
-      "var": "var(--color-neutral-300)",
+      "var": "--color-neutral-300",
     },
     "siblings": [
       {
@@ -801,7 +827,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 1,
     "result": {
       "hex": "#e5e5e5",
-      "var": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
     },
     "siblings": [
       {
@@ -824,7 +850,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 5,
     "result": {
       "hex": "#f4f4f5",
-      "var": "var(--color-zinc-100)",
+      "var": "--color-zinc-100",
     },
     "siblings": [
       {
@@ -847,7 +873,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 1,
     "result": {
       "hex": "#e5e5e5",
-      "var": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
     },
     "siblings": [
       {
@@ -870,7 +896,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 1,
     "result": {
       "hex": "#a3a3a3",
-      "var": "var(--color-neutral-400)",
+      "var": "--color-neutral-400",
     },
     "siblings": [
       {
@@ -894,7 +920,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 6,
     "result": {
       "hex": "#e5e5e5",
-      "var": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
     },
     "siblings": [
       {
@@ -917,7 +943,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 2,
     "result": {
       "hex": "#e5e5e5",
-      "var": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
     },
     "siblings": [
       {
@@ -940,7 +966,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 1,
     "result": {
       "hex": "#e5e5e5",
-      "var": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
     },
     "siblings": [
       {
@@ -963,7 +989,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 2,
     "result": {
       "hex": "#65a30d",
-      "var": "var(--color-lime-600)",
+      "var": "--color-lime-600",
     },
     "siblings": [
       {
@@ -986,7 +1012,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 1,
     "result": {
       "hex": "#a3a3a3",
-      "var": "var(--color-neutral-400)",
+      "var": "--color-neutral-400",
     },
     "siblings": [
       {
@@ -1009,7 +1035,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 2,
     "result": {
       "hex": "#f5f5f5",
-      "var": "var(--color-neutral-100)",
+      "var": "--color-neutral-100",
     },
     "siblings": [
       {
@@ -1032,7 +1058,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 4,
     "result": {
       "hex": "#e5e5e5",
-      "var": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
     },
     "siblings": [
       {
@@ -1058,7 +1084,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 19,
     "result": {
       "hex": "#fff",
-      "var": "var(--ss-color-white)",
+      "var": "--ss-color-white",
     },
     "siblings": [
       {
@@ -1081,7 +1107,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 2,
     "result": {
       "hex": "#f5f5f5",
-      "var": "var(--color-neutral-100)",
+      "var": "--color-neutral-100",
     },
     "siblings": [
       {
@@ -1104,7 +1130,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 1,
     "result": {
       "hex": "#d4d4d4",
-      "var": "var(--color-neutral-300)",
+      "var": "--color-neutral-300",
     },
     "siblings": [
       {
@@ -1127,7 +1153,7 @@ exports[`Parse and render should return expected value 1`] = `
     "matches": 2,
     "result": {
       "hex": "#fafafa",
-      "var": "var(--color-zinc-50)",
+      "var": "--color-zinc-50",
     },
     "siblings": [
       {
@@ -1136,6 +1162,141 @@ exports[`Parse and render should return expected value 1`] = `
         "hex": "#fafafa",
         "name": "50",
         "var": "--color-zinc-50",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.15,
+      "withoutAlpha": "#000000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, .15)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#00000026",
+    "matches": 3,
+    "result": {
+      "hex": "#000",
+      "var": "--ss-color-black-a-15",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#000",
+        "name": "black",
+        "var": "--ss-color-black",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.75,
+      "withoutAlpha": "#ffffff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, .75)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#ffffffbf",
+    "matches": 1,
+    "result": {
+      "hex": "#fff",
+      "var": "--ss-color-white-a-75",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#fff",
+        "name": "white",
+        "var": "--ss-color-white",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.5,
+      "withoutAlpha": "#ffffff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, 0.5)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#ffffff80",
+    "matches": 1,
+    "result": {
+      "hex": "#fff",
+      "var": "--ss-color-white-a-50",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#fff",
+        "name": "white",
+        "var": "--ss-color-white",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.15,
+      "withoutAlpha": "#ffffff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, .15)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#ffffff26",
+    "matches": 2,
+    "result": {
+      "hex": "#fff",
+      "var": "--ss-color-white-a-15",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#fff",
+        "name": "white",
+        "var": "--ss-color-white",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.4,
+      "withoutAlpha": "#000000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, .4)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#0006",
+    "matches": 1,
+    "result": {
+      "hex": "#000",
+      "var": "--ss-color-black-a-40",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#000",
+        "name": "black",
+        "var": "--ss-color-black",
       },
     ],
   },
@@ -1487,6 +1648,39 @@ exports[`Parse and render should return expected value with custom palette 1`] =
       },
       {
         "delta": 0.093,
+        "group": "gray",
+        "hex": "#374151",
+        "name": "700",
+        "var": "--color-gray-700",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.3,
+      "withoutAlpha": "#323232",
+    },
+    "colors": [
+      "rgba(50, 50, 50, 0.3)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#3232324d",
+    "matches": 1,
+    "result": {
+      "hex": "#3232324d",
+    },
+    "siblings": [
+      {
+        "delta": 0.092,
+        "group": "gray",
+        "hex": "#1f2937",
+        "name": "800",
+        "var": "--color-gray-800",
+      },
+      {
+        "delta": 0.101,
         "group": "gray",
         "hex": "#374151",
         "name": "700",
@@ -1874,6 +2068,237 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
   },
   {
+    "alpha": {
+      "opacity": 0.15,
+      "withoutAlpha": "#000000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.15)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#00000026",
+    "matches": 2,
+    "result": {
+      "hex": "#00000026",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.1,
+      "withoutAlpha": "#000000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.1)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0000001a",
+    "matches": 3,
+    "result": {
+      "hex": "#0000001a",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.6,
+      "withoutAlpha": "#000000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.6)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0009",
+    "matches": 2,
+    "result": {
+      "hex": "#0009",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.2,
+      "withoutAlpha": "#000000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.2)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0003",
+    "matches": 4,
+    "result": {
+      "hex": "#0003",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.7,
+      "withoutAlpha": "#000000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.7)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#000000b3",
+    "matches": 2,
+    "result": {
+      "hex": "#000000b3",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.3,
+      "withoutAlpha": "#000000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.3)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0000004d",
+    "matches": 1,
+    "result": {
+      "hex": "#0000004d",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.5,
+      "withoutAlpha": "#000000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.5)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#00000080",
+    "matches": 1,
+    "result": {
+      "hex": "#00000080",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
     "colors": [
       "#cacaca",
     ],
@@ -2030,7 +2455,7 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     "matches": 2,
     "result": {
       "hex": "#d1d5db",
-      "var": "var(--color-gray-300)",
+      "var": "--color-gray-300",
     },
     "siblings": [
       {
@@ -2060,7 +2485,7 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     "matches": 3,
     "result": {
       "hex": "#e5e7eb",
-      "var": "var(--color-gray-200)",
+      "var": "--color-gray-200",
     },
     "siblings": [
       {
@@ -2090,7 +2515,7 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     "matches": 1,
     "result": {
       "hex": "#e5e7eb",
-      "var": "var(--color-gray-200)",
+      "var": "--color-gray-200",
     },
     "siblings": [
       {
@@ -2120,7 +2545,7 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     "matches": 9,
     "result": {
       "hex": "#e5e7eb",
-      "var": "var(--color-gray-200)",
+      "var": "--color-gray-200",
     },
     "siblings": [
       {
@@ -2150,7 +2575,7 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     "matches": 2,
     "result": {
       "hex": "#f3f4f6",
-      "var": "var(--color-gray-100)",
+      "var": "--color-gray-100",
     },
     "siblings": [
       {
@@ -2180,7 +2605,7 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     "matches": 2,
     "result": {
       "hex": "#e5e7eb",
-      "var": "var(--color-gray-200)",
+      "var": "--color-gray-200",
     },
     "siblings": [
       {
@@ -2210,7 +2635,7 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     "matches": 1,
     "result": {
       "hex": "#f3f4f6",
-      "var": "var(--color-gray-100)",
+      "var": "--color-gray-100",
     },
     "siblings": [
       {
@@ -2242,7 +2667,177 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     "matches": 18,
     "result": {
       "hex": "#f9fafb",
-      "var": "var(--color-gray-50)",
+      "var": "--color-gray-50",
+    },
+    "siblings": [
+      {
+        "delta": 0.012,
+        "group": "gray",
+        "hex": "#f9fafb",
+        "name": "50",
+        "var": "--color-gray-50",
+      },
+      {
+        "delta": 0.025,
+        "group": "gray",
+        "hex": "#f3f4f6",
+        "name": "100",
+        "var": "--color-gray-100",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.3,
+      "withoutAlpha": "#ffffff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, 0.3)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ffffff4d",
+    "matches": 1,
+    "result": {
+      "hex": "#f9fafb",
+      "var": "--color-gray-50-a-30",
+    },
+    "siblings": [
+      {
+        "delta": 0.012,
+        "group": "gray",
+        "hex": "#f9fafb",
+        "name": "50",
+        "var": "--color-gray-50",
+      },
+      {
+        "delta": 0.025,
+        "group": "gray",
+        "hex": "#f3f4f6",
+        "name": "100",
+        "var": "--color-gray-100",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.75,
+      "withoutAlpha": "#ffffff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, 0.75)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ffffffbf",
+    "matches": 1,
+    "result": {
+      "hex": "#f9fafb",
+      "var": "--color-gray-50-a-75",
+    },
+    "siblings": [
+      {
+        "delta": 0.012,
+        "group": "gray",
+        "hex": "#f9fafb",
+        "name": "50",
+        "var": "--color-gray-50",
+      },
+      {
+        "delta": 0.025,
+        "group": "gray",
+        "hex": "#f3f4f6",
+        "name": "100",
+        "var": "--color-gray-100",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.5,
+      "withoutAlpha": "#ffffff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, 0.5)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ffffff80",
+    "matches": 9,
+    "result": {
+      "hex": "#f9fafb",
+      "var": "--color-gray-50-a-50",
+    },
+    "siblings": [
+      {
+        "delta": 0.012,
+        "group": "gray",
+        "hex": "#f9fafb",
+        "name": "50",
+        "var": "--color-gray-50",
+      },
+      {
+        "delta": 0.025,
+        "group": "gray",
+        "hex": "#f3f4f6",
+        "name": "100",
+        "var": "--color-gray-100",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.15,
+      "withoutAlpha": "#ffffff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, 0.15)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ffffff26",
+    "matches": 6,
+    "result": {
+      "hex": "#f9fafb",
+      "var": "--color-gray-50-a-15",
+    },
+    "siblings": [
+      {
+        "delta": 0.012,
+        "group": "gray",
+        "hex": "#f9fafb",
+        "name": "50",
+        "var": "--color-gray-50",
+      },
+      {
+        "delta": 0.025,
+        "group": "gray",
+        "hex": "#f3f4f6",
+        "name": "100",
+        "var": "--color-gray-100",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.1,
+      "withoutAlpha": "#ffffff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, 0.1)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ffffff1a",
+    "matches": 1,
+    "result": {
+      "hex": "#f9fafb",
+      "var": "--color-gray-50-a-10",
     },
     "siblings": [
       {
@@ -2272,7 +2867,7 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     "matches": 4,
     "result": {
       "hex": "#f3f4f6",
-      "var": "var(--color-gray-100)",
+      "var": "--color-gray-100",
     },
     "siblings": [
       {
@@ -2302,7 +2897,7 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     "matches": 9,
     "result": {
       "hex": "#f3f4f6",
-      "var": "var(--color-gray-100)",
+      "var": "--color-gray-100",
     },
     "siblings": [
       {
@@ -2344,7 +2939,6 @@ exports[`Parse and render should return expected value with custom palette witho
         "group": "red",
         "hex": "#ef4444",
         "name": "500",
-        "var": undefined,
       },
     ],
   },
@@ -2366,7 +2960,6 @@ exports[`Parse and render should return expected value with custom palette witho
         "group": "sky",
         "hex": "#38bdf8",
         "name": "400",
-        "var": undefined,
       },
     ],
   },
@@ -2388,7 +2981,31 @@ exports[`Parse and render should return expected value with custom palette witho
         "group": "neutral",
         "hex": "#e5e5e5",
         "name": "200",
-        "var": undefined,
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.1,
+      "withoutAlpha": "#0d0d0d",
+    },
+    "colors": [
+      "rgba(13, 13, 13, 0.1)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/StatsByDevicesSectionContainer.js",
+    ],
+    "hex": "#0d0d0d1a",
+    "matches": 1,
+    "result": {
+      "hex": "#0a0a0a",
+    },
+    "siblings": [
+      {
+        "delta": 0.005,
+        "group": "neutral",
+        "hex": "#0a0a0a",
+        "name": "950",
       },
     ],
   },
@@ -2410,7 +3027,6 @@ exports[`Parse and render should return expected value with custom palette witho
         "group": "base",
         "hex": "#000",
         "name": "black",
-        "var": undefined,
       },
     ],
   },
@@ -2432,7 +3048,6 @@ exports[`Parse and render should return expected value with custom palette witho
         "group": "base",
         "hex": "#fff",
         "name": "white",
-        "var": undefined,
       },
     ],
   },

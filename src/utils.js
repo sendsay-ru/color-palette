@@ -48,6 +48,7 @@ const parse = async (options) => {
 
   const cache = [];
   const replaces = {};
+  const alphaColors = [];
   let find = 0;
   let filesCount = 0;
 
@@ -65,7 +66,8 @@ const parse = async (options) => {
   const getExistsColor = (color) =>
     cache.find(({ hex }) => colord(color).isEqual(hex));
 
-  const getResult = (item) => (item.var && config.vars ? item.var : item.hex);
+  const getResult = (item) =>
+    item.var && config.vars ? `var(${item.var})` : item.hex;
 
   const getColor = ({ color: draftColor, file }) => {
     let color = draftColor;
@@ -80,9 +82,9 @@ const parse = async (options) => {
 
     const hex = colord(colord(color).toHex()).minify({ alphaHex: true });
 
-    if (colord(hex).alpha() !== 1) {
-      return color;
-    }
+    const alpha = colord(hex).alpha();
+    const isAlpha = alpha !== 1;
+    const hexWithoutAlpha = colord(hex).alpha(1).toHex();
 
     find++;
 
@@ -103,13 +105,12 @@ const parse = async (options) => {
     }
 
     const siblings = palette.map(({ code, group, name, ...sibling }) => {
-      const delta = colord(hex).delta(sibling.hex);
+      const delta = colord(hex).alpha(1).delta(sibling.hex);
 
       const res = {
         name: name || code || '',
         group: group || 'base',
         hex: sibling.hex,
-        var: config.vars ? sibling.var : undefined,
         delta,
       };
 
@@ -132,18 +133,38 @@ const parse = async (options) => {
       result.hex = bestMatch.hex;
 
       if (bestMatch.var) {
-        result.var = `var(${bestMatch.var})`;
+        const variable = !isAlpha
+          ? bestMatch.var
+          : `${bestMatch.var}-a-${alpha * 100}`;
+
+        result.var = variable;
       }
     }
 
-    cache.push({
+    const info = {
       hex,
       result,
       matches: 1,
       colors: [color],
       siblings: siblings.slice(0, config.number),
       files: [file],
-    });
+    };
+
+    if (isAlpha) {
+      if (result.var) {
+        alphaColors.push({
+          var: result.var,
+          hex,
+        });
+      }
+
+      info.alpha = {
+        opacity: alpha,
+        withoutAlpha: hexWithoutAlpha,
+      };
+    }
+
+    cache.push(info);
 
     return getResult(result);
   };
@@ -193,12 +214,14 @@ const parse = async (options) => {
     }
   });
 
+  alphaColors.sort((a, b) => String(a.var).localeCompare(b.var));
   cache.sort((a, b) => b.siblings[0].delta - a.siblings[0].delta);
 
   console.log(c.blue('stat:'), c.cyan(JSON.stringify(getStat(), null, 2)));
   console.log();
 
   return {
+    alphaColors,
     data: cache,
     palette,
     replaces,
@@ -206,7 +229,7 @@ const parse = async (options) => {
   };
 };
 
-const render = ({ data, palette, replaces, config }) => {
+const render = ({ alphaColors, data, palette, replaces, config }) => {
   const files = [];
 
   files.push({
@@ -244,6 +267,21 @@ const render = ({ data, palette, replaces, config }) => {
 
       files.push({
         file: path.resolve(BUILD_DIR, 'palette.html'),
+        content,
+      });
+    },
+  );
+
+  ejs.renderFile(
+    path.resolve(TEMPLATES_DIR, 'variables.ejs'),
+    { palette: groupPalette(palette), alphaColors },
+    (err, content) => {
+      if (err) {
+        throw err;
+      }
+
+      files.push({
+        file: path.resolve(BUILD_DIR, 'variables.css'),
         content,
       });
     },
