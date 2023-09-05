@@ -54,7 +54,23 @@
 
           <% siblings.forEach((sibling) => { %>
             <div class="flex flex-col mr-2 items-center">
+              <% if (alpha ) { %>
+                <div class="w-40 h-20 flex items-center">
+                  <div class="w-16 h-16 m-2 rounded-sm" style="background-color:white">
+                    <div class="w-full h-full rounded-full shadow-md">
+                      <div class="w-full h-full rounded-full shadow-md" style="background-color:<%- sibling.hex %>; opacity: <%- alpha.opacity %>;"></div>
+                    </div>
+                  </div>
+                  <div class="w-16 h-16 m-2 rounded-sm" style="background-color:black">
+                    <div class="w-full h-full rounded-full shadow-md">
+                      <div class="w-full h-full rounded-full shadow-md" style="background-color:<%- sibling.hex %>; opacity: <%- alpha.opacity %>;"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-20 h-20 rounded-full shadow-md" style="background-color:<%- sibling.hex %>"></div>
+                <% } else { %>
               <div class="w-40 h-40 rounded-full shadow-md" style="background-color:<%- sibling.hex %>"></div>
+              <% }  %>
               <span class="text-xs mt-1"><%- sibling.hex %></span>
               <span class="p-1 m-1 <% if ( replaceable && sibling.hex === siblings[0].hex ) { %>bg-lime-500 rounded-md shadow<% } %>"><%- sibling.group %>-<%- sibling.name %></span>
               <span class="text-sm">diff: <%- sibling.delta %></span>

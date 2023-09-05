@@ -92,7 +92,7 @@ module.exports = async (options) => {
 
   if (!config.silent) {
     console.log(c.blue('stat:'), c.cyan(JSON.stringify(getStat(), null, 2)));
-    console.log();      
+    console.log();
   }
 
   return {

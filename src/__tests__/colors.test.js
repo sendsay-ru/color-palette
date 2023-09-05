@@ -1,4 +1,4 @@
-const { toHex, toHexWithoutAlpha, getResult, getColor } = require('../color');
+const { toHex, toHexWithoutAlpha, getResult } = require('../color');
 
 describe('toHex', () => {
   it('should expose a function', () => {
@@ -102,37 +102,33 @@ describe('getResult', () => {
   });
 
   it('should return expected value with replaceable alpha color', () => {
-    const info =   {
-      "alpha": {
-        "opacity": 0.4,
-        "withoutAlpha": "#000",
+    const info = {
+      alpha: {
+        opacity: 0.4,
+        withoutAlpha: '#000',
       },
-      "colors": [
-        "rgba(0, 0, 0, .4)",
-      ],
-      "files": [
-        "src/__tests__/__mocks__/dialog.css",
-      ],
-      "hex": "#0006",
-      "matches": 1,
-      "replaceable": true,
-      "siblings": [
+      colors: ['rgba(0, 0, 0, .4)'],
+      files: ['src/__tests__/__mocks__/dialog.css'],
+      hex: '#0006',
+      matches: 1,
+      replaceable: true,
+      siblings: [
         {
-          "delta": 0,
-          "group": "base",
-          "hex": "#000",
-          "name": "black",
-          "var": "--ss-color-black",
+          delta: 0,
+          group: 'base',
+          hex: '#000',
+          name: 'black',
+          var: '--ss-color-black',
         },
       ],
     };
 
     expect(getResult(info)).toEqual({
-      "hex": "#0006",
-      "opacity": 0.4,
-      "order": "--ss-color-black-0.4",
-      "value": "var(--ss-color-black-a-40)",
-      "var": "--ss-color-black-a-40",
+      hex: '#0006',
+      opacity: 0.4,
+      order: '--ss-color-black-0.4',
+      value: 'var(--ss-color-black-a-40)',
+      var: '--ss-color-black-a-40',
     });
-  });  
+  });
 });
