@@ -1,8 +1,13 @@
 const path = require('path');
 const parse = require('../parse');
 const render = require('../render');
+const { cleanCache } = require('../cache');
 
 describe('Parse and render', () => {
+  beforeEach(() => {
+    cleanCache();
+  });
+
   it('should expose a functions', () => {
     expect(parse).toBeDefined();
     expect(render).toBeDefined();
@@ -13,6 +18,7 @@ describe('Parse and render', () => {
       files: ['./**/__mocks__/dialog.css'],
       delta: 0.04,
       server: false,
+      silent: true,
     });
 
     expect(result.data).toMatchSnapshot();
@@ -25,6 +31,7 @@ describe('Parse and render', () => {
       palette: path.resolve(__dirname, './__mocks__/palette_gray.json'),
       number: 2,
       server: false,
+      silent: true,
     });
 
     expect(result.data).toMatchSnapshot();
@@ -35,12 +42,16 @@ describe('Parse and render', () => {
       files: ['./**/__mocks__/*.js'],
       palette: path.resolve(__dirname, './__mocks__/palette_no_vars.json'),
       server: false,
+      silent: true,
     });
+
+    cleanCache();
 
     const resultWithFlag = await parse({
       files: ['./**/__mocks__/*.js'],
       server: false,
       vars: false,
+      silent: true,
     });
 
     expect(result.data).toEqual(resultWithFlag.data);
@@ -52,6 +63,7 @@ describe('Parse and render', () => {
     const result = await parse({
       files: ['./**/__mocks__/empty.css'],
       server: false,
+      silent: true,
     });
 
     expect(result.data).toMatchSnapshot();

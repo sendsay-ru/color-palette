@@ -5,7 +5,7 @@ const { getPalette, groupPalette } = require('./palette');
 
 module.exports = ({ alphaColors, data, replaces }, options) => {
   const config = { ...DEFAULT_CONFIG, ...options };
-  const palette = getPalette(config.palette);
+  const palette = getPalette(config);
   const files = [];
 
   files.push({

@@ -13,6 +13,7 @@ const DEFAULT_CONFIG = {
   replace: false,
   server: true,
   vars: true,
+  silent: false,
 };
 
 module.exports = {

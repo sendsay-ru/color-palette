@@ -127,25 +127,25 @@ By default, [tailwind colors](https://tailwindcss.com/docs/customizing-colors) a
 [
   {
     "hex": "#000",
-    "code": "black",
+    "name": "black",
     "group": "base",
     "var": "--ss-color-black"
   },
   {
     "hex": "#fff",
-    "code": "white",
+    "name": "white",
     "group": "base",
     "var": "--ss-color-white"
   },
   {
     "hex": "#f8fafc",
-    "code": "primary",
+    "name": "primary",
     "group": "app",
     "var": "--color-primary"
   },
   {
     "hex": "#9c95dc",
-    "code": "secondary",
+    "name": "secondary",
     "group": "app",
     "var": "--color-secondary"
   }

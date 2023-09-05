@@ -1,0 +1,9295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parse and render should return expected value 1`] = `
+[
+  {
+    "colors": [
+      "#8dad62",
+      "#8dad62ff",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#8dad62",
+    "matches": 7,
+    "replaceable": false,
+    "result": {
+      "value": "#8dad62",
+    },
+    "siblings": [
+      {
+        "delta": 0.098,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#6f8c49",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#6f8c49",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#6f8c49",
+    },
+    "siblings": [
+      {
+        "delta": 0.096,
+        "group": "lime",
+        "hex": "#4d7c0f",
+        "name": "700",
+        "var": "--color-lime-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#b3d271",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#b3d271",
+    "matches": 6,
+    "replaceable": false,
+    "result": {
+      "value": "#b3d271",
+    },
+    "siblings": [
+      {
+        "delta": 0.083,
+        "group": "lime",
+        "hex": "#bef264",
+        "name": "300",
+        "var": "--color-lime-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#888",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#888",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#888",
+    },
+    "siblings": [
+      {
+        "delta": 0.081,
+        "group": "neutral",
+        "hex": "#737373",
+        "name": "500",
+        "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#ff6347",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#ff6347",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#ff6347",
+    },
+    "siblings": [
+      {
+        "delta": 0.081,
+        "group": "red",
+        "hex": "#ef4444",
+        "name": "500",
+        "var": "--color-red-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#7d9f51",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#7d9f51",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#7d9f51",
+    },
+    "siblings": [
+      {
+        "delta": 0.077,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#bababa",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#bababa",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#bababa",
+    },
+    "siblings": [
+      {
+        "delta": 0.065,
+        "group": "neutral",
+        "hex": "#d4d4d4",
+        "name": "300",
+        "var": "--color-neutral-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#4d9200",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#4d9200",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#4d9200",
+    },
+    "siblings": [
+      {
+        "delta": 0.063,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#1392e9",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#1392e9",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#1392e9",
+    },
+    "siblings": [
+      {
+        "delta": 0.062,
+        "group": "sky",
+        "hex": "#0284c7",
+        "name": "600",
+        "var": "--color-sky-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#568c0a",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#568c0a",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#568c0a",
+    },
+    "siblings": [
+      {
+        "delta": 0.06,
+        "group": "lime",
+        "hex": "#4d7c0f",
+        "name": "700",
+        "var": "--color-lime-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#aeb3b9",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#aeb3b9",
+    "matches": 4,
+    "replaceable": false,
+    "result": {
+      "value": "#aeb3b9",
+    },
+    "siblings": [
+      {
+        "delta": 0.054,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#b6b6b6",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#b6b6b6",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#b6b6b6",
+    },
+    "siblings": [
+      {
+        "delta": 0.054,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#BFBFBF",
+      "#bfbfbf",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#bfbfbf",
+    "matches": 3,
+    "replaceable": false,
+    "result": {
+      "value": "#bfbfbf",
+    },
+    "siblings": [
+      {
+        "delta": 0.052,
+        "group": "neutral",
+        "hex": "#d4d4d4",
+        "name": "300",
+        "var": "--color-neutral-300",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.2,
+      "withoutAlpha": "#666",
+    },
+    "colors": [
+      "rgba(102, 102, 102, 0.2)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#6663",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#6663",
+    },
+    "siblings": [
+      {
+        "delta": 0.05,
+        "group": "neutral",
+        "hex": "#737373",
+        "name": "500",
+        "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0,
+      "withoutAlpha": "#666",
+    },
+    "colors": [
+      "rgba(102, 102, 102, 0)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#6660",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "transparent",
+    },
+    "siblings": [
+      {
+        "delta": 0.05,
+        "group": "neutral",
+        "hex": "#737373",
+        "name": "500",
+        "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "rgba(102, 102, 102, 1)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#666",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#666",
+    },
+    "siblings": [
+      {
+        "delta": 0.05,
+        "group": "neutral",
+        "hex": "#737373",
+        "name": "500",
+        "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#e0e8d1",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#e0e8d1",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#e0e8d1",
+    },
+    "siblings": [
+      {
+        "delta": 0.047,
+        "group": "lime",
+        "hex": "#f7fee7",
+        "name": "50",
+        "var": "--color-lime-50",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#139ff7",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#139ff7",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#139ff7",
+    },
+    "siblings": [
+      {
+        "delta": 0.044,
+        "group": "sky",
+        "hex": "#0ea5e9",
+        "name": "500",
+        "var": "--color-sky-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#b2b2b2",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#b2b2b2",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#b2b2b2",
+    },
+    "siblings": [
+      {
+        "delta": 0.043,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#333",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#333",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#333",
+    },
+    "siblings": [
+      {
+        "delta": 0.041,
+        "group": "neutral",
+        "hex": "#262626",
+        "name": "800",
+        "var": "--color-neutral-800",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#969696",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#969696",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#969696",
+    },
+    "siblings": [
+      {
+        "delta": 0.041,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#69b10b",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#69b10b",
+    "matches": 3,
+    "replaceable": false,
+    "result": {
+      "value": "#69b10b",
+    },
+    "siblings": [
+      {
+        "delta": 0.041,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#88be14",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#88be14",
+    "matches": 3,
+    "replaceable": true,
+    "result": {
+      "hex": "#84cc16",
+      "value": "var(--color-lime-500)",
+      "var": "--color-lime-500",
+    },
+    "siblings": [
+      {
+        "delta": 0.039,
+        "group": "lime",
+        "hex": "#84cc16",
+        "name": "500",
+        "var": "--color-lime-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#696969",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#696969",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#737373",
+      "value": "var(--color-neutral-500)",
+      "var": "--color-neutral-500",
+    },
+    "siblings": [
+      {
+        "delta": 0.039,
+        "group": "neutral",
+        "hex": "#737373",
+        "name": "500",
+        "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#9ad717",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#9ad717",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#a3e635",
+      "value": "var(--color-lime-400)",
+      "var": "--color-lime-400",
+    },
+    "siblings": [
+      {
+        "delta": 0.036,
+        "group": "lime",
+        "hex": "#a3e635",
+        "name": "400",
+        "var": "--color-lime-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#478500",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#478500",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#4d7c0f",
+      "value": "var(--color-lime-700)",
+      "var": "--color-lime-700",
+    },
+    "siblings": [
+      {
+        "delta": 0.035,
+        "group": "lime",
+        "hex": "#4d7c0f",
+        "name": "700",
+        "var": "--color-lime-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#5b9909",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#5b9909",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#65a30d",
+      "value": "var(--color-lime-600)",
+      "var": "--color-lime-600",
+    },
+    "siblings": [
+      {
+        "delta": 0.034,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#999999",
+      "#999",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#999",
+    "matches": 3,
+    "replaceable": true,
+    "result": {
+      "hex": "#a3a3a3",
+      "value": "var(--color-neutral-400)",
+      "var": "--color-neutral-400",
+    },
+    "siblings": [
+      {
+        "delta": 0.031,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#55830c",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#55830c",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#4d7c0f",
+      "value": "var(--color-lime-700)",
+      "var": "--color-lime-700",
+    },
+    "siblings": [
+      {
+        "delta": 0.029,
+        "group": "lime",
+        "hex": "#4d7c0f",
+        "name": "700",
+        "var": "--color-lime-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#383838",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#383838",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#404040",
+      "value": "var(--color-neutral-700)",
+      "var": "--color-neutral-700",
+    },
+    "siblings": [
+      {
+        "delta": 0.026,
+        "group": "neutral",
+        "hex": "#404040",
+        "name": "700",
+        "var": "--color-neutral-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#c9cccf",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#c9cccf",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#d1d5db",
+      "value": "var(--color-gray-300)",
+      "var": "--color-gray-300",
+    },
+    "siblings": [
+      {
+        "delta": 0.026,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#595959",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#595959",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#525252",
+      "value": "var(--color-neutral-600)",
+      "var": "--color-neutral-600",
+    },
+    "siblings": [
+      {
+        "delta": 0.025,
+        "group": "neutral",
+        "hex": "#525252",
+        "name": "600",
+        "var": "--color-neutral-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#a0a6ad",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#a0a6ad",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#9ca3af",
+      "value": "var(--color-gray-400)",
+      "var": "--color-gray-400",
+    },
+    "siblings": [
+      {
+        "delta": 0.024,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#5d9c0a",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#5d9c0a",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#65a30d",
+      "value": "var(--color-lime-600)",
+      "var": "--color-lime-600",
+    },
+    "siblings": [
+      {
+        "delta": 0.024,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#474747",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#474747",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#404040",
+      "value": "var(--color-neutral-700)",
+      "var": "--color-neutral-700",
+    },
+    "siblings": [
+      {
+        "delta": 0.023,
+        "group": "neutral",
+        "hex": "#404040",
+        "name": "700",
+        "var": "--color-neutral-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#ccc",
+      "#cccccc",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#ccc",
+    "matches": 3,
+    "replaceable": true,
+    "result": {
+      "hex": "#d4d4d4",
+      "value": "var(--color-neutral-300)",
+      "var": "--color-neutral-300",
+    },
+    "siblings": [
+      {
+        "delta": 0.019,
+        "group": "neutral",
+        "hex": "#d4d4d4",
+        "name": "300",
+        "var": "--color-neutral-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#cfd1cf",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#cfd1cf",
+    "matches": 6,
+    "replaceable": true,
+    "result": {
+      "hex": "#d4d4d4",
+      "value": "var(--color-neutral-300)",
+      "var": "--color-neutral-300",
+    },
+    "siblings": [
+      {
+        "delta": 0.018,
+        "group": "neutral",
+        "hex": "#d4d4d4",
+        "name": "300",
+        "var": "--color-neutral-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#ddd",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#ddd",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.018,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#ededed",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#ededed",
+    "matches": 5,
+    "replaceable": true,
+    "result": {
+      "hex": "#f4f4f5",
+      "value": "var(--color-zinc-100)",
+      "var": "--color-zinc-100",
+    },
+    "siblings": [
+      {
+        "delta": 0.016,
+        "group": "zinc",
+        "hex": "#f4f4f5",
+        "name": "100",
+        "var": "--color-zinc-100",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#dedede",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#dedede",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.016,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#9e9e9e",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#9e9e9e",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#a3a3a3",
+      "value": "var(--color-neutral-400)",
+      "var": "--color-neutral-400",
+    },
+    "siblings": [
+      {
+        "delta": 0.015,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#EBEBEB",
+      "#ebebeb",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#ebebeb",
+    "matches": 6,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.013,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#dfdfdf",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#dfdfdf",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.013,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#eaeaea",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#eaeaea",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.011,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#62a60a",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#62a60a",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#65a30d",
+      "value": "var(--color-lime-600)",
+      "var": "--color-lime-600",
+    },
+    "siblings": [
+      {
+        "delta": 0.011,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#a0a0a0",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#a0a0a0",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#a3a3a3",
+      "value": "var(--color-neutral-400)",
+      "var": "--color-neutral-400",
+    },
+    "siblings": [
+      {
+        "delta": 0.009,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#f2f2f2",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#f2f2f2",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#f5f5f5",
+      "value": "var(--color-neutral-100)",
+      "var": "--color-neutral-100",
+    },
+    "siblings": [
+      {
+        "delta": 0.006,
+        "group": "neutral",
+        "hex": "#f5f5f5",
+        "name": "100",
+        "var": "--color-neutral-100",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#e4e4e4",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#e4e4e4",
+    "matches": 4,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.002,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#fff",
+      "#ffffffff",
+      "#ffffff",
+      "#FFF",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#fff",
+    "matches": 19,
+    "replaceable": true,
+    "result": {
+      "hex": "#fff",
+      "value": "var(--ss-color-white)",
+      "var": "--ss-color-white",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#fff",
+        "name": "white",
+        "var": "--ss-color-white",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#f5f5f5",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#f5f5f5",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#f5f5f5",
+      "value": "var(--color-neutral-100)",
+      "var": "--color-neutral-100",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "neutral",
+        "hex": "#f5f5f5",
+        "name": "100",
+        "var": "--color-neutral-100",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#d4d4d4",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#d4d4d4",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#d4d4d4",
+      "value": "var(--color-neutral-300)",
+      "var": "--color-neutral-300",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "neutral",
+        "hex": "#d4d4d4",
+        "name": "300",
+        "var": "--color-neutral-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#fafafa",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#fafafa",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#fafafa",
+      "value": "var(--color-zinc-50)",
+      "var": "--color-zinc-50",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "zinc",
+        "hex": "#fafafa",
+        "name": "50",
+        "var": "--color-zinc-50",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.15,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, .15)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#00000026",
+    "matches": 3,
+    "replaceable": true,
+    "result": {
+      "hex": "#00000026",
+      "opacity": 0.15,
+      "order": "--ss-color-black-0.15",
+      "value": "var(--ss-color-black-a-15)",
+      "var": "--ss-color-black-a-15",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#000",
+        "name": "black",
+        "var": "--ss-color-black",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.75,
+      "withoutAlpha": "#fff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, .75)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#ffffffbf",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#ffffffbf",
+      "opacity": 0.75,
+      "order": "--ss-color-white-0.75",
+      "value": "var(--ss-color-white-a-75)",
+      "var": "--ss-color-white-a-75",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#fff",
+        "name": "white",
+        "var": "--ss-color-white",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.5,
+      "withoutAlpha": "#fff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, 0.5)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#ffffff80",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#ffffff80",
+      "opacity": 0.5,
+      "order": "--ss-color-white-0.5",
+      "value": "var(--ss-color-white-a-50)",
+      "var": "--ss-color-white-a-50",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#fff",
+        "name": "white",
+        "var": "--ss-color-white",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.15,
+      "withoutAlpha": "#fff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, .15)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#ffffff26",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#ffffff26",
+      "opacity": 0.15,
+      "order": "--ss-color-white-0.15",
+      "value": "var(--ss-color-white-a-15)",
+      "var": "--ss-color-white-a-15",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#fff",
+        "name": "white",
+        "var": "--ss-color-white",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.4,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, .4)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#0006",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#0006",
+      "opacity": 0.4,
+      "order": "--ss-color-black-0.4",
+      "value": "var(--ss-color-black-a-40)",
+      "var": "--ss-color-black-a-40",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#000",
+        "name": "black",
+        "var": "--ss-color-black",
+      },
+    ],
+  },
+]
+`;
+
+exports[`Parse and render should return expected value when colors not found 1`] = `
+[
+  {
+    "colors": [
+      "#c83939",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#c83939",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#c83939",
+    },
+    "siblings": [
+      {
+        "delta": 0.329,
+        "group": "gray",
+        "hex": "#6b7280",
+        "name": "500",
+        "var": "--color-gray-500",
+      },
+      {
+        "delta": 0.359,
+        "group": "gray",
+        "hex": "#4b5563",
+        "name": "600",
+        "var": "--color-gray-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#ff7f50",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ff7f50",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#ff7f50",
+    },
+    "siblings": [
+      {
+        "delta": 0.325,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.327,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#902b2b",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#902b2b",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#902b2b",
+    },
+    "siblings": [
+      {
+        "delta": 0.316,
+        "group": "gray",
+        "hex": "#4b5563",
+        "name": "600",
+        "var": "--color-gray-600",
+      },
+      {
+        "delta": 0.323,
+        "group": "gray",
+        "hex": "#374151",
+        "name": "700",
+        "var": "--color-gray-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#63a563",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#63a563",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#63a563",
+    },
+    "siblings": [
+      {
+        "delta": 0.285,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.308,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#72b572",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#72b572",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#72b572",
+    },
+    "siblings": [
+      {
+        "delta": 0.282,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.285,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#00ffffff",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0ff",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#0ff",
+    },
+    "siblings": [
+      {
+        "delta": 0.248,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.25,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#2e9ad0",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#2e9ad0",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#2e9ad0",
+    },
+    "siblings": [
+      {
+        "delta": 0.192,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.215,
+        "group": "gray",
+        "hex": "#6b7280",
+        "name": "500",
+        "var": "--color-gray-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#0f74a8",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0f74a8",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#0f74a8",
+    },
+    "siblings": [
+      {
+        "delta": 0.168,
+        "group": "gray",
+        "hex": "#6b7280",
+        "name": "500",
+        "var": "--color-gray-500",
+      },
+      {
+        "delta": 0.174,
+        "group": "gray",
+        "hex": "#4b5563",
+        "name": "600",
+        "var": "--color-gray-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#12306f",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#12306f",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#12306f",
+    },
+    "siblings": [
+      {
+        "delta": 0.117,
+        "group": "gray",
+        "hex": "#1f2937",
+        "name": "800",
+        "var": "--color-gray-800",
+      },
+      {
+        "delta": 0.118,
+        "group": "gray",
+        "hex": "#374151",
+        "name": "700",
+        "var": "--color-gray-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#8dad62",
+      "#8dad62ff",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#8dad62",
+    "matches": 7,
+    "replaceable": false,
+    "result": {
+      "value": "#8dad62",
+    },
+    "siblings": [
+      {
+        "delta": 0.098,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#6f8c49",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#6f8c49",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#6f8c49",
+    },
+    "siblings": [
+      {
+        "delta": 0.096,
+        "group": "lime",
+        "hex": "#4d7c0f",
+        "name": "700",
+        "var": "--color-lime-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#808080",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#808080",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#808080",
+    },
+    "siblings": [
+      {
+        "delta": 0.093,
+        "group": "gray",
+        "hex": "#6b7280",
+        "name": "500",
+        "var": "--color-gray-500",
+      },
+      {
+        "delta": 0.131,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.3,
+      "withoutAlpha": "#323232",
+    },
+    "colors": [
+      "rgba(50, 50, 50, 0.3)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#3232324d",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#3232324d",
+    },
+    "siblings": [
+      {
+        "delta": 0.092,
+        "group": "gray",
+        "hex": "#1f2937",
+        "name": "800",
+        "var": "--color-gray-800",
+      },
+      {
+        "delta": 0.101,
+        "group": "gray",
+        "hex": "#374151",
+        "name": "700",
+        "var": "--color-gray-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#F26D4E",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/StatsByDevicesSectionContainer.js",
+    ],
+    "hex": "#f26d4e",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#f26d4e",
+    },
+    "siblings": [
+      {
+        "delta": 0.088,
+        "group": "red",
+        "hex": "#ef4444",
+        "name": "500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#4c4c4c",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#4c4c4c",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#4c4c4c",
+    },
+    "siblings": [
+      {
+        "delta": 0.085,
+        "group": "gray",
+        "hex": "#4b5563",
+        "name": "600",
+        "var": "--color-gray-600",
+      },
+      {
+        "delta": 0.098,
+        "group": "gray",
+        "hex": "#374151",
+        "name": "700",
+        "var": "--color-gray-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#b3d271",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#b3d271",
+    "matches": 6,
+    "replaceable": false,
+    "result": {
+      "value": "#b3d271",
+    },
+    "siblings": [
+      {
+        "delta": 0.083,
+        "group": "lime",
+        "hex": "#bef264",
+        "name": "300",
+        "var": "--color-lime-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#b5b5b5",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#b5b5b5",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#b5b5b5",
+    },
+    "siblings": [
+      {
+        "delta": 0.082,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.086,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#888",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#888",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#888",
+    },
+    "siblings": [
+      {
+        "delta": 0.081,
+        "group": "neutral",
+        "hex": "#737373",
+        "name": "500",
+        "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#ff6347",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#ff6347",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#ff6347",
+    },
+    "siblings": [
+      {
+        "delta": 0.081,
+        "group": "red",
+        "hex": "#ef4444",
+        "name": "500",
+        "var": "--color-red-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#7d9f51",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#7d9f51",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#7d9f51",
+    },
+    "siblings": [
+      {
+        "delta": 0.077,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#777",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#777",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#777",
+    },
+    "siblings": [
+      {
+        "delta": 0.076,
+        "group": "gray",
+        "hex": "#6b7280",
+        "name": "500",
+        "var": "--color-gray-500",
+      },
+      {
+        "delta": 0.154,
+        "group": "gray",
+        "hex": "#4b5563",
+        "name": "600",
+        "var": "--color-gray-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#979797",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#979797",
+    "matches": 3,
+    "replaceable": false,
+    "result": {
+      "value": "#979797",
+    },
+    "siblings": [
+      {
+        "delta": 0.071,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.156,
+        "group": "gray",
+        "hex": "#6b7280",
+        "name": "500",
+        "var": "--color-gray-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#aaa",
+      "#aaaaaa",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#aaa",
+    "matches": 4,
+    "replaceable": false,
+    "result": {
+      "value": "#aaa",
+    },
+    "siblings": [
+      {
+        "delta": 0.066,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.115,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#bababa",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#bababa",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#bababa",
+    },
+    "siblings": [
+      {
+        "delta": 0.065,
+        "group": "neutral",
+        "hex": "#d4d4d4",
+        "name": "300",
+        "var": "--color-neutral-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#4d9200",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#4d9200",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#4d9200",
+    },
+    "siblings": [
+      {
+        "delta": 0.063,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#a5a5a5",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#a5a5a5",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#a5a5a5",
+    },
+    "siblings": [
+      {
+        "delta": 0.063,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.129,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#a6a6a6",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#a6a6a6",
+    "matches": 4,
+    "replaceable": false,
+    "result": {
+      "value": "#a6a6a6",
+    },
+    "siblings": [
+      {
+        "delta": 0.063,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.126,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#1392e9",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#1392e9",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#1392e9",
+    },
+    "siblings": [
+      {
+        "delta": 0.062,
+        "group": "sky",
+        "hex": "#0284c7",
+        "name": "600",
+        "var": "--color-sky-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#568c0a",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#568c0a",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#568c0a",
+    },
+    "siblings": [
+      {
+        "delta": 0.06,
+        "group": "lime",
+        "hex": "#4d7c0f",
+        "name": "700",
+        "var": "--color-lime-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#c0c0c0",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#c0c0c0",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#c0c0c0",
+    },
+    "siblings": [
+      {
+        "delta": 0.06,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.094,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#aeb3b9",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#aeb3b9",
+    "matches": 4,
+    "replaceable": false,
+    "result": {
+      "value": "#aeb3b9",
+    },
+    "siblings": [
+      {
+        "delta": 0.054,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#b6b6b6",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#b6b6b6",
+    "matches": 8,
+    "replaceable": false,
+    "result": {
+      "value": "#b6b6b6",
+    },
+    "siblings": [
+      {
+        "delta": 0.054,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#BFBFBF",
+      "#bfbfbf",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#bfbfbf",
+    "matches": 5,
+    "replaceable": false,
+    "result": {
+      "value": "#bfbfbf",
+    },
+    "siblings": [
+      {
+        "delta": 0.052,
+        "group": "neutral",
+        "hex": "#d4d4d4",
+        "name": "300",
+        "var": "--color-neutral-300",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.2,
+      "withoutAlpha": "#666",
+    },
+    "colors": [
+      "rgba(102, 102, 102, 0.2)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#6663",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#6663",
+    },
+    "siblings": [
+      {
+        "delta": 0.05,
+        "group": "neutral",
+        "hex": "#737373",
+        "name": "500",
+        "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0,
+      "withoutAlpha": "#666",
+    },
+    "colors": [
+      "rgba(102, 102, 102, 0)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#6660",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "transparent",
+    },
+    "siblings": [
+      {
+        "delta": 0.05,
+        "group": "neutral",
+        "hex": "#737373",
+        "name": "500",
+        "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "rgba(102, 102, 102, 1)",
+      "#666",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#666",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#666",
+    },
+    "siblings": [
+      {
+        "delta": 0.05,
+        "group": "neutral",
+        "hex": "#737373",
+        "name": "500",
+        "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#000",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+      "src/__tests__/__mocks__/StatsByDevicesSectionContainer.js",
+    ],
+    "hex": "#000",
+    "matches": 8,
+    "replaceable": false,
+    "result": {
+      "value": "#000",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.1,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.1)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0000001a",
+    "matches": 3,
+    "replaceable": false,
+    "result": {
+      "value": "#0000001a",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.6,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.6)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0009",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#0009",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.2,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.2)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0003",
+    "matches": 4,
+    "replaceable": false,
+    "result": {
+      "value": "#0003",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.7,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.7)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#000000b3",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#000000b3",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.3,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.3)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0000004d",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#0000004d",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.5,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.5)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#00000080",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#00000080",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#e0e8d1",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#e0e8d1",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#e0e8d1",
+    },
+    "siblings": [
+      {
+        "delta": 0.047,
+        "group": "lime",
+        "hex": "#f7fee7",
+        "name": "50",
+        "var": "--color-lime-50",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#139ff7",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#139ff7",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#139ff7",
+    },
+    "siblings": [
+      {
+        "delta": 0.044,
+        "group": "sky",
+        "hex": "#0ea5e9",
+        "name": "500",
+        "var": "--color-sky-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#b2b2b2",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#b2b2b2",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#b2b2b2",
+    },
+    "siblings": [
+      {
+        "delta": 0.043,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#cacaca",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#cacaca",
+    "matches": 4,
+    "replaceable": false,
+    "result": {
+      "value": "#cacaca",
+    },
+    "siblings": [
+      {
+        "delta": 0.042,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.07,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#333",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#333",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#333",
+    },
+    "siblings": [
+      {
+        "delta": 0.041,
+        "group": "neutral",
+        "hex": "#262626",
+        "name": "800",
+        "var": "--color-neutral-800",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#969696",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#969696",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#969696",
+    },
+    "siblings": [
+      {
+        "delta": 0.041,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#69b10b",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#69b10b",
+    "matches": 3,
+    "replaceable": false,
+    "result": {
+      "value": "#69b10b",
+    },
+    "siblings": [
+      {
+        "delta": 0.041,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#d0d2d0",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#d0d2d0",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#d0d2d0",
+    },
+    "siblings": [
+      {
+        "delta": 0.041,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.057,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#88be14",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#88be14",
+    "matches": 3,
+    "replaceable": true,
+    "result": {
+      "hex": "#84cc16",
+      "value": "var(--color-lime-500)",
+      "var": "--color-lime-500",
+    },
+    "siblings": [
+      {
+        "delta": 0.039,
+        "group": "lime",
+        "hex": "#84cc16",
+        "name": "500",
+        "var": "--color-lime-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#696969",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#696969",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#737373",
+      "value": "var(--color-neutral-500)",
+      "var": "--color-neutral-500",
+    },
+    "siblings": [
+      {
+        "delta": 0.039,
+        "group": "neutral",
+        "hex": "#737373",
+        "name": "500",
+        "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#d7d8d7",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#d7d8d7",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#d7d8d7",
+    },
+    "siblings": [
+      {
+        "delta": 0.037,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.042,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#9ad717",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#9ad717",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#a3e635",
+      "value": "var(--color-lime-400)",
+      "var": "--color-lime-400",
+    },
+    "siblings": [
+      {
+        "delta": 0.036,
+        "group": "lime",
+        "hex": "#a3e635",
+        "name": "400",
+        "var": "--color-lime-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#478500",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#478500",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#4d7c0f",
+      "value": "var(--color-lime-700)",
+      "var": "--color-lime-700",
+    },
+    "siblings": [
+      {
+        "delta": 0.035,
+        "group": "lime",
+        "hex": "#4d7c0f",
+        "name": "700",
+        "var": "--color-lime-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#5b9909",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#5b9909",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#65a30d",
+      "value": "var(--color-lime-600)",
+      "var": "--color-lime-600",
+    },
+    "siblings": [
+      {
+        "delta": 0.034,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#d3d3d3",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#d3d3d3",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#d1d5db",
+      "value": "var(--color-gray-300)",
+      "var": "--color-gray-300",
+    },
+    "siblings": [
+      {
+        "delta": 0.033,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.05,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#999999",
+      "#999",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#999",
+    "matches": 5,
+    "replaceable": true,
+    "result": {
+      "hex": "#a3a3a3",
+      "value": "var(--color-neutral-400)",
+      "var": "--color-neutral-400",
+    },
+    "siblings": [
+      {
+        "delta": 0.031,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#55830c",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#55830c",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#4d7c0f",
+      "value": "var(--color-lime-700)",
+      "var": "--color-lime-700",
+    },
+    "siblings": [
+      {
+        "delta": 0.029,
+        "group": "lime",
+        "hex": "#4d7c0f",
+        "name": "700",
+        "var": "--color-lime-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#54C0EE",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/StatsByDevicesSectionContainer.js",
+    ],
+    "hex": "#54c0ee",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "value": "#38bdf8",
+    },
+    "siblings": [
+      {
+        "delta": 0.029,
+        "group": "sky",
+        "hex": "#38bdf8",
+        "name": "400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#383838",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#383838",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#404040",
+      "value": "var(--color-neutral-700)",
+      "var": "--color-neutral-700",
+    },
+    "siblings": [
+      {
+        "delta": 0.026,
+        "group": "neutral",
+        "hex": "#404040",
+        "name": "700",
+        "var": "--color-neutral-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#c9cccf",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#c9cccf",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#d1d5db",
+      "value": "var(--color-gray-300)",
+      "var": "--color-gray-300",
+    },
+    "siblings": [
+      {
+        "delta": 0.026,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#595959",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#595959",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#525252",
+      "value": "var(--color-neutral-600)",
+      "var": "--color-neutral-600",
+    },
+    "siblings": [
+      {
+        "delta": 0.025,
+        "group": "neutral",
+        "hex": "#525252",
+        "name": "600",
+        "var": "--color-neutral-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#a0a6ad",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#a0a6ad",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#9ca3af",
+      "value": "var(--color-gray-400)",
+      "var": "--color-gray-400",
+    },
+    "siblings": [
+      {
+        "delta": 0.024,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#5d9c0a",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#5d9c0a",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#65a30d",
+      "value": "var(--color-lime-600)",
+      "var": "--color-lime-600",
+    },
+    "siblings": [
+      {
+        "delta": 0.024,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#474747",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#474747",
+    "matches": 8,
+    "replaceable": true,
+    "result": {
+      "hex": "#404040",
+      "value": "var(--color-neutral-700)",
+      "var": "--color-neutral-700",
+    },
+    "siblings": [
+      {
+        "delta": 0.023,
+        "group": "neutral",
+        "hex": "#404040",
+        "name": "700",
+        "var": "--color-neutral-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#e0dfe3",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#e0dfe3",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e7eb",
+      "value": "var(--color-gray-200)",
+      "var": "--color-gray-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.023,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+      {
+        "delta": 0.036,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#e5e5e5",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#e5e5e5",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e7eb",
+      "value": "var(--color-gray-200)",
+      "var": "--color-gray-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.021,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+      {
+        "delta": 0.033,
+        "group": "gray",
+        "hex": "#f3f4f6",
+        "name": "100",
+        "var": "--color-gray-100",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#ccc",
+      "#cccccc",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ccc",
+    "matches": 12,
+    "replaceable": true,
+    "result": {
+      "hex": "#d4d4d4",
+      "value": "var(--color-neutral-300)",
+      "var": "--color-neutral-300",
+    },
+    "siblings": [
+      {
+        "delta": 0.019,
+        "group": "neutral",
+        "hex": "#d4d4d4",
+        "name": "300",
+        "var": "--color-neutral-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#cfd1cf",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#cfd1cf",
+    "matches": 15,
+    "replaceable": true,
+    "result": {
+      "hex": "#d4d4d4",
+      "value": "var(--color-neutral-300)",
+      "var": "--color-neutral-300",
+    },
+    "siblings": [
+      {
+        "delta": 0.018,
+        "group": "neutral",
+        "hex": "#d4d4d4",
+        "name": "300",
+        "var": "--color-neutral-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#ddd",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#ddd",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.018,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#eff0ef",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#eff0ef",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#f3f4f6",
+      "value": "var(--color-gray-100)",
+      "var": "--color-gray-100",
+    },
+    "siblings": [
+      {
+        "delta": 0.018,
+        "group": "gray",
+        "hex": "#f3f4f6",
+        "name": "100",
+        "var": "--color-gray-100",
+      },
+      {
+        "delta": 0.023,
+        "group": "gray",
+        "hex": "#f9fafb",
+        "name": "50",
+        "var": "--color-gray-50",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#ededed",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#ededed",
+    "matches": 5,
+    "replaceable": true,
+    "result": {
+      "hex": "#f4f4f5",
+      "value": "var(--color-zinc-100)",
+      "var": "--color-zinc-100",
+    },
+    "siblings": [
+      {
+        "delta": 0.016,
+        "group": "zinc",
+        "hex": "#f4f4f5",
+        "name": "100",
+        "var": "--color-zinc-100",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#dedede",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#dedede",
+    "matches": 4,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.016,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#9e9e9e",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#9e9e9e",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#a3a3a3",
+      "value": "var(--color-neutral-400)",
+      "var": "--color-neutral-400",
+    },
+    "siblings": [
+      {
+        "delta": 0.015,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#EBEBEB",
+      "#ebebeb",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ebebeb",
+    "matches": 8,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.013,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#dfdfdf",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#dfdfdf",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.013,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#e7e9ea",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/StatsByDevicesSectionContainer.js",
+    ],
+    "hex": "#e7e9ea",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "value": "#e5e5e5",
+    },
+    "siblings": [
+      {
+        "delta": 0.013,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.3,
+      "withoutAlpha": "#fff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, 0.3)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ffffff4d",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#ffffff4d",
+      "opacity": 0.3,
+      "order": "--color-gray-50-0.3",
+      "value": "var(--color-gray-50-a-30)",
+      "var": "--color-gray-50-a-30",
+    },
+    "siblings": [
+      {
+        "delta": 0.012,
+        "group": "gray",
+        "hex": "#f9fafb",
+        "name": "50",
+        "var": "--color-gray-50",
+      },
+      {
+        "delta": 0.025,
+        "group": "gray",
+        "hex": "#f3f4f6",
+        "name": "100",
+        "var": "--color-gray-100",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.1,
+      "withoutAlpha": "#fff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, 0.1)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ffffff1a",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#ffffff1a",
+      "opacity": 0.1,
+      "order": "--color-gray-50-0.1",
+      "value": "var(--color-gray-50-a-10)",
+      "var": "--color-gray-50-a-10",
+    },
+    "siblings": [
+      {
+        "delta": 0.012,
+        "group": "gray",
+        "hex": "#f9fafb",
+        "name": "50",
+        "var": "--color-gray-50",
+      },
+      {
+        "delta": 0.025,
+        "group": "gray",
+        "hex": "#f3f4f6",
+        "name": "100",
+        "var": "--color-gray-100",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#eaeaea",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#eaeaea",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.011,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#62a60a",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#62a60a",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#65a30d",
+      "value": "var(--color-lime-600)",
+      "var": "--color-lime-600",
+    },
+    "siblings": [
+      {
+        "delta": 0.011,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#a0a0a0",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#a0a0a0",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#a3a3a3",
+      "value": "var(--color-neutral-400)",
+      "var": "--color-neutral-400",
+    },
+    "siblings": [
+      {
+        "delta": 0.009,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#f2f2f2",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#f2f2f2",
+    "matches": 11,
+    "replaceable": true,
+    "result": {
+      "hex": "#f5f5f5",
+      "value": "var(--color-neutral-100)",
+      "var": "--color-neutral-100",
+    },
+    "siblings": [
+      {
+        "delta": 0.006,
+        "group": "neutral",
+        "hex": "#f5f5f5",
+        "name": "100",
+        "var": "--color-neutral-100",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.1,
+      "withoutAlpha": "#0d0d0d",
+    },
+    "colors": [
+      "rgba(13, 13, 13, 0.1)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/StatsByDevicesSectionContainer.js",
+    ],
+    "hex": "#0d0d0d1a",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "value": "#0a0a0a",
+    },
+    "siblings": [
+      {
+        "delta": 0.005,
+        "group": "neutral",
+        "hex": "#0a0a0a",
+        "name": "950",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#e4e4e4",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#e4e4e4",
+    "matches": 13,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.002,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#fff",
+      "#ffffffff",
+      "#ffffff",
+      "#FFF",
+      "rgba(255, 255, 255, 1)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+      "src/__tests__/__mocks__/StatsByDevicesSectionContainer.js",
+    ],
+    "hex": "#fff",
+    "matches": 39,
+    "replaceable": true,
+    "result": {
+      "hex": "#fff",
+      "value": "var(--ss-color-white)",
+      "var": "--ss-color-white",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#fff",
+        "name": "white",
+        "var": "--ss-color-white",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#f5f5f5",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#f5f5f5",
+    "matches": 6,
+    "replaceable": true,
+    "result": {
+      "hex": "#f5f5f5",
+      "value": "var(--color-neutral-100)",
+      "var": "--color-neutral-100",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "neutral",
+        "hex": "#f5f5f5",
+        "name": "100",
+        "var": "--color-neutral-100",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#d4d4d4",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#d4d4d4",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#d4d4d4",
+      "value": "var(--color-neutral-300)",
+      "var": "--color-neutral-300",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "neutral",
+        "hex": "#d4d4d4",
+        "name": "300",
+        "var": "--color-neutral-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#fafafa",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#fafafa",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#fafafa",
+      "value": "var(--color-zinc-50)",
+      "var": "--color-zinc-50",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "zinc",
+        "hex": "#fafafa",
+        "name": "50",
+        "var": "--color-zinc-50",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.15,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, .15)",
+      "rgba(0, 0, 0, 0.15)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#00000026",
+    "matches": 5,
+    "replaceable": true,
+    "result": {
+      "hex": "#00000026",
+      "opacity": 0.15,
+      "order": "--ss-color-black-0.15",
+      "value": "var(--ss-color-black-a-15)",
+      "var": "--ss-color-black-a-15",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#000",
+        "name": "black",
+        "var": "--ss-color-black",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.75,
+      "withoutAlpha": "#fff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, .75)",
+      "rgba(255, 255, 255, 0.75)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ffffffbf",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#ffffffbf",
+      "opacity": 0.75,
+      "order": "--ss-color-white-0.75",
+      "value": "var(--ss-color-white-a-75)",
+      "var": "--ss-color-white-a-75",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#fff",
+        "name": "white",
+        "var": "--ss-color-white",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.5,
+      "withoutAlpha": "#fff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, 0.5)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ffffff80",
+    "matches": 10,
+    "replaceable": true,
+    "result": {
+      "hex": "#ffffff80",
+      "opacity": 0.5,
+      "order": "--ss-color-white-0.5",
+      "value": "var(--ss-color-white-a-50)",
+      "var": "--ss-color-white-a-50",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#fff",
+        "name": "white",
+        "var": "--ss-color-white",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.15,
+      "withoutAlpha": "#fff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, .15)",
+      "rgba(255, 255, 255, 0.15)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ffffff26",
+    "matches": 8,
+    "replaceable": true,
+    "result": {
+      "hex": "#ffffff26",
+      "opacity": 0.15,
+      "order": "--ss-color-white-0.15",
+      "value": "var(--ss-color-white-a-15)",
+      "var": "--ss-color-white-a-15",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#fff",
+        "name": "white",
+        "var": "--ss-color-white",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.4,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, .4)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#0006",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#0006",
+      "opacity": 0.4,
+      "order": "--ss-color-black-0.4",
+      "value": "var(--ss-color-black-a-40)",
+      "var": "--ss-color-black-a-40",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#000",
+        "name": "black",
+        "var": "--ss-color-black",
+      },
+    ],
+  },
+]
+`;
+
+exports[`Parse and render should return expected value with custom palette 1`] = `
+[
+  {
+    "colors": [
+      "#c83939",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#c83939",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#c83939",
+    },
+    "siblings": [
+      {
+        "delta": 0.329,
+        "group": "gray",
+        "hex": "#6b7280",
+        "name": "500",
+        "var": "--color-gray-500",
+      },
+      {
+        "delta": 0.359,
+        "group": "gray",
+        "hex": "#4b5563",
+        "name": "600",
+        "var": "--color-gray-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#ff7f50",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ff7f50",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#ff7f50",
+    },
+    "siblings": [
+      {
+        "delta": 0.325,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.327,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#902b2b",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#902b2b",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#902b2b",
+    },
+    "siblings": [
+      {
+        "delta": 0.316,
+        "group": "gray",
+        "hex": "#4b5563",
+        "name": "600",
+        "var": "--color-gray-600",
+      },
+      {
+        "delta": 0.323,
+        "group": "gray",
+        "hex": "#374151",
+        "name": "700",
+        "var": "--color-gray-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#63a563",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#63a563",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#63a563",
+    },
+    "siblings": [
+      {
+        "delta": 0.285,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.308,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#72b572",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#72b572",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#72b572",
+    },
+    "siblings": [
+      {
+        "delta": 0.282,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.285,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#00ffffff",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0ff",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#0ff",
+    },
+    "siblings": [
+      {
+        "delta": 0.248,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.25,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#2e9ad0",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#2e9ad0",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#2e9ad0",
+    },
+    "siblings": [
+      {
+        "delta": 0.192,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.215,
+        "group": "gray",
+        "hex": "#6b7280",
+        "name": "500",
+        "var": "--color-gray-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#0f74a8",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0f74a8",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#0f74a8",
+    },
+    "siblings": [
+      {
+        "delta": 0.168,
+        "group": "gray",
+        "hex": "#6b7280",
+        "name": "500",
+        "var": "--color-gray-500",
+      },
+      {
+        "delta": 0.174,
+        "group": "gray",
+        "hex": "#4b5563",
+        "name": "600",
+        "var": "--color-gray-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#12306f",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#12306f",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#12306f",
+    },
+    "siblings": [
+      {
+        "delta": 0.117,
+        "group": "gray",
+        "hex": "#1f2937",
+        "name": "800",
+        "var": "--color-gray-800",
+      },
+      {
+        "delta": 0.118,
+        "group": "gray",
+        "hex": "#374151",
+        "name": "700",
+        "var": "--color-gray-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#8dad62",
+      "#8dad62ff",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#8dad62",
+    "matches": 7,
+    "replaceable": false,
+    "result": {
+      "value": "#8dad62",
+    },
+    "siblings": [
+      {
+        "delta": 0.098,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#6f8c49",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#6f8c49",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#6f8c49",
+    },
+    "siblings": [
+      {
+        "delta": 0.096,
+        "group": "lime",
+        "hex": "#4d7c0f",
+        "name": "700",
+        "var": "--color-lime-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#808080",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#808080",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#808080",
+    },
+    "siblings": [
+      {
+        "delta": 0.093,
+        "group": "gray",
+        "hex": "#6b7280",
+        "name": "500",
+        "var": "--color-gray-500",
+      },
+      {
+        "delta": 0.131,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.3,
+      "withoutAlpha": "#323232",
+    },
+    "colors": [
+      "rgba(50, 50, 50, 0.3)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#3232324d",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#3232324d",
+    },
+    "siblings": [
+      {
+        "delta": 0.092,
+        "group": "gray",
+        "hex": "#1f2937",
+        "name": "800",
+        "var": "--color-gray-800",
+      },
+      {
+        "delta": 0.101,
+        "group": "gray",
+        "hex": "#374151",
+        "name": "700",
+        "var": "--color-gray-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#4c4c4c",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#4c4c4c",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#4c4c4c",
+    },
+    "siblings": [
+      {
+        "delta": 0.085,
+        "group": "gray",
+        "hex": "#4b5563",
+        "name": "600",
+        "var": "--color-gray-600",
+      },
+      {
+        "delta": 0.098,
+        "group": "gray",
+        "hex": "#374151",
+        "name": "700",
+        "var": "--color-gray-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#b3d271",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#b3d271",
+    "matches": 6,
+    "replaceable": false,
+    "result": {
+      "value": "#b3d271",
+    },
+    "siblings": [
+      {
+        "delta": 0.083,
+        "group": "lime",
+        "hex": "#bef264",
+        "name": "300",
+        "var": "--color-lime-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#b5b5b5",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#b5b5b5",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#b5b5b5",
+    },
+    "siblings": [
+      {
+        "delta": 0.082,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.086,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#888",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#888",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#888",
+    },
+    "siblings": [
+      {
+        "delta": 0.081,
+        "group": "neutral",
+        "hex": "#737373",
+        "name": "500",
+        "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#ff6347",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#ff6347",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#ff6347",
+    },
+    "siblings": [
+      {
+        "delta": 0.081,
+        "group": "red",
+        "hex": "#ef4444",
+        "name": "500",
+        "var": "--color-red-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#7d9f51",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#7d9f51",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#7d9f51",
+    },
+    "siblings": [
+      {
+        "delta": 0.077,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#777",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#777",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#777",
+    },
+    "siblings": [
+      {
+        "delta": 0.076,
+        "group": "gray",
+        "hex": "#6b7280",
+        "name": "500",
+        "var": "--color-gray-500",
+      },
+      {
+        "delta": 0.154,
+        "group": "gray",
+        "hex": "#4b5563",
+        "name": "600",
+        "var": "--color-gray-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#979797",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#979797",
+    "matches": 3,
+    "replaceable": false,
+    "result": {
+      "value": "#979797",
+    },
+    "siblings": [
+      {
+        "delta": 0.071,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.156,
+        "group": "gray",
+        "hex": "#6b7280",
+        "name": "500",
+        "var": "--color-gray-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#aaa",
+      "#aaaaaa",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#aaa",
+    "matches": 4,
+    "replaceable": false,
+    "result": {
+      "value": "#aaa",
+    },
+    "siblings": [
+      {
+        "delta": 0.066,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.115,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#bababa",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#bababa",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#bababa",
+    },
+    "siblings": [
+      {
+        "delta": 0.065,
+        "group": "neutral",
+        "hex": "#d4d4d4",
+        "name": "300",
+        "var": "--color-neutral-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#4d9200",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#4d9200",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#4d9200",
+    },
+    "siblings": [
+      {
+        "delta": 0.063,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#a5a5a5",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#a5a5a5",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#a5a5a5",
+    },
+    "siblings": [
+      {
+        "delta": 0.063,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.129,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#a6a6a6",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#a6a6a6",
+    "matches": 4,
+    "replaceable": false,
+    "result": {
+      "value": "#a6a6a6",
+    },
+    "siblings": [
+      {
+        "delta": 0.063,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.126,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#1392e9",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#1392e9",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#1392e9",
+    },
+    "siblings": [
+      {
+        "delta": 0.062,
+        "group": "sky",
+        "hex": "#0284c7",
+        "name": "600",
+        "var": "--color-sky-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#568c0a",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#568c0a",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#568c0a",
+    },
+    "siblings": [
+      {
+        "delta": 0.06,
+        "group": "lime",
+        "hex": "#4d7c0f",
+        "name": "700",
+        "var": "--color-lime-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#c0c0c0",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#c0c0c0",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#c0c0c0",
+    },
+    "siblings": [
+      {
+        "delta": 0.06,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.094,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#aeb3b9",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#aeb3b9",
+    "matches": 4,
+    "replaceable": false,
+    "result": {
+      "value": "#aeb3b9",
+    },
+    "siblings": [
+      {
+        "delta": 0.054,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#b6b6b6",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#b6b6b6",
+    "matches": 8,
+    "replaceable": false,
+    "result": {
+      "value": "#b6b6b6",
+    },
+    "siblings": [
+      {
+        "delta": 0.054,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#BFBFBF",
+      "#bfbfbf",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#bfbfbf",
+    "matches": 5,
+    "replaceable": false,
+    "result": {
+      "value": "#bfbfbf",
+    },
+    "siblings": [
+      {
+        "delta": 0.052,
+        "group": "neutral",
+        "hex": "#d4d4d4",
+        "name": "300",
+        "var": "--color-neutral-300",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.2,
+      "withoutAlpha": "#666",
+    },
+    "colors": [
+      "rgba(102, 102, 102, 0.2)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#6663",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#6663",
+    },
+    "siblings": [
+      {
+        "delta": 0.05,
+        "group": "neutral",
+        "hex": "#737373",
+        "name": "500",
+        "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0,
+      "withoutAlpha": "#666",
+    },
+    "colors": [
+      "rgba(102, 102, 102, 0)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#6660",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "transparent",
+    },
+    "siblings": [
+      {
+        "delta": 0.05,
+        "group": "neutral",
+        "hex": "#737373",
+        "name": "500",
+        "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "rgba(102, 102, 102, 1)",
+      "#666",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#666",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#666",
+    },
+    "siblings": [
+      {
+        "delta": 0.05,
+        "group": "neutral",
+        "hex": "#737373",
+        "name": "500",
+        "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#000",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#000",
+    "matches": 4,
+    "replaceable": false,
+    "result": {
+      "value": "#000",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.1,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.1)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0000001a",
+    "matches": 3,
+    "replaceable": false,
+    "result": {
+      "value": "#0000001a",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.6,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.6)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0009",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#0009",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.2,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.2)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0003",
+    "matches": 4,
+    "replaceable": false,
+    "result": {
+      "value": "#0003",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.7,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.7)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#000000b3",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#000000b3",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.3,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.3)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0000004d",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#0000004d",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.5,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.5)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#00000080",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#00000080",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#e0e8d1",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#e0e8d1",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#e0e8d1",
+    },
+    "siblings": [
+      {
+        "delta": 0.047,
+        "group": "lime",
+        "hex": "#f7fee7",
+        "name": "50",
+        "var": "--color-lime-50",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#139ff7",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#139ff7",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#139ff7",
+    },
+    "siblings": [
+      {
+        "delta": 0.044,
+        "group": "sky",
+        "hex": "#0ea5e9",
+        "name": "500",
+        "var": "--color-sky-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#b2b2b2",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#b2b2b2",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#b2b2b2",
+    },
+    "siblings": [
+      {
+        "delta": 0.043,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#cacaca",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#cacaca",
+    "matches": 4,
+    "replaceable": false,
+    "result": {
+      "value": "#cacaca",
+    },
+    "siblings": [
+      {
+        "delta": 0.042,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.07,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#333",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#333",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#333",
+    },
+    "siblings": [
+      {
+        "delta": 0.041,
+        "group": "neutral",
+        "hex": "#262626",
+        "name": "800",
+        "var": "--color-neutral-800",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#969696",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#969696",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#969696",
+    },
+    "siblings": [
+      {
+        "delta": 0.041,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#69b10b",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#69b10b",
+    "matches": 3,
+    "replaceable": false,
+    "result": {
+      "value": "#69b10b",
+    },
+    "siblings": [
+      {
+        "delta": 0.041,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#d0d2d0",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#d0d2d0",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#d0d2d0",
+    },
+    "siblings": [
+      {
+        "delta": 0.041,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.057,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#88be14",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#88be14",
+    "matches": 3,
+    "replaceable": true,
+    "result": {
+      "hex": "#84cc16",
+      "value": "var(--color-lime-500)",
+      "var": "--color-lime-500",
+    },
+    "siblings": [
+      {
+        "delta": 0.039,
+        "group": "lime",
+        "hex": "#84cc16",
+        "name": "500",
+        "var": "--color-lime-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#696969",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#696969",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#737373",
+      "value": "var(--color-neutral-500)",
+      "var": "--color-neutral-500",
+    },
+    "siblings": [
+      {
+        "delta": 0.039,
+        "group": "neutral",
+        "hex": "#737373",
+        "name": "500",
+        "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#d7d8d7",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#d7d8d7",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#d7d8d7",
+    },
+    "siblings": [
+      {
+        "delta": 0.037,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.042,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#9ad717",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#9ad717",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#a3e635",
+      "value": "var(--color-lime-400)",
+      "var": "--color-lime-400",
+    },
+    "siblings": [
+      {
+        "delta": 0.036,
+        "group": "lime",
+        "hex": "#a3e635",
+        "name": "400",
+        "var": "--color-lime-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#478500",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#478500",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#4d7c0f",
+      "value": "var(--color-lime-700)",
+      "var": "--color-lime-700",
+    },
+    "siblings": [
+      {
+        "delta": 0.035,
+        "group": "lime",
+        "hex": "#4d7c0f",
+        "name": "700",
+        "var": "--color-lime-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#5b9909",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#5b9909",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#65a30d",
+      "value": "var(--color-lime-600)",
+      "var": "--color-lime-600",
+    },
+    "siblings": [
+      {
+        "delta": 0.034,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#d3d3d3",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#d3d3d3",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#d1d5db",
+      "value": "var(--color-gray-300)",
+      "var": "--color-gray-300",
+    },
+    "siblings": [
+      {
+        "delta": 0.033,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.05,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#999999",
+      "#999",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#999",
+    "matches": 5,
+    "replaceable": true,
+    "result": {
+      "hex": "#a3a3a3",
+      "value": "var(--color-neutral-400)",
+      "var": "--color-neutral-400",
+    },
+    "siblings": [
+      {
+        "delta": 0.031,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#55830c",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#55830c",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#4d7c0f",
+      "value": "var(--color-lime-700)",
+      "var": "--color-lime-700",
+    },
+    "siblings": [
+      {
+        "delta": 0.029,
+        "group": "lime",
+        "hex": "#4d7c0f",
+        "name": "700",
+        "var": "--color-lime-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#383838",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#383838",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#404040",
+      "value": "var(--color-neutral-700)",
+      "var": "--color-neutral-700",
+    },
+    "siblings": [
+      {
+        "delta": 0.026,
+        "group": "neutral",
+        "hex": "#404040",
+        "name": "700",
+        "var": "--color-neutral-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#c9cccf",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#c9cccf",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#d1d5db",
+      "value": "var(--color-gray-300)",
+      "var": "--color-gray-300",
+    },
+    "siblings": [
+      {
+        "delta": 0.026,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#595959",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#595959",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#525252",
+      "value": "var(--color-neutral-600)",
+      "var": "--color-neutral-600",
+    },
+    "siblings": [
+      {
+        "delta": 0.025,
+        "group": "neutral",
+        "hex": "#525252",
+        "name": "600",
+        "var": "--color-neutral-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#a0a6ad",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#a0a6ad",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#9ca3af",
+      "value": "var(--color-gray-400)",
+      "var": "--color-gray-400",
+    },
+    "siblings": [
+      {
+        "delta": 0.024,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#5d9c0a",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#5d9c0a",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#65a30d",
+      "value": "var(--color-lime-600)",
+      "var": "--color-lime-600",
+    },
+    "siblings": [
+      {
+        "delta": 0.024,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#474747",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#474747",
+    "matches": 8,
+    "replaceable": true,
+    "result": {
+      "hex": "#404040",
+      "value": "var(--color-neutral-700)",
+      "var": "--color-neutral-700",
+    },
+    "siblings": [
+      {
+        "delta": 0.023,
+        "group": "neutral",
+        "hex": "#404040",
+        "name": "700",
+        "var": "--color-neutral-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#e0dfe3",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#e0dfe3",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e7eb",
+      "value": "var(--color-gray-200)",
+      "var": "--color-gray-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.023,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+      {
+        "delta": 0.036,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#e5e5e5",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#e5e5e5",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e7eb",
+      "value": "var(--color-gray-200)",
+      "var": "--color-gray-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.021,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+      {
+        "delta": 0.033,
+        "group": "gray",
+        "hex": "#f3f4f6",
+        "name": "100",
+        "var": "--color-gray-100",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#ccc",
+      "#cccccc",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ccc",
+    "matches": 12,
+    "replaceable": true,
+    "result": {
+      "hex": "#d4d4d4",
+      "value": "var(--color-neutral-300)",
+      "var": "--color-neutral-300",
+    },
+    "siblings": [
+      {
+        "delta": 0.019,
+        "group": "neutral",
+        "hex": "#d4d4d4",
+        "name": "300",
+        "var": "--color-neutral-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#cfd1cf",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#cfd1cf",
+    "matches": 15,
+    "replaceable": true,
+    "result": {
+      "hex": "#d4d4d4",
+      "value": "var(--color-neutral-300)",
+      "var": "--color-neutral-300",
+    },
+    "siblings": [
+      {
+        "delta": 0.018,
+        "group": "neutral",
+        "hex": "#d4d4d4",
+        "name": "300",
+        "var": "--color-neutral-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#ddd",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#ddd",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.018,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#eff0ef",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#eff0ef",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#f3f4f6",
+      "value": "var(--color-gray-100)",
+      "var": "--color-gray-100",
+    },
+    "siblings": [
+      {
+        "delta": 0.018,
+        "group": "gray",
+        "hex": "#f3f4f6",
+        "name": "100",
+        "var": "--color-gray-100",
+      },
+      {
+        "delta": 0.023,
+        "group": "gray",
+        "hex": "#f9fafb",
+        "name": "50",
+        "var": "--color-gray-50",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#ededed",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#ededed",
+    "matches": 5,
+    "replaceable": true,
+    "result": {
+      "hex": "#f4f4f5",
+      "value": "var(--color-zinc-100)",
+      "var": "--color-zinc-100",
+    },
+    "siblings": [
+      {
+        "delta": 0.016,
+        "group": "zinc",
+        "hex": "#f4f4f5",
+        "name": "100",
+        "var": "--color-zinc-100",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#dedede",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#dedede",
+    "matches": 4,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.016,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#9e9e9e",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#9e9e9e",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#a3a3a3",
+      "value": "var(--color-neutral-400)",
+      "var": "--color-neutral-400",
+    },
+    "siblings": [
+      {
+        "delta": 0.015,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#EBEBEB",
+      "#ebebeb",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ebebeb",
+    "matches": 8,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.013,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#dfdfdf",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#dfdfdf",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.013,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.3,
+      "withoutAlpha": "#fff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, 0.3)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ffffff4d",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#ffffff4d",
+      "opacity": 0.3,
+      "order": "--color-gray-50-0.3",
+      "value": "var(--color-gray-50-a-30)",
+      "var": "--color-gray-50-a-30",
+    },
+    "siblings": [
+      {
+        "delta": 0.012,
+        "group": "gray",
+        "hex": "#f9fafb",
+        "name": "50",
+        "var": "--color-gray-50",
+      },
+      {
+        "delta": 0.025,
+        "group": "gray",
+        "hex": "#f3f4f6",
+        "name": "100",
+        "var": "--color-gray-100",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.1,
+      "withoutAlpha": "#fff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, 0.1)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ffffff1a",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#ffffff1a",
+      "opacity": 0.1,
+      "order": "--color-gray-50-0.1",
+      "value": "var(--color-gray-50-a-10)",
+      "var": "--color-gray-50-a-10",
+    },
+    "siblings": [
+      {
+        "delta": 0.012,
+        "group": "gray",
+        "hex": "#f9fafb",
+        "name": "50",
+        "var": "--color-gray-50",
+      },
+      {
+        "delta": 0.025,
+        "group": "gray",
+        "hex": "#f3f4f6",
+        "name": "100",
+        "var": "--color-gray-100",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#eaeaea",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#eaeaea",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.011,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#62a60a",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#62a60a",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#65a30d",
+      "value": "var(--color-lime-600)",
+      "var": "--color-lime-600",
+    },
+    "siblings": [
+      {
+        "delta": 0.011,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#a0a0a0",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#a0a0a0",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#a3a3a3",
+      "value": "var(--color-neutral-400)",
+      "var": "--color-neutral-400",
+    },
+    "siblings": [
+      {
+        "delta": 0.009,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#f2f2f2",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#f2f2f2",
+    "matches": 11,
+    "replaceable": true,
+    "result": {
+      "hex": "#f5f5f5",
+      "value": "var(--color-neutral-100)",
+      "var": "--color-neutral-100",
+    },
+    "siblings": [
+      {
+        "delta": 0.006,
+        "group": "neutral",
+        "hex": "#f5f5f5",
+        "name": "100",
+        "var": "--color-neutral-100",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#e4e4e4",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#e4e4e4",
+    "matches": 13,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.002,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#fff",
+      "#ffffffff",
+      "#ffffff",
+      "#FFF",
+      "rgba(255, 255, 255, 1)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#fff",
+    "matches": 37,
+    "replaceable": true,
+    "result": {
+      "hex": "#fff",
+      "value": "var(--ss-color-white)",
+      "var": "--ss-color-white",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#fff",
+        "name": "white",
+        "var": "--ss-color-white",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#f5f5f5",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#f5f5f5",
+    "matches": 6,
+    "replaceable": true,
+    "result": {
+      "hex": "#f5f5f5",
+      "value": "var(--color-neutral-100)",
+      "var": "--color-neutral-100",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "neutral",
+        "hex": "#f5f5f5",
+        "name": "100",
+        "var": "--color-neutral-100",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#d4d4d4",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#d4d4d4",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#d4d4d4",
+      "value": "var(--color-neutral-300)",
+      "var": "--color-neutral-300",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "neutral",
+        "hex": "#d4d4d4",
+        "name": "300",
+        "var": "--color-neutral-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#fafafa",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#fafafa",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#fafafa",
+      "value": "var(--color-zinc-50)",
+      "var": "--color-zinc-50",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "zinc",
+        "hex": "#fafafa",
+        "name": "50",
+        "var": "--color-zinc-50",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.15,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, .15)",
+      "rgba(0, 0, 0, 0.15)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#00000026",
+    "matches": 5,
+    "replaceable": true,
+    "result": {
+      "hex": "#00000026",
+      "opacity": 0.15,
+      "order": "--ss-color-black-0.15",
+      "value": "var(--ss-color-black-a-15)",
+      "var": "--ss-color-black-a-15",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#000",
+        "name": "black",
+        "var": "--ss-color-black",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.75,
+      "withoutAlpha": "#fff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, .75)",
+      "rgba(255, 255, 255, 0.75)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ffffffbf",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#ffffffbf",
+      "opacity": 0.75,
+      "order": "--ss-color-white-0.75",
+      "value": "var(--ss-color-white-a-75)",
+      "var": "--ss-color-white-a-75",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#fff",
+        "name": "white",
+        "var": "--ss-color-white",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.5,
+      "withoutAlpha": "#fff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, 0.5)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ffffff80",
+    "matches": 10,
+    "replaceable": true,
+    "result": {
+      "hex": "#ffffff80",
+      "opacity": 0.5,
+      "order": "--ss-color-white-0.5",
+      "value": "var(--ss-color-white-a-50)",
+      "var": "--ss-color-white-a-50",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#fff",
+        "name": "white",
+        "var": "--ss-color-white",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.15,
+      "withoutAlpha": "#fff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, .15)",
+      "rgba(255, 255, 255, 0.15)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ffffff26",
+    "matches": 8,
+    "replaceable": true,
+    "result": {
+      "hex": "#ffffff26",
+      "opacity": 0.15,
+      "order": "--ss-color-white-0.15",
+      "value": "var(--ss-color-white-a-15)",
+      "var": "--ss-color-white-a-15",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#fff",
+        "name": "white",
+        "var": "--ss-color-white",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.4,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, .4)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#0006",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#0006",
+      "opacity": 0.4,
+      "order": "--ss-color-black-0.4",
+      "value": "var(--ss-color-black-a-40)",
+      "var": "--ss-color-black-a-40",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#000",
+        "name": "black",
+        "var": "--ss-color-black",
+      },
+    ],
+  },
+]
+`;
+
+exports[`Parse and render should return expected value with custom palette without vars 1`] = `
+[
+  {
+    "colors": [
+      "#c83939",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#c83939",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#c83939",
+    },
+    "siblings": [
+      {
+        "delta": 0.329,
+        "group": "gray",
+        "hex": "#6b7280",
+        "name": "500",
+        "var": "--color-gray-500",
+      },
+      {
+        "delta": 0.359,
+        "group": "gray",
+        "hex": "#4b5563",
+        "name": "600",
+        "var": "--color-gray-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#ff7f50",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ff7f50",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#ff7f50",
+    },
+    "siblings": [
+      {
+        "delta": 0.325,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.327,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#902b2b",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#902b2b",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#902b2b",
+    },
+    "siblings": [
+      {
+        "delta": 0.316,
+        "group": "gray",
+        "hex": "#4b5563",
+        "name": "600",
+        "var": "--color-gray-600",
+      },
+      {
+        "delta": 0.323,
+        "group": "gray",
+        "hex": "#374151",
+        "name": "700",
+        "var": "--color-gray-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#63a563",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#63a563",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#63a563",
+    },
+    "siblings": [
+      {
+        "delta": 0.285,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.308,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#72b572",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#72b572",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#72b572",
+    },
+    "siblings": [
+      {
+        "delta": 0.282,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.285,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#00ffffff",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0ff",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#0ff",
+    },
+    "siblings": [
+      {
+        "delta": 0.248,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.25,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#2e9ad0",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#2e9ad0",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#2e9ad0",
+    },
+    "siblings": [
+      {
+        "delta": 0.192,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.215,
+        "group": "gray",
+        "hex": "#6b7280",
+        "name": "500",
+        "var": "--color-gray-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#0f74a8",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0f74a8",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#0f74a8",
+    },
+    "siblings": [
+      {
+        "delta": 0.168,
+        "group": "gray",
+        "hex": "#6b7280",
+        "name": "500",
+        "var": "--color-gray-500",
+      },
+      {
+        "delta": 0.174,
+        "group": "gray",
+        "hex": "#4b5563",
+        "name": "600",
+        "var": "--color-gray-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#12306f",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#12306f",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#12306f",
+    },
+    "siblings": [
+      {
+        "delta": 0.117,
+        "group": "gray",
+        "hex": "#1f2937",
+        "name": "800",
+        "var": "--color-gray-800",
+      },
+      {
+        "delta": 0.118,
+        "group": "gray",
+        "hex": "#374151",
+        "name": "700",
+        "var": "--color-gray-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#8dad62",
+      "#8dad62ff",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#8dad62",
+    "matches": 7,
+    "replaceable": false,
+    "result": {
+      "value": "#8dad62",
+    },
+    "siblings": [
+      {
+        "delta": 0.098,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#6f8c49",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#6f8c49",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#6f8c49",
+    },
+    "siblings": [
+      {
+        "delta": 0.096,
+        "group": "lime",
+        "hex": "#4d7c0f",
+        "name": "700",
+        "var": "--color-lime-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#808080",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#808080",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#808080",
+    },
+    "siblings": [
+      {
+        "delta": 0.093,
+        "group": "gray",
+        "hex": "#6b7280",
+        "name": "500",
+        "var": "--color-gray-500",
+      },
+      {
+        "delta": 0.131,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.3,
+      "withoutAlpha": "#323232",
+    },
+    "colors": [
+      "rgba(50, 50, 50, 0.3)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#3232324d",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#3232324d",
+    },
+    "siblings": [
+      {
+        "delta": 0.092,
+        "group": "gray",
+        "hex": "#1f2937",
+        "name": "800",
+        "var": "--color-gray-800",
+      },
+      {
+        "delta": 0.101,
+        "group": "gray",
+        "hex": "#374151",
+        "name": "700",
+        "var": "--color-gray-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#F26D4E",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/StatsByDevicesSectionContainer.js",
+    ],
+    "hex": "#f26d4e",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#f26d4e",
+    },
+    "siblings": [
+      {
+        "delta": 0.088,
+        "group": "red",
+        "hex": "#ef4444",
+        "name": "500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#4c4c4c",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#4c4c4c",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#4c4c4c",
+    },
+    "siblings": [
+      {
+        "delta": 0.085,
+        "group": "gray",
+        "hex": "#4b5563",
+        "name": "600",
+        "var": "--color-gray-600",
+      },
+      {
+        "delta": 0.098,
+        "group": "gray",
+        "hex": "#374151",
+        "name": "700",
+        "var": "--color-gray-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#b3d271",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#b3d271",
+    "matches": 6,
+    "replaceable": false,
+    "result": {
+      "value": "#b3d271",
+    },
+    "siblings": [
+      {
+        "delta": 0.083,
+        "group": "lime",
+        "hex": "#bef264",
+        "name": "300",
+        "var": "--color-lime-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#b5b5b5",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#b5b5b5",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#b5b5b5",
+    },
+    "siblings": [
+      {
+        "delta": 0.082,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.086,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#888",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#888",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#888",
+    },
+    "siblings": [
+      {
+        "delta": 0.081,
+        "group": "neutral",
+        "hex": "#737373",
+        "name": "500",
+        "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#ff6347",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#ff6347",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#ff6347",
+    },
+    "siblings": [
+      {
+        "delta": 0.081,
+        "group": "red",
+        "hex": "#ef4444",
+        "name": "500",
+        "var": "--color-red-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#7d9f51",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#7d9f51",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#7d9f51",
+    },
+    "siblings": [
+      {
+        "delta": 0.077,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#777",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#777",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#777",
+    },
+    "siblings": [
+      {
+        "delta": 0.076,
+        "group": "gray",
+        "hex": "#6b7280",
+        "name": "500",
+        "var": "--color-gray-500",
+      },
+      {
+        "delta": 0.154,
+        "group": "gray",
+        "hex": "#4b5563",
+        "name": "600",
+        "var": "--color-gray-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#979797",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#979797",
+    "matches": 3,
+    "replaceable": false,
+    "result": {
+      "value": "#979797",
+    },
+    "siblings": [
+      {
+        "delta": 0.071,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.156,
+        "group": "gray",
+        "hex": "#6b7280",
+        "name": "500",
+        "var": "--color-gray-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#aaa",
+      "#aaaaaa",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#aaa",
+    "matches": 4,
+    "replaceable": false,
+    "result": {
+      "value": "#aaa",
+    },
+    "siblings": [
+      {
+        "delta": 0.066,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.115,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#bababa",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#bababa",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#bababa",
+    },
+    "siblings": [
+      {
+        "delta": 0.065,
+        "group": "neutral",
+        "hex": "#d4d4d4",
+        "name": "300",
+        "var": "--color-neutral-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#4d9200",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#4d9200",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#4d9200",
+    },
+    "siblings": [
+      {
+        "delta": 0.063,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#a5a5a5",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#a5a5a5",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#a5a5a5",
+    },
+    "siblings": [
+      {
+        "delta": 0.063,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.129,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#a6a6a6",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#a6a6a6",
+    "matches": 4,
+    "replaceable": false,
+    "result": {
+      "value": "#a6a6a6",
+    },
+    "siblings": [
+      {
+        "delta": 0.063,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+      {
+        "delta": 0.126,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#1392e9",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#1392e9",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#1392e9",
+    },
+    "siblings": [
+      {
+        "delta": 0.062,
+        "group": "sky",
+        "hex": "#0284c7",
+        "name": "600",
+        "var": "--color-sky-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#568c0a",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#568c0a",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#568c0a",
+    },
+    "siblings": [
+      {
+        "delta": 0.06,
+        "group": "lime",
+        "hex": "#4d7c0f",
+        "name": "700",
+        "var": "--color-lime-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#c0c0c0",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#c0c0c0",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#c0c0c0",
+    },
+    "siblings": [
+      {
+        "delta": 0.06,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.094,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#aeb3b9",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#aeb3b9",
+    "matches": 4,
+    "replaceable": false,
+    "result": {
+      "value": "#aeb3b9",
+    },
+    "siblings": [
+      {
+        "delta": 0.054,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#b6b6b6",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#b6b6b6",
+    "matches": 8,
+    "replaceable": false,
+    "result": {
+      "value": "#b6b6b6",
+    },
+    "siblings": [
+      {
+        "delta": 0.054,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#BFBFBF",
+      "#bfbfbf",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#bfbfbf",
+    "matches": 5,
+    "replaceable": false,
+    "result": {
+      "value": "#bfbfbf",
+    },
+    "siblings": [
+      {
+        "delta": 0.052,
+        "group": "neutral",
+        "hex": "#d4d4d4",
+        "name": "300",
+        "var": "--color-neutral-300",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.2,
+      "withoutAlpha": "#666",
+    },
+    "colors": [
+      "rgba(102, 102, 102, 0.2)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#6663",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#6663",
+    },
+    "siblings": [
+      {
+        "delta": 0.05,
+        "group": "neutral",
+        "hex": "#737373",
+        "name": "500",
+        "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0,
+      "withoutAlpha": "#666",
+    },
+    "colors": [
+      "rgba(102, 102, 102, 0)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#6660",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "transparent",
+    },
+    "siblings": [
+      {
+        "delta": 0.05,
+        "group": "neutral",
+        "hex": "#737373",
+        "name": "500",
+        "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "rgba(102, 102, 102, 1)",
+      "#666",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#666",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#666",
+    },
+    "siblings": [
+      {
+        "delta": 0.05,
+        "group": "neutral",
+        "hex": "#737373",
+        "name": "500",
+        "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#000",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+      "src/__tests__/__mocks__/StatsByDevicesSectionContainer.js",
+    ],
+    "hex": "#000",
+    "matches": 8,
+    "replaceable": false,
+    "result": {
+      "value": "#000",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.1,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.1)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0000001a",
+    "matches": 3,
+    "replaceable": false,
+    "result": {
+      "value": "#0000001a",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.6,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.6)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0009",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#0009",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.2,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.2)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0003",
+    "matches": 4,
+    "replaceable": false,
+    "result": {
+      "value": "#0003",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.7,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.7)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#000000b3",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#000000b3",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.3,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.3)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#0000004d",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#0000004d",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.5,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, 0.5)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#00000080",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#00000080",
+    },
+    "siblings": [
+      {
+        "delta": 0.049,
+        "group": "gray",
+        "hex": "#030712",
+        "name": "950",
+        "var": "--color-gray-950",
+      },
+      {
+        "delta": 0.103,
+        "group": "gray",
+        "hex": "#111827",
+        "name": "900",
+        "var": "--color-gray-900",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#e0e8d1",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#e0e8d1",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#e0e8d1",
+    },
+    "siblings": [
+      {
+        "delta": 0.047,
+        "group": "lime",
+        "hex": "#f7fee7",
+        "name": "50",
+        "var": "--color-lime-50",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#139ff7",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#139ff7",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#139ff7",
+    },
+    "siblings": [
+      {
+        "delta": 0.044,
+        "group": "sky",
+        "hex": "#0ea5e9",
+        "name": "500",
+        "var": "--color-sky-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#b2b2b2",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#b2b2b2",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#b2b2b2",
+    },
+    "siblings": [
+      {
+        "delta": 0.043,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#cacaca",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#cacaca",
+    "matches": 4,
+    "replaceable": false,
+    "result": {
+      "value": "#cacaca",
+    },
+    "siblings": [
+      {
+        "delta": 0.042,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.07,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#333",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#333",
+    "matches": 2,
+    "replaceable": false,
+    "result": {
+      "value": "#333",
+    },
+    "siblings": [
+      {
+        "delta": 0.041,
+        "group": "neutral",
+        "hex": "#262626",
+        "name": "800",
+        "var": "--color-neutral-800",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#969696",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#969696",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#969696",
+    },
+    "siblings": [
+      {
+        "delta": 0.041,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#69b10b",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#69b10b",
+    "matches": 3,
+    "replaceable": false,
+    "result": {
+      "value": "#69b10b",
+    },
+    "siblings": [
+      {
+        "delta": 0.041,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#d0d2d0",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#d0d2d0",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#d0d2d0",
+    },
+    "siblings": [
+      {
+        "delta": 0.041,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.057,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#88be14",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#88be14",
+    "matches": 3,
+    "replaceable": true,
+    "result": {
+      "hex": "#84cc16",
+      "value": "var(--color-lime-500)",
+      "var": "--color-lime-500",
+    },
+    "siblings": [
+      {
+        "delta": 0.039,
+        "group": "lime",
+        "hex": "#84cc16",
+        "name": "500",
+        "var": "--color-lime-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#696969",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#696969",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#737373",
+      "value": "var(--color-neutral-500)",
+      "var": "--color-neutral-500",
+    },
+    "siblings": [
+      {
+        "delta": 0.039,
+        "group": "neutral",
+        "hex": "#737373",
+        "name": "500",
+        "var": "--color-neutral-500",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#d7d8d7",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#d7d8d7",
+    "matches": 1,
+    "replaceable": false,
+    "result": {
+      "value": "#d7d8d7",
+    },
+    "siblings": [
+      {
+        "delta": 0.037,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.042,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#9ad717",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#9ad717",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#a3e635",
+      "value": "var(--color-lime-400)",
+      "var": "--color-lime-400",
+    },
+    "siblings": [
+      {
+        "delta": 0.036,
+        "group": "lime",
+        "hex": "#a3e635",
+        "name": "400",
+        "var": "--color-lime-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#478500",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#478500",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#4d7c0f",
+      "value": "var(--color-lime-700)",
+      "var": "--color-lime-700",
+    },
+    "siblings": [
+      {
+        "delta": 0.035,
+        "group": "lime",
+        "hex": "#4d7c0f",
+        "name": "700",
+        "var": "--color-lime-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#5b9909",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#5b9909",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#65a30d",
+      "value": "var(--color-lime-600)",
+      "var": "--color-lime-600",
+    },
+    "siblings": [
+      {
+        "delta": 0.034,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#d3d3d3",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#d3d3d3",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#d1d5db",
+      "value": "var(--color-gray-300)",
+      "var": "--color-gray-300",
+    },
+    "siblings": [
+      {
+        "delta": 0.033,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+      {
+        "delta": 0.05,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#999999",
+      "#999",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#999",
+    "matches": 5,
+    "replaceable": true,
+    "result": {
+      "hex": "#a3a3a3",
+      "value": "var(--color-neutral-400)",
+      "var": "--color-neutral-400",
+    },
+    "siblings": [
+      {
+        "delta": 0.031,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#55830c",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#55830c",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#4d7c0f",
+      "value": "var(--color-lime-700)",
+      "var": "--color-lime-700",
+    },
+    "siblings": [
+      {
+        "delta": 0.029,
+        "group": "lime",
+        "hex": "#4d7c0f",
+        "name": "700",
+        "var": "--color-lime-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#54C0EE",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/StatsByDevicesSectionContainer.js",
+    ],
+    "hex": "#54c0ee",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "value": "#38bdf8",
+    },
+    "siblings": [
+      {
+        "delta": 0.029,
+        "group": "sky",
+        "hex": "#38bdf8",
+        "name": "400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#383838",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#383838",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#404040",
+      "value": "var(--color-neutral-700)",
+      "var": "--color-neutral-700",
+    },
+    "siblings": [
+      {
+        "delta": 0.026,
+        "group": "neutral",
+        "hex": "#404040",
+        "name": "700",
+        "var": "--color-neutral-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#c9cccf",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#c9cccf",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#d1d5db",
+      "value": "var(--color-gray-300)",
+      "var": "--color-gray-300",
+    },
+    "siblings": [
+      {
+        "delta": 0.026,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#595959",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#595959",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#525252",
+      "value": "var(--color-neutral-600)",
+      "var": "--color-neutral-600",
+    },
+    "siblings": [
+      {
+        "delta": 0.025,
+        "group": "neutral",
+        "hex": "#525252",
+        "name": "600",
+        "var": "--color-neutral-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#a0a6ad",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#a0a6ad",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#9ca3af",
+      "value": "var(--color-gray-400)",
+      "var": "--color-gray-400",
+    },
+    "siblings": [
+      {
+        "delta": 0.024,
+        "group": "gray",
+        "hex": "#9ca3af",
+        "name": "400",
+        "var": "--color-gray-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#5d9c0a",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#5d9c0a",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#65a30d",
+      "value": "var(--color-lime-600)",
+      "var": "--color-lime-600",
+    },
+    "siblings": [
+      {
+        "delta": 0.024,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#474747",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#474747",
+    "matches": 8,
+    "replaceable": true,
+    "result": {
+      "hex": "#404040",
+      "value": "var(--color-neutral-700)",
+      "var": "--color-neutral-700",
+    },
+    "siblings": [
+      {
+        "delta": 0.023,
+        "group": "neutral",
+        "hex": "#404040",
+        "name": "700",
+        "var": "--color-neutral-700",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#e0dfe3",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#e0dfe3",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e7eb",
+      "value": "var(--color-gray-200)",
+      "var": "--color-gray-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.023,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+      {
+        "delta": 0.036,
+        "group": "gray",
+        "hex": "#d1d5db",
+        "name": "300",
+        "var": "--color-gray-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#e5e5e5",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#e5e5e5",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e7eb",
+      "value": "var(--color-gray-200)",
+      "var": "--color-gray-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.021,
+        "group": "gray",
+        "hex": "#e5e7eb",
+        "name": "200",
+        "var": "--color-gray-200",
+      },
+      {
+        "delta": 0.033,
+        "group": "gray",
+        "hex": "#f3f4f6",
+        "name": "100",
+        "var": "--color-gray-100",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#ccc",
+      "#cccccc",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ccc",
+    "matches": 12,
+    "replaceable": true,
+    "result": {
+      "hex": "#d4d4d4",
+      "value": "var(--color-neutral-300)",
+      "var": "--color-neutral-300",
+    },
+    "siblings": [
+      {
+        "delta": 0.019,
+        "group": "neutral",
+        "hex": "#d4d4d4",
+        "name": "300",
+        "var": "--color-neutral-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#cfd1cf",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#cfd1cf",
+    "matches": 15,
+    "replaceable": true,
+    "result": {
+      "hex": "#d4d4d4",
+      "value": "var(--color-neutral-300)",
+      "var": "--color-neutral-300",
+    },
+    "siblings": [
+      {
+        "delta": 0.018,
+        "group": "neutral",
+        "hex": "#d4d4d4",
+        "name": "300",
+        "var": "--color-neutral-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#ddd",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#ddd",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.018,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#eff0ef",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#eff0ef",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#f3f4f6",
+      "value": "var(--color-gray-100)",
+      "var": "--color-gray-100",
+    },
+    "siblings": [
+      {
+        "delta": 0.018,
+        "group": "gray",
+        "hex": "#f3f4f6",
+        "name": "100",
+        "var": "--color-gray-100",
+      },
+      {
+        "delta": 0.023,
+        "group": "gray",
+        "hex": "#f9fafb",
+        "name": "50",
+        "var": "--color-gray-50",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#ededed",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#ededed",
+    "matches": 5,
+    "replaceable": true,
+    "result": {
+      "hex": "#f4f4f5",
+      "value": "var(--color-zinc-100)",
+      "var": "--color-zinc-100",
+    },
+    "siblings": [
+      {
+        "delta": 0.016,
+        "group": "zinc",
+        "hex": "#f4f4f5",
+        "name": "100",
+        "var": "--color-zinc-100",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#dedede",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#dedede",
+    "matches": 4,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.016,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#9e9e9e",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#9e9e9e",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#a3a3a3",
+      "value": "var(--color-neutral-400)",
+      "var": "--color-neutral-400",
+    },
+    "siblings": [
+      {
+        "delta": 0.015,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#EBEBEB",
+      "#ebebeb",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ebebeb",
+    "matches": 8,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.013,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#dfdfdf",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#dfdfdf",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.013,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#e7e9ea",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/StatsByDevicesSectionContainer.js",
+    ],
+    "hex": "#e7e9ea",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "value": "#e5e5e5",
+    },
+    "siblings": [
+      {
+        "delta": 0.013,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.3,
+      "withoutAlpha": "#fff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, 0.3)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ffffff4d",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#ffffff4d",
+      "opacity": 0.3,
+      "order": "--color-gray-50-0.3",
+      "value": "var(--color-gray-50-a-30)",
+      "var": "--color-gray-50-a-30",
+    },
+    "siblings": [
+      {
+        "delta": 0.012,
+        "group": "gray",
+        "hex": "#f9fafb",
+        "name": "50",
+        "var": "--color-gray-50",
+      },
+      {
+        "delta": 0.025,
+        "group": "gray",
+        "hex": "#f3f4f6",
+        "name": "100",
+        "var": "--color-gray-100",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.1,
+      "withoutAlpha": "#fff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, 0.1)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ffffff1a",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#ffffff1a",
+      "opacity": 0.1,
+      "order": "--color-gray-50-0.1",
+      "value": "var(--color-gray-50-a-10)",
+      "var": "--color-gray-50-a-10",
+    },
+    "siblings": [
+      {
+        "delta": 0.012,
+        "group": "gray",
+        "hex": "#f9fafb",
+        "name": "50",
+        "var": "--color-gray-50",
+      },
+      {
+        "delta": 0.025,
+        "group": "gray",
+        "hex": "#f3f4f6",
+        "name": "100",
+        "var": "--color-gray-100",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#eaeaea",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#eaeaea",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.011,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#62a60a",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#62a60a",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#65a30d",
+      "value": "var(--color-lime-600)",
+      "var": "--color-lime-600",
+    },
+    "siblings": [
+      {
+        "delta": 0.011,
+        "group": "lime",
+        "hex": "#65a30d",
+        "name": "600",
+        "var": "--color-lime-600",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#a0a0a0",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#a0a0a0",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#a3a3a3",
+      "value": "var(--color-neutral-400)",
+      "var": "--color-neutral-400",
+    },
+    "siblings": [
+      {
+        "delta": 0.009,
+        "group": "neutral",
+        "hex": "#a3a3a3",
+        "name": "400",
+        "var": "--color-neutral-400",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#f2f2f2",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#f2f2f2",
+    "matches": 11,
+    "replaceable": true,
+    "result": {
+      "hex": "#f5f5f5",
+      "value": "var(--color-neutral-100)",
+      "var": "--color-neutral-100",
+    },
+    "siblings": [
+      {
+        "delta": 0.006,
+        "group": "neutral",
+        "hex": "#f5f5f5",
+        "name": "100",
+        "var": "--color-neutral-100",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.1,
+      "withoutAlpha": "#0d0d0d",
+    },
+    "colors": [
+      "rgba(13, 13, 13, 0.1)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/StatsByDevicesSectionContainer.js",
+    ],
+    "hex": "#0d0d0d1a",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "value": "#0a0a0a",
+    },
+    "siblings": [
+      {
+        "delta": 0.005,
+        "group": "neutral",
+        "hex": "#0a0a0a",
+        "name": "950",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#e4e4e4",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#e4e4e4",
+    "matches": 13,
+    "replaceable": true,
+    "result": {
+      "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
+      "var": "--color-neutral-200",
+    },
+    "siblings": [
+      {
+        "delta": 0.002,
+        "group": "neutral",
+        "hex": "#e5e5e5",
+        "name": "200",
+        "var": "--color-neutral-200",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#fff",
+      "#ffffffff",
+      "#ffffff",
+      "#FFF",
+      "rgba(255, 255, 255, 1)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+      "src/__tests__/__mocks__/StatsByDevicesSectionContainer.js",
+    ],
+    "hex": "#fff",
+    "matches": 39,
+    "replaceable": true,
+    "result": {
+      "hex": "#fff",
+      "value": "var(--ss-color-white)",
+      "var": "--ss-color-white",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#fff",
+        "name": "white",
+        "var": "--ss-color-white",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#f5f5f5",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#f5f5f5",
+    "matches": 6,
+    "replaceable": true,
+    "result": {
+      "hex": "#f5f5f5",
+      "value": "var(--color-neutral-100)",
+      "var": "--color-neutral-100",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "neutral",
+        "hex": "#f5f5f5",
+        "name": "100",
+        "var": "--color-neutral-100",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#d4d4d4",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#d4d4d4",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#d4d4d4",
+      "value": "var(--color-neutral-300)",
+      "var": "--color-neutral-300",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "neutral",
+        "hex": "#d4d4d4",
+        "name": "300",
+        "var": "--color-neutral-300",
+      },
+    ],
+  },
+  {
+    "colors": [
+      "#fafafa",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#fafafa",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#fafafa",
+      "value": "var(--color-zinc-50)",
+      "var": "--color-zinc-50",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "zinc",
+        "hex": "#fafafa",
+        "name": "50",
+        "var": "--color-zinc-50",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.15,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, .15)",
+      "rgba(0, 0, 0, 0.15)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#00000026",
+    "matches": 5,
+    "replaceable": true,
+    "result": {
+      "hex": "#00000026",
+      "opacity": 0.15,
+      "order": "--ss-color-black-0.15",
+      "value": "var(--ss-color-black-a-15)",
+      "var": "--ss-color-black-a-15",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#000",
+        "name": "black",
+        "var": "--ss-color-black",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.75,
+      "withoutAlpha": "#fff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, .75)",
+      "rgba(255, 255, 255, 0.75)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ffffffbf",
+    "matches": 2,
+    "replaceable": true,
+    "result": {
+      "hex": "#ffffffbf",
+      "opacity": 0.75,
+      "order": "--ss-color-white-0.75",
+      "value": "var(--ss-color-white-a-75)",
+      "var": "--ss-color-white-a-75",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#fff",
+        "name": "white",
+        "var": "--ss-color-white",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.5,
+      "withoutAlpha": "#fff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, 0.5)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ffffff80",
+    "matches": 10,
+    "replaceable": true,
+    "result": {
+      "hex": "#ffffff80",
+      "opacity": 0.5,
+      "order": "--ss-color-white-0.5",
+      "value": "var(--ss-color-white-a-50)",
+      "var": "--ss-color-white-a-50",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#fff",
+        "name": "white",
+        "var": "--ss-color-white",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.15,
+      "withoutAlpha": "#fff",
+    },
+    "colors": [
+      "rgba(255, 255, 255, .15)",
+      "rgba(255, 255, 255, 0.15)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+      "src/__tests__/__mocks__/editor_ie.css",
+    ],
+    "hex": "#ffffff26",
+    "matches": 8,
+    "replaceable": true,
+    "result": {
+      "hex": "#ffffff26",
+      "opacity": 0.15,
+      "order": "--ss-color-white-0.15",
+      "value": "var(--ss-color-white-a-15)",
+      "var": "--ss-color-white-a-15",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#fff",
+        "name": "white",
+        "var": "--ss-color-white",
+      },
+    ],
+  },
+  {
+    "alpha": {
+      "opacity": 0.4,
+      "withoutAlpha": "#000",
+    },
+    "colors": [
+      "rgba(0, 0, 0, .4)",
+    ],
+    "files": [
+      "src/__tests__/__mocks__/dialog.css",
+    ],
+    "hex": "#0006",
+    "matches": 1,
+    "replaceable": true,
+    "result": {
+      "hex": "#0006",
+      "opacity": 0.4,
+      "order": "--ss-color-black-0.4",
+      "value": "var(--ss-color-black-a-40)",
+      "var": "--ss-color-black-a-40",
+    },
+    "siblings": [
+      {
+        "delta": 0,
+        "group": "base",
+        "hex": "#000",
+        "name": "black",
+        "var": "--ss-color-black",
+      },
+    ],
+  },
+]
+`;

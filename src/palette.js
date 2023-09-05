@@ -14,9 +14,9 @@ const groupPalette = (palette) =>
     return res;
   }, {});
 
-const getPalette = (palettePath) => {
+const getPalette = (config) => {
   const paletteContent = fs.readFileSync(
-    path.resolve(process.cwd(), palettePath),
+    path.resolve(process.cwd(), config.palette),
   );
   const paletteJSON = JSON.parse(paletteContent) || [];
 
@@ -26,7 +26,7 @@ const getPalette = (palettePath) => {
     throw validation.error;
   }
 
-  if (validation.warning) {
+  if (validation.warning && !config.silent) {
     console.warn(c.yellow(validation.warning.message));
     console.log();
   }

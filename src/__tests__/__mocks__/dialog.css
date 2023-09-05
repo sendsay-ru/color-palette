@@ -44,7 +44,7 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
   overflow: hidden;
   text-indent: -9999em;
   border-top: 2px solid rgba(102, 102, 102, 0.2);
-  border-right: 2px solid rgba(102, 102, 102, 0.2);
+  border-right: 2px solid rgba(102, 102, 102, 0);
   border-bottom: 2px solid rgba(102, 102, 102, 0.2);
   border-left: 2px solid rgba(102, 102, 102, 1);
   -webkit-animation: dialog_spinner 1s infinite linear;
@@ -428,7 +428,7 @@ a.cke_dialog_ui_button_ok:hover {
 a.cke_dialog_ui_button_ok.cke_disabled {
   border-color: #7d9f51;
   background: #8dad62;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b3d271), to(#8dad62));
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b3d271), to(#8dad62ff));
   background-image: -webkit-linear-gradient(top, #b3d271, #8dad62);
   background-image: -o-linear-gradient(top, #b3d271, #8dad62);
   background-image: linear-gradient(to bottom, #b3d271, #8dad62);
