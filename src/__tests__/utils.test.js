@@ -1,5 +1,6 @@
 const path = require('path');
-const { parse, render } = require('../utils');
+const parse = require('../parse');
+const render = require('../render');
 
 describe('Parse and render', () => {
   it('should expose a functions', () => {

@@ -11,8 +11,9 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#8dad62",
     "matches": 7,
+    "replaceable": false,
     "result": {
-      "hex": "#8dad62",
+      "value": "#8dad62",
     },
     "siblings": [
       {
@@ -33,8 +34,9 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#6f8c49",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#6f8c49",
+      "value": "#6f8c49",
     },
     "siblings": [
       {
@@ -55,8 +57,9 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#b3d271",
     "matches": 6,
+    "replaceable": false,
     "result": {
-      "hex": "#b3d271",
+      "value": "#b3d271",
     },
     "siblings": [
       {
@@ -77,8 +80,9 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#888",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#888",
+      "value": "#888",
     },
     "siblings": [
       {
@@ -99,8 +103,9 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#ff6347",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#ff6347",
+      "value": "#ff6347",
     },
     "siblings": [
       {
@@ -121,8 +126,9 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#7d9f51",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#7d9f51",
+      "value": "#7d9f51",
     },
     "siblings": [
       {
@@ -143,8 +149,9 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#bababa",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#bababa",
+      "value": "#bababa",
     },
     "siblings": [
       {
@@ -165,8 +172,9 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#4d9200",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#4d9200",
+      "value": "#4d9200",
     },
     "siblings": [
       {
@@ -187,8 +195,9 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#1392e9",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#1392e9",
+      "value": "#1392e9",
     },
     "siblings": [
       {
@@ -209,8 +218,9 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#568c0a",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#568c0a",
+      "value": "#568c0a",
     },
     "siblings": [
       {
@@ -231,8 +241,9 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#aeb3b9",
     "matches": 4,
+    "replaceable": false,
     "result": {
-      "hex": "#aeb3b9",
+      "value": "#aeb3b9",
     },
     "siblings": [
       {
@@ -253,8 +264,9 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#b6b6b6",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#b6b6b6",
+      "value": "#b6b6b6",
     },
     "siblings": [
       {
@@ -276,8 +288,9 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#bfbfbf",
     "matches": 3,
+    "replaceable": false,
     "result": {
-      "hex": "#bfbfbf",
+      "value": "#bfbfbf",
     },
     "siblings": [
       {
@@ -302,8 +315,9 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#6663",
     "matches": 3,
+    "replaceable": false,
     "result": {
-      "hex": "#6663",
+      "value": "#6663",
     },
     "siblings": [
       {
@@ -324,8 +338,9 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#666",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#666",
+      "value": "#666",
     },
     "siblings": [
       {
@@ -346,8 +361,9 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#e0e8d1",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#e0e8d1",
+      "value": "#e0e8d1",
     },
     "siblings": [
       {
@@ -368,8 +384,9 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#139ff7",
     "matches": 2,
+    "replaceable": false,
     "result": {
-      "hex": "#139ff7",
+      "value": "#139ff7",
     },
     "siblings": [
       {
@@ -390,8 +407,9 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#b2b2b2",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#b2b2b2",
+      "value": "#b2b2b2",
     },
     "siblings": [
       {
@@ -412,8 +430,9 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#333",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#333",
+      "value": "#333",
     },
     "siblings": [
       {
@@ -434,8 +453,9 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#969696",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#969696",
+      "value": "#969696",
     },
     "siblings": [
       {
@@ -456,8 +476,9 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#69b10b",
     "matches": 3,
+    "replaceable": false,
     "result": {
-      "hex": "#69b10b",
+      "value": "#69b10b",
     },
     "siblings": [
       {
@@ -478,8 +499,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#88be14",
     "matches": 3,
+    "replaceable": true,
     "result": {
       "hex": "#84cc16",
+      "value": "var(--color-lime-500)",
       "var": "--color-lime-500",
     },
     "siblings": [
@@ -501,8 +524,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#696969",
     "matches": 1,
+    "replaceable": true,
     "result": {
       "hex": "#737373",
+      "value": "var(--color-neutral-500)",
       "var": "--color-neutral-500",
     },
     "siblings": [
@@ -524,8 +549,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#9ad717",
     "matches": 2,
+    "replaceable": true,
     "result": {
       "hex": "#a3e635",
+      "value": "var(--color-lime-400)",
       "var": "--color-lime-400",
     },
     "siblings": [
@@ -547,8 +574,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#478500",
     "matches": 1,
+    "replaceable": true,
     "result": {
       "hex": "#4d7c0f",
+      "value": "var(--color-lime-700)",
       "var": "--color-lime-700",
     },
     "siblings": [
@@ -570,8 +599,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#5b9909",
     "matches": 2,
+    "replaceable": true,
     "result": {
       "hex": "#65a30d",
+      "value": "var(--color-lime-600)",
       "var": "--color-lime-600",
     },
     "siblings": [
@@ -594,8 +625,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#999",
     "matches": 3,
+    "replaceable": true,
     "result": {
       "hex": "#a3a3a3",
+      "value": "var(--color-neutral-400)",
       "var": "--color-neutral-400",
     },
     "siblings": [
@@ -617,8 +650,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#55830c",
     "matches": 2,
+    "replaceable": true,
     "result": {
       "hex": "#4d7c0f",
+      "value": "var(--color-lime-700)",
       "var": "--color-lime-700",
     },
     "siblings": [
@@ -640,8 +675,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#383838",
     "matches": 1,
+    "replaceable": true,
     "result": {
       "hex": "#404040",
+      "value": "var(--color-neutral-700)",
       "var": "--color-neutral-700",
     },
     "siblings": [
@@ -663,8 +700,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#c9cccf",
     "matches": 2,
+    "replaceable": true,
     "result": {
       "hex": "#d1d5db",
+      "value": "var(--color-gray-300)",
       "var": "--color-gray-300",
     },
     "siblings": [
@@ -686,8 +725,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#595959",
     "matches": 1,
+    "replaceable": true,
     "result": {
       "hex": "#525252",
+      "value": "var(--color-neutral-600)",
       "var": "--color-neutral-600",
     },
     "siblings": [
@@ -709,8 +750,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#a0a6ad",
     "matches": 1,
+    "replaceable": true,
     "result": {
       "hex": "#9ca3af",
+      "value": "var(--color-gray-400)",
       "var": "--color-gray-400",
     },
     "siblings": [
@@ -732,8 +775,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#5d9c0a",
     "matches": 2,
+    "replaceable": true,
     "result": {
       "hex": "#65a30d",
+      "value": "var(--color-lime-600)",
       "var": "--color-lime-600",
     },
     "siblings": [
@@ -755,8 +800,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#474747",
     "matches": 1,
+    "replaceable": true,
     "result": {
       "hex": "#404040",
+      "value": "var(--color-neutral-700)",
       "var": "--color-neutral-700",
     },
     "siblings": [
@@ -779,8 +826,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#ccc",
     "matches": 3,
+    "replaceable": true,
     "result": {
       "hex": "#d4d4d4",
+      "value": "var(--color-neutral-300)",
       "var": "--color-neutral-300",
     },
     "siblings": [
@@ -802,8 +851,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#cfd1cf",
     "matches": 6,
+    "replaceable": true,
     "result": {
       "hex": "#d4d4d4",
+      "value": "var(--color-neutral-300)",
       "var": "--color-neutral-300",
     },
     "siblings": [
@@ -825,8 +876,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#ddd",
     "matches": 1,
+    "replaceable": true,
     "result": {
       "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
       "var": "--color-neutral-200",
     },
     "siblings": [
@@ -848,8 +901,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#ededed",
     "matches": 5,
+    "replaceable": true,
     "result": {
       "hex": "#f4f4f5",
+      "value": "var(--color-zinc-100)",
       "var": "--color-zinc-100",
     },
     "siblings": [
@@ -871,8 +926,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#dedede",
     "matches": 1,
+    "replaceable": true,
     "result": {
       "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
       "var": "--color-neutral-200",
     },
     "siblings": [
@@ -894,8 +951,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#9e9e9e",
     "matches": 1,
+    "replaceable": true,
     "result": {
       "hex": "#a3a3a3",
+      "value": "var(--color-neutral-400)",
       "var": "--color-neutral-400",
     },
     "siblings": [
@@ -918,8 +977,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#ebebeb",
     "matches": 6,
+    "replaceable": true,
     "result": {
       "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
       "var": "--color-neutral-200",
     },
     "siblings": [
@@ -941,8 +1002,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#dfdfdf",
     "matches": 2,
+    "replaceable": true,
     "result": {
       "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
       "var": "--color-neutral-200",
     },
     "siblings": [
@@ -964,8 +1027,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#eaeaea",
     "matches": 1,
+    "replaceable": true,
     "result": {
       "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
       "var": "--color-neutral-200",
     },
     "siblings": [
@@ -987,8 +1052,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#62a60a",
     "matches": 2,
+    "replaceable": true,
     "result": {
       "hex": "#65a30d",
+      "value": "var(--color-lime-600)",
       "var": "--color-lime-600",
     },
     "siblings": [
@@ -1010,8 +1077,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#a0a0a0",
     "matches": 1,
+    "replaceable": true,
     "result": {
       "hex": "#a3a3a3",
+      "value": "var(--color-neutral-400)",
       "var": "--color-neutral-400",
     },
     "siblings": [
@@ -1033,8 +1102,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#f2f2f2",
     "matches": 2,
+    "replaceable": true,
     "result": {
       "hex": "#f5f5f5",
+      "value": "var(--color-neutral-100)",
       "var": "--color-neutral-100",
     },
     "siblings": [
@@ -1056,8 +1127,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#e4e4e4",
     "matches": 4,
+    "replaceable": true,
     "result": {
       "hex": "#e5e5e5",
+      "value": "var(--color-neutral-200)",
       "var": "--color-neutral-200",
     },
     "siblings": [
@@ -1082,8 +1155,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#fff",
     "matches": 19,
+    "replaceable": true,
     "result": {
       "hex": "#fff",
+      "value": "var(--ss-color-white)",
       "var": "--ss-color-white",
     },
     "siblings": [
@@ -1105,8 +1180,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#f5f5f5",
     "matches": 2,
+    "replaceable": true,
     "result": {
       "hex": "#f5f5f5",
+      "value": "var(--color-neutral-100)",
       "var": "--color-neutral-100",
     },
     "siblings": [
@@ -1128,8 +1205,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#d4d4d4",
     "matches": 1,
+    "replaceable": true,
     "result": {
       "hex": "#d4d4d4",
+      "value": "var(--color-neutral-300)",
       "var": "--color-neutral-300",
     },
     "siblings": [
@@ -1151,8 +1230,10 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#fafafa",
     "matches": 2,
+    "replaceable": true,
     "result": {
       "hex": "#fafafa",
+      "value": "var(--color-zinc-50)",
       "var": "--color-zinc-50",
     },
     "siblings": [
@@ -1178,8 +1259,11 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#00000026",
     "matches": 3,
+    "replaceable": true,
     "result": {
       "hex": "#000",
+      "order": "--ss-color-black-0.15",
+      "value": "var(--ss-color-black-a-15)",
       "var": "--ss-color-black-a-15",
     },
     "siblings": [
@@ -1205,8 +1289,11 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#ffffffbf",
     "matches": 1,
+    "replaceable": true,
     "result": {
       "hex": "#fff",
+      "order": "--ss-color-white-0.75",
+      "value": "var(--ss-color-white-a-75)",
       "var": "--ss-color-white-a-75",
     },
     "siblings": [
@@ -1232,8 +1319,11 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#ffffff80",
     "matches": 1,
+    "replaceable": true,
     "result": {
       "hex": "#fff",
+      "order": "--ss-color-white-0.5",
+      "value": "var(--ss-color-white-a-50)",
       "var": "--ss-color-white-a-50",
     },
     "siblings": [
@@ -1259,8 +1349,11 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#ffffff26",
     "matches": 2,
+    "replaceable": true,
     "result": {
       "hex": "#fff",
+      "order": "--ss-color-white-0.15",
+      "value": "var(--ss-color-white-a-15)",
       "var": "--ss-color-white-a-15",
     },
     "siblings": [
@@ -1286,8 +1379,11 @@ exports[`Parse and render should return expected value 1`] = `
     ],
     "hex": "#0006",
     "matches": 1,
+    "replaceable": true,
     "result": {
       "hex": "#000",
+      "order": "--ss-color-black-0.4",
+      "value": "var(--ss-color-black-a-40)",
       "var": "--ss-color-black-a-40",
     },
     "siblings": [
@@ -1316,8 +1412,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#c83939",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#c83939",
+      "value": "#c83939",
     },
     "siblings": [
       {
@@ -1345,8 +1442,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#ff7f50",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#ff7f50",
+      "value": "#ff7f50",
     },
     "siblings": [
       {
@@ -1374,8 +1472,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#902b2b",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#902b2b",
+      "value": "#902b2b",
     },
     "siblings": [
       {
@@ -1403,8 +1502,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#63a563",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#63a563",
+      "value": "#63a563",
     },
     "siblings": [
       {
@@ -1432,8 +1532,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#72b572",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#72b572",
+      "value": "#72b572",
     },
     "siblings": [
       {
@@ -1461,8 +1562,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#0ff",
     "matches": 2,
+    "replaceable": false,
     "result": {
-      "hex": "#0ff",
+      "value": "#0ff",
     },
     "siblings": [
       {
@@ -1490,8 +1592,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#2e9ad0",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#2e9ad0",
+      "value": "#2e9ad0",
     },
     "siblings": [
       {
@@ -1519,8 +1622,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#0f74a8",
     "matches": 2,
+    "replaceable": false,
     "result": {
-      "hex": "#0f74a8",
+      "value": "#0f74a8",
     },
     "siblings": [
       {
@@ -1548,8 +1652,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#12306f",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#12306f",
+      "value": "#12306f",
     },
     "siblings": [
       {
@@ -1577,8 +1682,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#808080",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#808080",
+      "value": "#808080",
     },
     "siblings": [
       {
@@ -1606,8 +1712,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#333",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#333",
+      "value": "#333",
     },
     "siblings": [
       {
@@ -1635,8 +1742,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#474747",
     "matches": 7,
+    "replaceable": false,
     "result": {
-      "hex": "#474747",
+      "value": "#474747",
     },
     "siblings": [
       {
@@ -1668,8 +1776,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#3232324d",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#3232324d",
+      "value": "#3232324d",
     },
     "siblings": [
       {
@@ -1697,8 +1806,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#666",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#666",
+      "value": "#666",
     },
     "siblings": [
       {
@@ -1726,8 +1836,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#4c4c4c",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#4c4c4c",
+      "value": "#4c4c4c",
     },
     "siblings": [
       {
@@ -1755,8 +1866,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#b6b6b6",
     "matches": 7,
+    "replaceable": false,
     "result": {
-      "hex": "#b6b6b6",
+      "value": "#b6b6b6",
     },
     "siblings": [
       {
@@ -1784,8 +1896,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#b5b5b5",
     "matches": 2,
+    "replaceable": false,
     "result": {
-      "hex": "#b5b5b5",
+      "value": "#b5b5b5",
     },
     "siblings": [
       {
@@ -1813,8 +1926,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#777",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#777",
+      "value": "#777",
     },
     "siblings": [
       {
@@ -1842,8 +1956,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#979797",
     "matches": 3,
+    "replaceable": false,
     "result": {
-      "hex": "#979797",
+      "value": "#979797",
     },
     "siblings": [
       {
@@ -1872,8 +1987,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#999",
     "matches": 2,
+    "replaceable": false,
     "result": {
-      "hex": "#999",
+      "value": "#999",
     },
     "siblings": [
       {
@@ -1902,8 +2018,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#aaa",
     "matches": 4,
+    "replaceable": false,
     "result": {
-      "hex": "#aaa",
+      "value": "#aaa",
     },
     "siblings": [
       {
@@ -1931,8 +2048,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#a5a5a5",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#a5a5a5",
+      "value": "#a5a5a5",
     },
     "siblings": [
       {
@@ -1960,8 +2078,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#a6a6a6",
     "matches": 4,
+    "replaceable": false,
     "result": {
-      "hex": "#a6a6a6",
+      "value": "#a6a6a6",
     },
     "siblings": [
       {
@@ -1989,8 +2108,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#bfbfbf",
     "matches": 2,
+    "replaceable": false,
     "result": {
-      "hex": "#bfbfbf",
+      "value": "#bfbfbf",
     },
     "siblings": [
       {
@@ -2018,8 +2138,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#c0c0c0",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#c0c0c0",
+      "value": "#c0c0c0",
     },
     "siblings": [
       {
@@ -2047,8 +2168,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#000",
     "matches": 4,
+    "replaceable": false,
     "result": {
-      "hex": "#000",
+      "value": "#000",
     },
     "siblings": [
       {
@@ -2080,8 +2202,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#00000026",
     "matches": 2,
+    "replaceable": false,
     "result": {
-      "hex": "#00000026",
+      "value": "#00000026",
     },
     "siblings": [
       {
@@ -2113,8 +2236,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#0000001a",
     "matches": 3,
+    "replaceable": false,
     "result": {
-      "hex": "#0000001a",
+      "value": "#0000001a",
     },
     "siblings": [
       {
@@ -2146,8 +2270,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#0009",
     "matches": 2,
+    "replaceable": false,
     "result": {
-      "hex": "#0009",
+      "value": "#0009",
     },
     "siblings": [
       {
@@ -2179,8 +2304,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#0003",
     "matches": 4,
+    "replaceable": false,
     "result": {
-      "hex": "#0003",
+      "value": "#0003",
     },
     "siblings": [
       {
@@ -2212,8 +2338,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#000000b3",
     "matches": 2,
+    "replaceable": false,
     "result": {
-      "hex": "#000000b3",
+      "value": "#000000b3",
     },
     "siblings": [
       {
@@ -2245,8 +2372,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#0000004d",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#0000004d",
+      "value": "#0000004d",
     },
     "siblings": [
       {
@@ -2278,8 +2406,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#00000080",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#00000080",
+      "value": "#00000080",
     },
     "siblings": [
       {
@@ -2307,8 +2436,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#cacaca",
     "matches": 4,
+    "replaceable": false,
     "result": {
-      "hex": "#cacaca",
+      "value": "#cacaca",
     },
     "siblings": [
       {
@@ -2336,8 +2466,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#cfd1cf",
     "matches": 9,
+    "replaceable": false,
     "result": {
-      "hex": "#cfd1cf",
+      "value": "#cfd1cf",
     },
     "siblings": [
       {
@@ -2365,8 +2496,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#d0d2d0",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#d0d2d0",
+      "value": "#d0d2d0",
     },
     "siblings": [
       {
@@ -2395,8 +2527,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#ccc",
     "matches": 9,
+    "replaceable": false,
     "result": {
-      "hex": "#ccc",
+      "value": "#ccc",
     },
     "siblings": [
       {
@@ -2424,8 +2557,9 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#d7d8d7",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#d7d8d7",
+      "value": "#d7d8d7",
     },
     "siblings": [
       {
@@ -2453,8 +2587,10 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#d3d3d3",
     "matches": 2,
+    "replaceable": true,
     "result": {
       "hex": "#d1d5db",
+      "value": "var(--color-gray-300)",
       "var": "--color-gray-300",
     },
     "siblings": [
@@ -2483,8 +2619,10 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#dedede",
     "matches": 3,
+    "replaceable": true,
     "result": {
       "hex": "#e5e7eb",
+      "value": "var(--color-gray-200)",
       "var": "--color-gray-200",
     },
     "siblings": [
@@ -2513,8 +2651,10 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#e0dfe3",
     "matches": 1,
+    "replaceable": true,
     "result": {
       "hex": "#e5e7eb",
+      "value": "var(--color-gray-200)",
       "var": "--color-gray-200",
     },
     "siblings": [
@@ -2543,8 +2683,10 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#e4e4e4",
     "matches": 9,
+    "replaceable": true,
     "result": {
       "hex": "#e5e7eb",
+      "value": "var(--color-gray-200)",
       "var": "--color-gray-200",
     },
     "siblings": [
@@ -2573,8 +2715,10 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#ebebeb",
     "matches": 2,
+    "replaceable": true,
     "result": {
       "hex": "#f3f4f6",
+      "value": "var(--color-gray-100)",
       "var": "--color-gray-100",
     },
     "siblings": [
@@ -2603,8 +2747,10 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#e5e5e5",
     "matches": 2,
+    "replaceable": true,
     "result": {
       "hex": "#e5e7eb",
+      "value": "var(--color-gray-200)",
       "var": "--color-gray-200",
     },
     "siblings": [
@@ -2633,8 +2779,10 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#eff0ef",
     "matches": 1,
+    "replaceable": true,
     "result": {
       "hex": "#f3f4f6",
+      "value": "var(--color-gray-100)",
       "var": "--color-gray-100",
     },
     "siblings": [
@@ -2665,8 +2813,10 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#fff",
     "matches": 18,
+    "replaceable": true,
     "result": {
       "hex": "#f9fafb",
+      "value": "var(--color-gray-50)",
       "var": "--color-gray-50",
     },
     "siblings": [
@@ -2699,8 +2849,11 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#ffffff4d",
     "matches": 1,
+    "replaceable": true,
     "result": {
       "hex": "#f9fafb",
+      "order": "--color-gray-50-0.3",
+      "value": "var(--color-gray-50-a-30)",
       "var": "--color-gray-50-a-30",
     },
     "siblings": [
@@ -2733,8 +2886,11 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#ffffffbf",
     "matches": 1,
+    "replaceable": true,
     "result": {
       "hex": "#f9fafb",
+      "order": "--color-gray-50-0.75",
+      "value": "var(--color-gray-50-a-75)",
       "var": "--color-gray-50-a-75",
     },
     "siblings": [
@@ -2767,8 +2923,11 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#ffffff80",
     "matches": 9,
+    "replaceable": true,
     "result": {
       "hex": "#f9fafb",
+      "order": "--color-gray-50-0.5",
+      "value": "var(--color-gray-50-a-50)",
       "var": "--color-gray-50-a-50",
     },
     "siblings": [
@@ -2801,8 +2960,11 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#ffffff26",
     "matches": 6,
+    "replaceable": true,
     "result": {
       "hex": "#f9fafb",
+      "order": "--color-gray-50-0.15",
+      "value": "var(--color-gray-50-a-15)",
       "var": "--color-gray-50-a-15",
     },
     "siblings": [
@@ -2835,8 +2997,11 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#ffffff1a",
     "matches": 1,
+    "replaceable": true,
     "result": {
       "hex": "#f9fafb",
+      "order": "--color-gray-50-0.1",
+      "value": "var(--color-gray-50-a-10)",
       "var": "--color-gray-50-a-10",
     },
     "siblings": [
@@ -2865,8 +3030,10 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#f5f5f5",
     "matches": 4,
+    "replaceable": true,
     "result": {
       "hex": "#f3f4f6",
+      "value": "var(--color-gray-100)",
       "var": "--color-gray-100",
     },
     "siblings": [
@@ -2895,8 +3062,10 @@ exports[`Parse and render should return expected value with custom palette 1`] =
     ],
     "hex": "#f2f2f2",
     "matches": 9,
+    "replaceable": true,
     "result": {
       "hex": "#f3f4f6",
+      "value": "var(--color-gray-100)",
       "var": "--color-gray-100",
     },
     "siblings": [
@@ -2930,8 +3099,9 @@ exports[`Parse and render should return expected value with custom palette witho
     ],
     "hex": "#f26d4e",
     "matches": 1,
+    "replaceable": false,
     "result": {
-      "hex": "#f26d4e",
+      "value": "#f26d4e",
     },
     "siblings": [
       {
@@ -2951,8 +3121,9 @@ exports[`Parse and render should return expected value with custom palette witho
     ],
     "hex": "#54c0ee",
     "matches": 1,
+    "replaceable": true,
     "result": {
-      "hex": "#38bdf8",
+      "value": "#38bdf8",
     },
     "siblings": [
       {
@@ -2972,8 +3143,9 @@ exports[`Parse and render should return expected value with custom palette witho
     ],
     "hex": "#e7e9ea",
     "matches": 1,
+    "replaceable": true,
     "result": {
-      "hex": "#e5e5e5",
+      "value": "#e5e5e5",
     },
     "siblings": [
       {
@@ -2997,8 +3169,9 @@ exports[`Parse and render should return expected value with custom palette witho
     ],
     "hex": "#0d0d0d1a",
     "matches": 1,
+    "replaceable": true,
     "result": {
-      "hex": "#0a0a0a",
+      "value": "#0a0a0a",
     },
     "siblings": [
       {
@@ -3018,8 +3191,9 @@ exports[`Parse and render should return expected value with custom palette witho
     ],
     "hex": "#000",
     "matches": 2,
+    "replaceable": true,
     "result": {
-      "hex": "#000",
+      "value": "#000",
     },
     "siblings": [
       {
@@ -3039,8 +3213,9 @@ exports[`Parse and render should return expected value with custom palette witho
     ],
     "hex": "#fff",
     "matches": 1,
+    "replaceable": true,
     "result": {
-      "hex": "#fff",
+      "value": "#fff",
     },
     "siblings": [
       {

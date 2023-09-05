@@ -1,49 +1,19 @@
-const fs = require('fs');
-const path = require('path');
-const ejs = require('ejs');
 const c = require('ansi-colors');
+const fs = require('fs');
 const { glob } = require('glob');
 const { colord, extend } = require('colord');
 const minifyPlugin = require('colord/plugins/minify');
 const labPlugin = require('colord/plugins/lab');
-const { BUILD_DIR, TEMPLATES_DIR, DEFAULT_CONFIG } = require('./constants');
+const { DEFAULT_CONFIG } = require('./constants');
 const baseColors = require('../config/base.json');
-const schema = require('./schema');
+const { getPalette } = require('./palette');
 
 extend([minifyPlugin, labPlugin]);
 
 const COLOR_REGEXP = [/(#[0-9a-z]+)/gi, /(rgba?\([0-9,.\s/%]+\))/gi];
 const BASE_COLOR_REGEXP = (name) => new RegExp(`: (${name});?$`, 'igm');
 
-const groupPalette = (palette) =>
-  palette.reduce((res, { group = '', ...color }) => {
-    if (!res[group]) {
-      res[group] = [{ ...color }];
-    } else {
-      res[group].push({ ...color });
-    }
-
-    return res;
-  }, {});
-
-const getPalette = (palettePath) => {
-  const paletteContent = JSON.parse(fs.readFileSync(palettePath)) || [];
-
-  const validation = schema.validate(paletteContent);
-
-  if (validation.error) {
-    throw validation.error;
-  }
-
-  if (validation.warning) {
-    console.warn(c.yellow(validation.warning.message));
-    console.log();
-  }
-
-  return paletteContent;
-};
-
-const parse = async (options) => {
+module.exports = async (options) => {
   const config = { ...DEFAULT_CONFIG, ...options };
 
   const cache = [];
@@ -52,8 +22,7 @@ const parse = async (options) => {
   let find = 0;
   let filesCount = 0;
 
-  const palettePath = path.resolve(process.cwd(), config.palette);
-  const palette = getPalette(palettePath);
+  const palette = getPalette(config.palette);
 
   const getStat = () => ({
     palette: Object.entries(palette).length,
@@ -66,8 +35,36 @@ const parse = async (options) => {
   const getExistsColor = (color) =>
     cache.find(({ hex }) => colord(color).isEqual(hex));
 
-  const getResult = (item) =>
-    item.var && config.vars ? `var(${item.var})` : item.hex;
+  const getResult = (info) => {
+    if (!info.replaceable) {
+      return {
+        value: info.hex,
+      };
+    }
+
+    const sibling = info.siblings[0];
+
+    if (!config.vars || !sibling.var) {
+      return {
+        value: sibling.hex,
+      };
+    }
+
+    if (!info.alpha) {
+      return {
+        hex: sibling.hex,
+        value: `var(${sibling.var})`,
+        var: sibling.var,
+      };
+    }
+
+    return {
+      hex: sibling.hex,
+      value: `var(${sibling.var}-a-${info.alpha.opacity * 100})`,
+      var: `${sibling.var}-a-${info.alpha.opacity * 100}`,
+      order: `${sibling.var}-${info.alpha.opacity}`,
+    };
+  };
 
   const getColor = ({ color: draftColor, file }) => {
     let color = draftColor;
@@ -101,13 +98,13 @@ const parse = async (options) => {
 
       existsColor.matches++;
 
-      return getResult(existsColor.result);
+      return existsColor.result.value;
     }
 
     const siblings = palette.map(({ code, group, name, ...sibling }) => {
-      const delta = colord(hex).alpha(1).delta(sibling.hex);
+      const delta = colord(hexWithoutAlpha).delta(sibling.hex);
 
-      const res = {
+      const result = {
         name: name || code || '',
         group: group || 'base',
         hex: sibling.hex,
@@ -115,35 +112,19 @@ const parse = async (options) => {
       };
 
       if (config.vars && sibling.var) {
-        res.var = sibling.var;
+        result.var = sibling.var;
       }
 
-      return res;
+      return result;
     });
-
-    const result = {
-      hex,
-    };
 
     siblings.sort((a, b) => a.delta - b.delta);
 
-    const bestMatch = siblings[0];
-
-    if (bestMatch && bestMatch.delta <= config.delta) {
-      result.hex = bestMatch.hex;
-
-      if (bestMatch.var) {
-        const variable = !isAlpha
-          ? bestMatch.var
-          : `${bestMatch.var}-a-${alpha * 100}`;
-
-        result.var = variable;
-      }
-    }
+    const replaceable = siblings[0]?.delta <= config.delta;
 
     const info = {
       hex,
-      result,
+      replaceable,
       matches: 1,
       colors: [color],
       siblings: siblings.slice(0, config.number),
@@ -151,22 +132,23 @@ const parse = async (options) => {
     };
 
     if (isAlpha) {
-      if (result.var) {
-        alphaColors.push({
-          var: result.var,
-          hex,
-        });
-      }
-
       info.alpha = {
         opacity: alpha,
         withoutAlpha: hexWithoutAlpha,
       };
     }
 
+    const result = getResult(info);
+
+    info.result = result;
+
     cache.push(info);
 
-    return getResult(result);
+    if (isAlpha && replaceable && result.var) {
+      alphaColors.push(result);
+    }
+
+    return result.value;
   };
 
   const replaceColor =
@@ -214,7 +196,7 @@ const parse = async (options) => {
     }
   });
 
-  alphaColors.sort((a, b) => String(a.var).localeCompare(b.var));
+  alphaColors.sort((a, b) => String(a.order).localeCompare(b.order));
   cache.sort((a, b) => b.siblings[0].delta - a.siblings[0].delta);
 
   console.log(c.blue('stat:'), c.cyan(JSON.stringify(getStat(), null, 2)));
@@ -223,90 +205,6 @@ const parse = async (options) => {
   return {
     alphaColors,
     data: cache,
-    palette,
     replaces,
-    config,
   };
-};
-
-const render = ({ alphaColors, data, palette, replaces, config }) => {
-  const files = [];
-
-  files.push({
-    file: path.resolve(BUILD_DIR, 'data.json'),
-    content: JSON.stringify(data, null, 2),
-  });
-
-  files.push({
-    file: path.resolve(BUILD_DIR, 'replaces.json'),
-    content: JSON.stringify(replaces, null, 2),
-  });
-
-  ejs.renderFile(
-    path.resolve(TEMPLATES_DIR, 'index.ejs'),
-    { data, config },
-    (err, content) => {
-      if (err) {
-        throw err;
-      }
-
-      files.push({
-        file: path.resolve(BUILD_DIR, 'index.html'),
-        content,
-      });
-    },
-  );
-
-  ejs.renderFile(
-    path.resolve(TEMPLATES_DIR, 'palette.ejs'),
-    { palette: groupPalette(palette) },
-    (err, content) => {
-      if (err) {
-        throw err;
-      }
-
-      files.push({
-        file: path.resolve(BUILD_DIR, 'palette.html'),
-        content,
-      });
-    },
-  );
-
-  ejs.renderFile(
-    path.resolve(TEMPLATES_DIR, 'variables.ejs'),
-    { palette: groupPalette(palette), alphaColors },
-    (err, content) => {
-      if (err) {
-        throw err;
-      }
-
-      files.push({
-        file: path.resolve(BUILD_DIR, 'variables.css'),
-        content,
-      });
-    },
-  );
-
-  return files;
-};
-
-const save = (files) => {
-  if (fs.existsSync(BUILD_DIR)) {
-    fs.rmSync(BUILD_DIR, {
-      force: true,
-      recursive: true,
-    });
-  }
-
-  fs.mkdirSync(BUILD_DIR);
-
-  files.forEach(({ file, content }) => {
-    fs.writeFileSync(file, content);
-  });
-};
-
-module.exports = {
-  parse,
-  render,
-  save,
 };

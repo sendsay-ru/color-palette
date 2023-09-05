@@ -3,7 +3,9 @@
 const { program } = require('commander');
 const { DEFAULT_CONFIG } = require('./constants');
 const packageJSON = require('../package.json');
-const { parse, render, save } = require('./utils');
+const parse = require('./parse');
+const render = require('./render');
+const save = require('./save');
 const { serve } = require('./serve');
 
 program
@@ -27,9 +29,9 @@ program.parse();
 const options = program.opts();
 
 const App = async () => {
-  const result = await parse(options);
+  const data = await parse(options);
 
-  const files = render(result);
+  const files = render(data, options);
 
   save(files);
 
