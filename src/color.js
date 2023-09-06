@@ -31,7 +31,7 @@ const getResult = (info) => {
 
   if (!sibling.var) {
     return {
-      value: sibling.hex,
+      value: info.alpha ? info.hex : sibling.hex,
     };
   }
 

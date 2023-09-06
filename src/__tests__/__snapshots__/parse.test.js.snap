@@ -3789,7 +3789,7 @@ exports[`Parse and render should return expected value when colors not found 1`]
     "matches": 2,
     "replaceable": true,
     "result": {
-      "value": "#0a0a0a",
+      "value": "#0d0d0d1a",
     },
     "siblings": [
       {
@@ -9027,7 +9027,7 @@ exports[`Parse and render should return expected value with custom palette witho
     "matches": 2,
     "replaceable": true,
     "result": {
-      "value": "#0a0a0a",
+      "value": "#0d0d0d1a",
     },
     "siblings": [
       {

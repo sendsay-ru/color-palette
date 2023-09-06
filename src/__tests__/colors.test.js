@@ -163,4 +163,30 @@ describe('getResult', () => {
       var: '--ss-color-black-a-40',
     });
   });
+
+  it('should return expected value with replaceable alpha --no-vars', () => {
+    const info = {
+      alpha: {
+        opacity: 0.4,
+        withoutAlpha: '#000',
+      },
+      colors: ['rgba(0, 0, 0, 0.4)'],
+      files: ['src/__tests__/__mocks__/dialog.css'],
+      hex: '#0006',
+      matches: 1,
+      replaceable: true,
+      siblings: [
+        {
+          delta: 0,
+          group: 'base',
+          hex: '#0006',
+          name: 'black',
+        },
+      ],
+    };
+
+    expect(getResult(info)).toEqual({
+      value: '#0006',
+    });
+  });
 });
