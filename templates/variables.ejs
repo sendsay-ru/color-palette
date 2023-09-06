@@ -1,7 +1,11 @@
 :root {
-  <% if (alphaColors) { %>/* Alpha colors */
-  <% alphaColors.forEach((color) => { %>
-  <%- color.var %>: <%- color.hex %>;<% }) %><% } %>
+  <% if (alphaColors) { %>
+    <% Object.entries(alphaColors).forEach(([group, colors]) => { %>
+
+  /* Alpha: <%- group %> */
+<% colors.forEach((color) => { %><% if (color.var) { %>
+  <%- color.var %>: <%- color.hex %>;<% } %><% }) %>
+<% }) %><% } %>
 
   <% Object.entries(palette).forEach(([group, colors]) => { %>
 

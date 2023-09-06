@@ -12,6 +12,7 @@ describe('toHex', () => {
     ${'#ffffffff'}              | ${'#fff'}
     ${'#fff3'}                  | ${'#fff3'}
     ${'#2564eb'}                | ${'#2564eb'}
+    ${'rgba(0, 0, 0, .4)'}      | ${'#0006'}
     ${'#2564ebe6'}              | ${'#2564ebe6'}
     ${'rgba(199, 131, 0, 0.8)'} | ${'#c78300cc'}
     ${'rgb(199, 131, 0)'}       | ${'#c78300'}
@@ -35,6 +36,8 @@ describe('toHexWithoutAlpha', () => {
     ${'#ffffff'}                | ${'#fff'}
     ${'#ffffffff'}              | ${'#fff'}
     ${'#fff3'}                  | ${'#fff'}
+    ${'#fff3'}                  | ${'#fff'}
+    ${'rgba(0, 0, 0, .4)'}      | ${'#000'}
     ${'#2564eb'}                | ${'#2564eb'}
     ${'#2564ebe6'}              | ${'#2564eb'}
     ${'#2564eb1a'}              | ${'#2564eb'}
@@ -73,6 +76,33 @@ describe('getResult', () => {
 
     expect(getResult(info)).toEqual({
       value: '#8dad62',
+    });
+  });
+
+  it('should return expected value with transparent color', () => {
+    const info = {
+      alpha: {
+        opacity: 0,
+        withoutAlpha: '#666',
+      },
+      colors: ['rgba(102, 102, 102, 0)'],
+      files: ['src/__tests__/__mocks__/dialog.css'],
+      hex: '#6660',
+      matches: 1,
+      replaceable: false,
+      siblings: [
+        {
+          delta: 0.05,
+          group: 'neutral',
+          hex: '#737373',
+          name: '500',
+          var: '--color-neutral-500',
+        },
+      ],
+    };
+
+    expect(getResult(info)).toEqual({
+      value: 'transparent',
     });
   });
 
@@ -124,7 +154,9 @@ describe('getResult', () => {
     };
 
     expect(getResult(info)).toEqual({
-      hex: '#0006',
+      hex: '#00000066',
+      group: 'base-black',
+      name: '40%',
       opacity: 0.4,
       order: '--ss-color-black-0.4',
       value: 'var(--ss-color-black-a-40)',

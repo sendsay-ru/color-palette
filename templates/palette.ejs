@@ -9,10 +9,30 @@
 </head>
 
 <body>
-  <div class="w-full flex flex-col items-center">
+  <div class="w-full flex flex-col items-start">
+    <% Object.entries(alphaColors).forEach(([group, colors]) => { %>
+      <div class="mt-5 p-2 flex items-center">
+        <div class="w-40 flex flex-col mr-8 items-center">
+          <span><%- group %></span>
+          <span class="text-xs">(opacity)</span>
+        </div>
+
+        <div class="flex items-start relative">
+          <div class="w-full h-12 absolute rounded-sm" style="background-color: black;"></div>
+          <% colors.forEach(({ name, hex }) => { %>
+            <div class="flex flex-col mx-1 items-center z-10">
+              <div class="w-20 h-20 rounded-full shadow" style="background-color:<%- hex %>"></div>
+              <span class="text-xs"><%- hex %></span>
+              <% if (name) { %><span><%- name %></span><% } %>
+            </div>
+          <% }) %>
+        </div>
+      </div>
+    <% }) %>
+
     <% Object.entries(palette).forEach(([group, colors]) => { %>
       <div class="mt-5 p-2 flex items-center">
-        <div class="w-20 flex flex-col mr-8 items-center">
+        <div class="w-40 flex flex-col mr-8 items-center">
           <span><%- group %></span>
         </div>
 

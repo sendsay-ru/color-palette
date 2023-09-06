@@ -11,7 +11,7 @@ const toHex = (color) =>
 const toHexWithoutAlpha = (color) =>
   colord(colord(color).alpha(1).toHex()).minify({ alphaHex: true });
 
-const getExistsColor = (color) =>
+const getExistsColor = (color, cache) =>
   cache.find(({ hex }) => colord(color).isEqual(hex));
 
 const getResult = (info) => {
@@ -43,12 +43,19 @@ const getResult = (info) => {
     };
   }
 
+  const { opacity } = info.alpha;
+
   return {
-    hex: info.hex,
-    value: `var(${sibling.var}-a-${info.alpha.opacity * 100})`,
-    var: `${sibling.var}-a-${info.alpha.opacity * 100}`,
-    order: `${sibling.var}-${info.alpha.opacity}`,
-    opacity: info.alpha.opacity,
+    hex: colord(sibling.hex).alpha(opacity).toHex(),
+    name: `${opacity * 100}%`,
+    opacity,
+    group:
+      sibling.group && sibling.name
+        ? `${sibling.group}-${sibling.name}`
+        : sibling.var || sibling.hex,
+    value: `var(${sibling.var}-a-${opacity * 100})`,
+    var: `${sibling.var}-a-${opacity * 100}`,
+    order: `${sibling.var}-${opacity}`,
   };
 };
 
@@ -91,7 +98,7 @@ const getColor = (draftColor, { palette, config, file }) => {
   const alpha = colord(hex).alpha();
   const isAlpha = alpha !== 1;
 
-  const existsColor = getExistsColor(hex);
+  const existsColor = getExistsColor(hex, cache);
 
   if (existsColor) {
     if (file && !existsColor.files.includes(file)) {
@@ -104,7 +111,7 @@ const getColor = (draftColor, { palette, config, file }) => {
 
     existsColor.matches++;
 
-    return { ...existsColor.result, cached: true };
+    return existsColor.result;
   }
 
   const siblings = getSiblings(color, { config, palette });
@@ -137,6 +144,7 @@ const getColor = (draftColor, { palette, config, file }) => {
 module.exports = {
   toHex,
   toHexWithoutAlpha,
+  getExistsColor,
   getResult,
   getColor,
 };

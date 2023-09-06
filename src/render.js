@@ -35,7 +35,7 @@ module.exports = ({ alphaColors, data, replaces }, options) => {
 
   ejs.renderFile(
     path.resolve(TEMPLATES_DIR, 'palette.ejs'),
-    { palette: groupPalette(palette) },
+    { palette: groupPalette(palette), alphaColors: groupPalette(alphaColors) },
     (err, content) => {
       if (err) {
         throw err;
@@ -50,7 +50,7 @@ module.exports = ({ alphaColors, data, replaces }, options) => {
 
   ejs.renderFile(
     path.resolve(TEMPLATES_DIR, 'variables.ejs'),
-    { palette: groupPalette(palette), alphaColors },
+    { palette: groupPalette(palette), alphaColors: groupPalette(alphaColors) },
     (err, content) => {
       if (err) {
         throw err;

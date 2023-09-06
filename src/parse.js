@@ -4,7 +4,7 @@ const { glob } = require('glob');
 const { DEFAULT_CONFIG } = require('./constants');
 const baseColors = require('../config/base.json');
 const { getPalette } = require('./palette');
-const { getColor } = require('./color');
+const { getColor, getExistsColor } = require('./color');
 const { cache } = require('./cache');
 
 const COLOR_REGEXP = [/(#[0-9a-z]+)/gi, /(rgba?\([0-9,.\s/%]+\))/gi];
@@ -41,7 +41,11 @@ module.exports = async (options) => {
 
     const newColor = result.value;
 
-    if (!result.cached && result.opacity && result.var) {
+    if (
+      !getExistsColor(result.hex, alphaColors) &&
+      result.opacity &&
+      result.var
+    ) {
       alphaColors.push(result);
     }
 
